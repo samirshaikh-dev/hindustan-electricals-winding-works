@@ -1,0 +1,13 @@
+/* TEAM */
+Owner/Operator: Hindustan Electricals Winding Works
+Contact: +91 98252 72547
+Location: Shop No. 28 & 29, Express House, GIDC, Vapi, Gujarat 396195
+
+/* THANKS */
+Thank you for visiting! This site is built as a pure HTML, CSS and JavaScript static website with a local SEO and lead-generation focus.
+
+/* STANDARDS */
+XHTML 1.0, CSS, JavaScript, Accessibility (ARIA).
+
+/* UPDATED */
+2026-09-20

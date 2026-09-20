@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hindustanelectricals.in/sitemap.xml
