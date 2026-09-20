@@ -5,6 +5,8 @@ Official business and local lead-generation website for **Hindustan Electricals 
 
 - **Client Name:** Hindustan Electricals Winding Works
 - **Industry:** Electric Motor Rewinding, AC/DC Motor Winding & Industrial Electrical Repair
+- **Live Deployment URL:** `https://hindustan-electricals-winding-works.vercel.app`
+- **Primary Domain:** `https://hindustanelectricals.in`
 - **Primary Mission:** High-ranking **Local SEO + Lead-Generation** platform targeting high-intent industrial queries (e.g., *"motor rewinding in Vapi"*, *"AC motor winding GIDC"*, *"electric motor repair Vapi"*).
 - **Core Conversion Goal:** Drive direct high-trust customer inquiries via **Instant Phone Call** and **WhatsApp**.
 
@@ -14,6 +16,8 @@ Official business and local lead-generation website for **Hindustan Electricals 
 - **Workshop Address:** Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195
 - **Primary Phone:** `+91 98252 72547` (link format: `tel:+919825272547`)
 - **Primary WhatsApp:** `+91 98252 72547` (link format: `https://wa.me/919825272547`)
+- **Live Site URL:** `https://hindustan-electricals-winding-works.vercel.app`
+- **Production Domain:** `https://hindustanelectricals.in`
 - **Primary Target Location (Workshop Base):** GIDC Vapi, Gujarat (Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195)
 - **Target Industrial Service Corridors:**
   1. **Vapi & GIDC Vapi** (Primary local hub — chemical, paper, packaging, textile, and engineering units)
@@ -29,44 +33,66 @@ Official business and local lead-generation website for **Hindustan Electricals 
 - **Scripting:** Lightweight vanilla JavaScript (`js/script.js`) for mobile nav, FAQ accordions, sticky mobile CTA, form handling.
 - **Icons / Fonts:** Font Awesome or inline SVG; Google Fonts (Outfit or Inter).
 - **Mapping:** Embedded responsive Google Maps iframe for Express House, GIDC Vapi.
-- **Hosting:** Static site only — no package.json, no build tooling.
+- **Hosting:** Vercel static site (`vercel.json`) — no package.json, no build tooling.
 
 ## Directory Structure
 ```text
 hindustan-electricals-winding-works/
 ├── index.html            # Homepage: Hero, Services, Process, Trust, Reviews, Map, CTA
-├── about.html
-├── services.html
-├── gallery.html
-├── faq.html
-├── contact.html
-├── services/             # Individual local-SEO pages
+├── about.html            # About the workshop, capabilities, and location
+├── services.html         # Services overview and directory
+├── gallery.html          # Workshop photos and visual proof
+├── faq.html              # Comprehensive technical and service FAQs
+├── contact.html          # High-priority conversion page: Map, phone, WhatsApp, form
+├── 404.html              # Custom 404 error page with quick navigation
+├── services/             # 11 Dedicated local-SEO service pages
 │   ├── motor-rewinding.html
 │   ├── ac-motor-winding.html
 │   ├── dc-motor-winding.html
 │   ├── electric-motor-repair.html
 │   ├── generator-repair.html
 │   ├── transformer-repair.html
-│   └── welding-machine-repair.html
+│   ├── welding-machine-repair.html
+│   ├── pump-motor-rewinding.html
+│   ├── submersible-pump-repair.html
+│   ├── blower-motor-winding.html
+│   └── rotor-balancing.html
 ├── css/
 │   ├── style.css
 │   └── responsive.css
 ├── js/
 │   └── script.js
 ├── images/               # logo/ hero/ services/ gallery/
-├── privacy-policy.html
-├── terms-and-conditions.html
+├── .well-known/
+│   ├── ai-plugin.json    # OpenAI plugin manifest for AI agents
+│   └── security.txt      # Security contact disclosure (RFC 9116)
+├── openapi.json          # OpenAPI 3.0 static content endpoints specification
+├── llms.txt              # Curated site summary and key pages for LLMs
+├── llms-full.txt         # Full markdown content compilation for LLMs
+├── robots.txt            # Search engine & AI crawler access rules
+├── sitemap.xml           # XML sitemap with 19 indexable pages
+├── humans.txt            # Team, standards, and workshop information
+├── site.webmanifest      # PWA metadata
 ├── favicon.ico
-├── robots.txt
-├── sitemap.xml
-├── vercel.json
-├── README.md
-├── LICENSE
+├── favicon.svg
+├── vercel.json           # Vercel deployment configuration, headers, caching, clean URLs
+├── AGENTS.md             # Universal agent instructions & high-priority directives
+├── AI_RULE.md            # Mandatory AI rules: SEO, integrity, autonomous execution
+├── gemini.md             # Agent system directives and skill-gating workflow
+├── opencode.jsonc        # Opencode project configuration and permissions
+├── context.md            # Single source of truth (this file)
 ├── req.txt               # Raw client requirements specification
-├── gemini.md             # Agent system directives, skill usage
-├── context.md            # This file (injected by opencode)
-└── AI_RULE.md            # Mandatory AI directives (injected by opencode)
+├── LICENSE
+└── README.md
 ```
+
+## AI Discoverability & SEO Ecosystem
+- **OpenAPI Spec (`openapi.json`):** Declares endpoints for AI crawlers with server base `https://hindustan-electricals-winding-works.vercel.app`.
+- **AI Plugin (`.well-known/ai-plugin.json`):** Points to live OpenAPI definition and legal info.
+- **LLM Context (`llms.txt` & `llms-full.txt`):** Structured markdown documentation optimized for AI answer engine ingestion (AEO/GEO).
+- **Crawler Access (`robots.txt`):** Explicitly allows all major search engine bots (Googlebot, Bingbot, Applebot, etc.) and AI scrapers/agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.).
+- **Sitemap (`sitemap.xml`):** Lists all 19 canonical site URLs matching the live deployment.
+- **Security (`.well-known/security.txt`):** RFC 9116 contact channels for security reports.
 
 ## Key Pages & SEO Focus
 | Page / Route | Primary Target Keyword | Purpose |
