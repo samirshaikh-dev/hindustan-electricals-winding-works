@@ -1,0 +1,59 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Hindustan Electricals Winding Works",
+    "version": "1.0.0",
+    "description": "Static content endpoints for the Hindustan Electricals Winding Works website (GIDC Vapi, Gujarat)."
+  },
+  "servers": [
+    {
+      "url": "https://hindustanelectricals.in"
+    }
+  ],
+  "paths": {
+    "/llms-full.txt": {
+      "get": {
+        "summary": "Full site content in markdown",
+        "operationId": "getFullSiteContent",
+        "responses": {
+          "200": {
+            "description": "Full site content as markdown (text/plain)"
+          }
+        }
+      }
+    },
+    "/llms.txt": {
+      "get": {
+        "summary": "Site index for AI crawlers",
+        "operationId": "getSiteIndex",
+        "responses": {
+          "200": {
+            "description": "AI crawler index (text/plain)"
+          }
+        }
+      }
+    },
+    "/robots.txt": {
+      "get": {
+        "summary": "Crawler permissions",
+        "operationId": "getRobots",
+        "responses": {
+          "200": {
+            "description": "robots.txt (text/plain)"
+          }
+        }
+      }
+    },
+    "/sitemap.xml": {
+      "get": {
+        "summary": "XML sitemap",
+        "operationId": "getSitemap",
+        "responses": {
+          "200": {
+            "description": "sitemap.xml (application/xml)"
+          }
+        }
+      }
+    }
+  }
+}

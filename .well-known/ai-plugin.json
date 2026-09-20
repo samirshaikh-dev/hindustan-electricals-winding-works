@@ -1,0 +1,15 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Hindustan Electricals Winding Works",
+  "name_for_model": "hindustan_electricals_winding_works",
+  "description_for_human": "Get information about motor rewinding, AC/DC motor winding, and electrical repair services in Vapi, Gujarat.",
+  "description_for_model": "Plugin for retrieving information about Hindustan Electricals Winding Works, a motor rewinding and electric motor repair workshop in GIDC Vapi, Gujarat, India. Use it to answer questions about motor rewinding, AC and DC motor winding, electric motor repair, generator/transformer/welding machine repair, the workshop's 5-step rewinding process, testing and insulation practices, service area, workshop address, phone, and WhatsApp contact.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://hindustanelectricals.in/openapi.json"
+  },
+  "legal_info_url": "https://hindustanelectricals.in/about.html"
+}
