@@ -1248,6 +1248,26 @@ textarea.form-control {
   gap: 1rem;
 }
 
+.footer-legal-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-legal-links a {
+  color: #94a3b8;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.footer-legal-links a:hover {
+  color: var(--color-accent);
+}
+
+.footer-legal-links .separator {
+  color: #475569;
+}
+
 /* ==========================================================================
    Mobile Sticky Action Dock (Call + WhatsApp)
    ========================================================================== */
@@ -1433,4 +1453,93 @@ textarea.form-control {
   color: #cbd5e1;
   font-size: 0.92rem;
   margin-bottom: 1.5rem;
+}
+
+/* ==========================================================================
+   Service Locations & Industrial Coverage
+   ========================================================================== */
+.locations-section {
+  background-color: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.location-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 1.6rem;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+}
+
+.location-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-md);
+  background-color: var(--color-surface);
+}
+
+.location-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.location-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.location-card-title svg {
+  color: var(--color-secondary-accent);
+  flex-shrink: 0;
+}
+
+.location-card-title h4 {
+  font-size: 1.15rem;
+  color: var(--color-primary);
+}
+
+.location-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  background-color: rgba(245, 158, 11, 0.15);
+  color: #b45309;
+}
+
+.location-badge-primary {
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+}
+
+.location-card p {
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .locations-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .locations-grid {
+    grid-template-columns: 1fr;
+  }
 }

@@ -14,7 +14,14 @@ Official business and local lead-generation website for **Hindustan Electricals 
 - **Workshop Address:** Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195
 - **Primary Phone:** `+91 98252 72547` (link format: `tel:+919825272547`)
 - **Primary WhatsApp:** `+91 98252 72547` (link format: `https://wa.me/919825272547`)
-- **Primary Service Belts:** GIDC Vapi, Silvassa, Daman, Valsad, Pardi, and nearby industrial zones across South Gujarat & UT.
+- **Primary Target Location (Workshop Base):** GIDC Vapi, Gujarat (Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195)
+- **Target Industrial Service Corridors:**
+  1. **Vapi & GIDC Vapi** (Primary local hub — chemical, paper, packaging, textile, and engineering units)
+  2. **Silvassa** (Dadra and Nagar Haveli manufacturing and industrial belt)
+  3. **Daman** (Industrial estates and manufacturing facilities)
+  4. **Valsad** (Commercial and industrial operations across Valsad district)
+  5. **Pardi** (Industrial clusters and engineering workshops)
+  6. **Bhilad & Sarigam GIDC** (Adjoining industrial corridors along N.H. 48)
 
 ## Tech Stack
 - **Markup:** Pure semantic HTML5, proper heading hierarchy, ARIA accessibility attributes, landmark elements.
@@ -47,9 +54,12 @@ hindustan-electricals-winding-works/
 ├── js/
 │   └── script.js
 ├── images/               # logo/ hero/ services/ gallery/
+├── privacy-policy.html
+├── terms-and-conditions.html
 ├── favicon.ico
 ├── robots.txt
 ├── sitemap.xml
+├── vercel.json
 ├── README.md
 ├── LICENSE
 ├── req.txt               # Raw client requirements specification
@@ -71,9 +81,15 @@ hindustan-electricals-winding-works/
 | `services/generator-repair.html` | Generator Repair & Rewinding Vapi | Alternator rewinding, rotor/stator testing. |
 | `services/transformer-repair.html` | Transformer Rewinding Vapi | Coil rewinding and electrical insulation testing. |
 | `services/welding-machine-repair.html` | Welding Machine Repair Vapi | ARC/MIG/TIG transformer coil repair and troubleshooting. |
+| `services/pump-motor-rewinding.html` | Pump Motor Rewinding Vapi | Centrifugal & chemical pump motor coil rewinding and testing. |
+| `services/submersible-pump-repair.html` | Submersible Pump Repair Vapi | Borewell/dewatering submersible motor rewinding & insulation testing. |
+| `services/blower-motor-winding.html` | Blower Motor Winding Vapi | ID/FD fan, exhaust, and centrifugal blower motor rewinding. |
+| `services/rotor-balancing.html` | Rotor Balancing Vapi | Dynamic rotor & armature balancing and vibration correction. |
 | `gallery.html` | Motor Rewinding Workshop Photos | Real visual proof of copper winding, dismantled motors, testing. |
 | `faq.html` | Motor Rewinding FAQs | Cost factors, turnaround times, signs of motor failure. |
 | `contact.html` | Hindustan Electricals Vapi Contact | Address, phone, map, quotation form. |
+| `privacy-policy.html` | Privacy Policy | Customer inquiry data handling, WhatsApp links, and contact terms. |
+| `terms-and-conditions.html` | Terms and Conditions | Diagnostic testing, quotations, repair timelines, and jurisdiction. |
 
 ## Core Design & UX Directives
 1. **Industrial Visual Identity:** Deep Slate Navy (`#0F172A`), Crisp White/Off-White (`#F8FAFC`), Industrial Charcoal (`#1E293B`); accent Electric Amber / Safety Orange (`#F59E0B` / `#D97706` / `#EA580C`).
