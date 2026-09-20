@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://hindustanelectricals.in/openapi.json"
+    "url": "https://hindustan-electricals-winding-works.vercel.app/openapi.json"
   },
-  "legal_info_url": "https://hindustanelectricals.in/about.html"
+  "legal_info_url": "https://hindustan-electricals-winding-works.vercel.app/about.html"
 }

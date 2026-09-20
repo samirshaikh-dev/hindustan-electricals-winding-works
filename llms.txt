@@ -13,26 +13,26 @@
 
 ## Key Pages
 
-- [Home](https://hindustanelectricals.in/): Motor rewinding and electrical motor repair services in Vapi.
-- [About Us](https://hindustanelectricals.in/about.html): About the motor rewinding workshop in GIDC Vapi.
-- [Services](https://hindustanelectricals.in/services.html): All motor rewinding, winding and repair services.
-- [Motor Rewinding Services in Vapi](https://hindustanelectricals.in/services/motor-rewinding.html): Stator/rotor rewinding, insulation classes, process and testing.
-- [AC Motor Winding in Vapi](https://hindustanelectricals.in/services/ac-motor-winding.html): Single and three-phase AC induction motor winding and overhaul.
-- [DC Motor Winding in Vapi](https://hindustanelectricals.in/services/dc-motor-winding.html): Armature winding, field coils, commutator and brush overhaul.
-- [Electric Motor Repair in Vapi](https://hindustanelectricals.in/services/electric-motor-repair.html): Bearing replacement, rotor balancing, shaft repair and troubleshooting.
-- [Generator Repair in Vapi](https://hindustanelectricals.in/services/generator-repair.html): Alternator rewinding, exciter coil repair and electrical testing.
-- [Transformer Rewinding in Vapi](https://hindustanelectricals.in/services/transformer-repair.html): Coil rewinding and electrical insulation testing.
-- [Welding Machine Repair in Vapi](https://hindustanelectricals.in/services/welding-machine-repair.html): ARC/MIG welding machine coil repair and troubleshooting.
-- [Blower & Exhaust Fan Motor Winding in Vapi](https://hindustanelectricals.in/services/blower-motor-winding.html): ID fan, FD fan and centrifugal blower motor rewinding.
-- [Pump Motor Rewinding in Vapi](https://hindustanelectricals.in/services/pump-motor-rewinding.html): Centrifugal, chemical process and transfer pump motor rewinding.
-- [Rotor Dynamic Balancing in Vapi](https://hindustanelectricals.in/services/rotor-balancing.html): Dynamic rotor balancing and vibration correction for industrial rotors.
-- [Submersible Pump Repair in Vapi](https://hindustanelectricals.in/services/submersible-pump-repair.html): Borewell and dewatering submersible pump motor rewinding.
-- [Privacy Policy](https://hindustanelectricals.in/privacy-policy.html): Workshop privacy terms and customer inquiry data handling policy.
-- [Terms & Conditions](https://hindustanelectricals.in/terms-and-conditions.html): Service estimates, testing diagnostics, and repair terms.
+- [Home](https://hindustan-electricals-winding-works.vercel.app/): Motor rewinding and electrical motor repair services in Vapi.
+- [About Us](https://hindustan-electricals-winding-works.vercel.app/about.html): About the motor rewinding workshop in GIDC Vapi.
+- [Services](https://hindustan-electricals-winding-works.vercel.app/services.html): All motor rewinding, winding and repair services.
+- [Motor Rewinding Services in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/motor-rewinding.html): Stator/rotor rewinding, insulation classes, process and testing.
+- [AC Motor Winding in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/ac-motor-winding.html): Single and three-phase AC induction motor winding and overhaul.
+- [DC Motor Winding in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/dc-motor-winding.html): Armature winding, field coils, commutator and brush overhaul.
+- [Electric Motor Repair in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/electric-motor-repair.html): Bearing replacement, rotor balancing, shaft repair and troubleshooting.
+- [Generator Repair in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/generator-repair.html): Alternator rewinding, exciter coil repair and electrical testing.
+- [Transformer Rewinding in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/transformer-repair.html): Coil rewinding and electrical insulation testing.
+- [Welding Machine Repair in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/welding-machine-repair.html): ARC/MIG welding machine coil repair and troubleshooting.
+- [Blower & Exhaust Fan Motor Winding in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/blower-motor-winding.html): ID fan, FD fan and centrifugal blower motor rewinding.
+- [Pump Motor Rewinding in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/pump-motor-rewinding.html): Centrifugal, chemical process and transfer pump motor rewinding.
+- [Rotor Dynamic Balancing in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/rotor-balancing.html): Dynamic rotor balancing and vibration correction for industrial rotors.
+- [Submersible Pump Repair in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/submersible-pump-repair.html): Borewell and dewatering submersible pump motor rewinding.
+- [Privacy Policy](https://hindustan-electricals-winding-works.vercel.app/privacy-policy.html): Workshop privacy terms and customer inquiry data handling policy.
+- [Terms & Conditions](https://hindustan-electricals-winding-works.vercel.app/terms-and-conditions.html): Service estimates, testing diagnostics, and repair terms.
 
 ## Full Content
 
-- [Full site content (llms-full.txt)](https://hindustanelectricals.in/llms-full.txt): Complete verbatim site content in a single markdown file.
+- [Full site content (llms-full.txt)](https://hindustan-electricals-winding-works.vercel.app/llms-full.txt): Complete verbatim site content in a single markdown file.
 
 ## Contact
 

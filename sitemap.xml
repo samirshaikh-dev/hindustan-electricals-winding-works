@@ -1,139 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hindustanelectricals.in/</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/about.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/about.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/motor-rewinding.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/motor-rewinding.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/ac-motor-winding.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/ac-motor-winding.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/dc-motor-winding.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/dc-motor-winding.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/electric-motor-repair.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/electric-motor-repair.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/generator-repair.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/generator-repair.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/transformer-repair.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/transformer-repair.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/welding-machine-repair.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/welding-machine-repair.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/blower-motor-winding.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/blower-motor-winding.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/pump-motor-rewinding.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/pump-motor-rewinding.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/rotor-balancing.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-<url>
-    <loc>https://hindustanelectricals.in/services/welding-machine-repair.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/submersible-pump-repair.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/pump-motor-rewinding.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/services/rotor-balancing.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/services/submersible-pump-repair.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hindustanelectricals.in/services/blower-motor-winding.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hindustanelectricals.in/services/rotor-balancing.html</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://hindustanelectricals.in/gallery.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/gallery.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/faq.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/faq.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/contact.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/contact.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/privacy-policy.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/privacy-policy.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://hindustanelectricals.in/terms-and-conditions.html</loc>
+    <loc>https://hindustan-electricals-winding-works.vercel.app/terms-and-conditions.html</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
