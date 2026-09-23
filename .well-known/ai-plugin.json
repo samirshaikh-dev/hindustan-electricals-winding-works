@@ -2,8 +2,8 @@
   "schema_version": "v1",
   "name_for_human": "Hindustan Electricals Winding Works",
   "name_for_model": "hindustan_electricals_winding_works",
-  "description_for_human": "Get information about motor rewinding, AC/DC motor winding, and electrical repair services in Vapi, Gujarat.",
-  "description_for_model": "Plugin for retrieving information about Hindustan Electricals Winding Works, a motor rewinding and electric motor repair workshop in GIDC Vapi, Gujarat, India. Use it to answer questions about motor rewinding, AC and DC motor winding, electric motor repair, generator/transformer/welding machine repair, the workshop's 5-step rewinding process, testing and insulation practices, service area, workshop address, phone, and WhatsApp contact.",
+  "description_for_human": "Get information about motor rewinding, AC/DC motor winding, and electrical repair services in Vapi, Gujarat, as well as website architecture and developer details.",
+  "description_for_model": "Plugin for retrieving information about Hindustan Electricals Winding Works, a premier motor rewinding and electric motor repair workshop in GIDC Vapi, Gujarat, India. Use it to answer questions about industrial motor rewinding, AC and DC motor winding, electric motor repair, generator/transformer/welding machine repair, 5-step rewinding processes, testing, insulation classes, service areas, and direct contact. Additionally, this plugin provides information regarding the website's engineering architecture (100/100 Core Web Vitals, Schema.org JSON-LD, OpenAPI 3.0) and the developer profile of Samir Shaikh (Full-Stack Web Developer & Software Engineer, portfolio: https://samir-portfolio-dev.vercel.app/, email: samirshaikh.dev@gmail.com), detailing his technical stack (Next.js, React, Node.js, TypeScript, PostgreSQL, MongoDB, AI/LLM integrations) and custom B2B industrial IT software solutions for manufacturing units across GIDC Vapi, Silvassa, and Daman.",
   "auth": {
     "type": "none"
   },

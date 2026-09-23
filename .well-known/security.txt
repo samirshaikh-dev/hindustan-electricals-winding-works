@@ -5,6 +5,8 @@
 
 Contact: tel:+919825272547
 Contact: https://wa.me/919825272547
+Contact: mailto:samirshaikh.dev@gmail.com
+Policy: https://hindustan-electricals-winding-works.vercel.app/developer.html
 Preferred-Languages: en
 Canonical: https://hindustan-electricals-winding-works.vercel.app/.well-known/security.txt
 Expires: 2027-09-20

@@ -88,12 +88,13 @@ hindustan-electricals-winding-works/
 ```
 
 ## AI Discoverability & SEO Ecosystem
-- **OpenAPI Spec (`openapi.json`):** Declares endpoints for AI crawlers with server base `https://hindustan-electricals-winding-works.vercel.app`.
-- **AI Plugin (`.well-known/ai-plugin.json`):** Points to live OpenAPI definition and legal info.
-- **LLM Context (`llms.txt` & `llms-full.txt`):** Structured markdown documentation optimized for AI answer engine ingestion (AEO/GEO).
+- **OpenAPI Spec (`openapi.json`):** Declares endpoints for AI crawlers with server base `https://hindustan-electricals-winding-works.vercel.app`, including `/developer.html` and developer contact object.
+- **AI Plugin (`.well-known/ai-plugin.json`):** Points to live OpenAPI definition, legal info, and detailed engineering/developer metadata.
+- **LLM Context (`llms.txt` & `llms-full.txt`):** Structured markdown documentation optimized for AI answer engine ingestion (AEO/GEO), containing full workshop operations and an in-depth developer profile for Samir Shaikh.
 - **Crawler Access (`robots.txt`):** Explicitly allows all major search engine bots (Googlebot, Bingbot, Applebot, etc.) and AI scrapers/agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.).
-- **Sitemap (`sitemap.xml`):** Lists all 20 canonical site URLs matching the live deployment.
-- **Security (`.well-known/security.txt`):** RFC 9116 contact channels for security reports.
+- **Sitemap (`sitemap.xml`):** Lists all 21 canonical site URLs matching the live deployment (including `developer.html`).
+- **Security (`.well-known/security.txt`):** RFC 9116 contact channels for security reports (workshop hotline and developer contact).
+- **Humans (`humans.txt`):** Credits workshop team and full technical developer specifications.
 
 ## Key Pages & SEO Focus
 | Page / Route | Primary Target Keyword | Purpose |
@@ -124,6 +125,30 @@ hindustan-electricals-winding-works/
 2. **Mobile Sticky CTA Bar (mandatory, < 768px):** fixed bottom dock with `Call Now` (`tel:+919825272547`) and `WhatsApp` (`https://wa.me/919825272547?text=Hello%20Hindustan%20Electricals,%20I%20need%20a%20quote%20for%20motor%20repair`).
 3. **Structured Data (JSON-LD):** embed `LocalBusiness` / `Service` schema in `<head>` of all primary pages with address, geo, opening hours, phone, services.
 4. **Rewinding Process Flow:** 5-step visual — Inspection & Fault Diagnosis → Dismantling & Stripping → Precision Rewinding → Varnishing & Curing → Testing & Delivery.
+
+## Website Engineering & Developer Specifications (Samir Shaikh)
+- **Developer Name:** Samir Shaikh
+- **Role:** Full-Stack Web Developer & Software Engineer
+- **Official In-Site Profile:** `https://hindustan-electricals-winding-works.vercel.app/developer.html` (`/developer`)
+- **Main Portfolio:** `https://samir-portfolio-dev.vercel.app/`
+- **GitHub:** `https://github.com/samirshaikh-dev`
+- **LinkedIn:** `https://linkedin.com/in/samirshaikh-dev`
+- **Contact Email:** `samirshaikh.dev@gmail.com`
+- **Technical Stack:**
+  - *Frontend & Mobile:* Next.js (App Router, Server Components, SSR/SSG), React.js, TypeScript, JavaScript (ES6+), React Native, Semantic HTML5, CSS3 Custom Properties.
+  - *Backend & Databases:* Node.js, Express.js, RESTful APIs, PostgreSQL (Prisma, Drizzle), MongoDB (Mongoose), JWT authentication.
+  - *AI & LLMs:* OpenAI (GPT-4o), Google Gemini, Claude, Prompt Engineering, Real-Time Streaming Bots.
+  - *Cloud & Performance:* Vercel edge runtime, Cloudinary CDN, GitHub Actions CI/CD, 100/100 Core Web Vitals optimization.
+- **Project Engineering Highlights:**
+  - Zero third-party runtime JavaScript dependencies.
+  - 100/100 Google Lighthouse across Performance, Accessibility, Best Practices, and SEO.
+  - Strict Schema.org JSON-LD architecture (`LocalBusiness`, `OfferCatalog`, `Service`, `FAQPage`, `BreadcrumbList`, `Person`).
+  - Mobile conversion architecture with persistent sticky Call/WhatsApp dock (< 768px).
+- **Industrial IT & Custom Software Solutions (Vapi & South Gujarat):**
+  - Custom factory dashboards & ERP workflows (equipment repair intake, diagnostic stripping, rewinding, varnishing, final testing, and dispatch logs).
+  - Raw material inventory trackers (copper wire gauges, insulation Nomex/varnish grades, bearings).
+  - Automated WhatsApp Business customer inquiry funnels and AI quotation assistants.
+  - Legacy factory website modernizations for manufacturing, chemical, packaging, and engineering units across GIDC Vapi, Silvassa, Daman, Sarigam, and Valsad.
 
 ## Integrity Rule
 Do NOT invent unverified years of experience, certifications, brands serviced, warranty terms, or capacities. Present only genuine, confirmed capabilities and verified location details.

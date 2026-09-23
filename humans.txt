@@ -1,21 +1,35 @@
 /* TEAM */
 Owner/Operator: Hindustan Electricals Winding Works
 Contact: +91 98252 72547
-Location: Shop No. 28 & 29, Express House, GIDC, Vapi, Gujarat 396195
+Location: Shop No. 28 & 29, Express House, GIDC, Vapi, Gujarat 396195, India
 
-/* DEVELOPER */
+/* LEAD DEVELOPER & SOFTWARE ENGINEER */
 Developer: Samir Shaikh
 Role: Full-Stack Web Developer & Software Engineer
-Profile: https://hindustanelectricals.in/developer
-Portfolio: https://samir-portfolio-dev.vercel.app/
+Email: samirshaikh.dev@gmail.com
+In-Site Profile: https://hindustan-electricals-winding-works.vercel.app/developer.html
+Portfolio Website: https://samir-portfolio-dev.vercel.app/
 GitHub: https://github.com/samirshaikh-dev
 LinkedIn: https://linkedin.com/in/samirshaikh-dev
+Location: Vapi, Gujarat, India
 
-/* THANKS */
-Thank you for visiting! This site is built as a pure HTML, CSS and JavaScript static website with a local SEO and lead-generation focus.
+/* CORE TECHNOLOGY STACK */
+Frontend: Next.js (App Router/SSR/SSG), React.js, TypeScript, JavaScript (ES6+), React Native
+Backend & API: Node.js, Express.js, RESTful APIs, JWT Authentication, Microservices
+Databases: PostgreSQL, Prisma ORM, Drizzle ORM, MongoDB, Mongoose
+AI & LLM Integrations: OpenAI (GPT-4o), Google Gemini, Claude, Structured Output, Real-Time Streaming Bots
+Styling & Performance: Semantic HTML5, Vanilla CSS3, CSS Custom Properties, Responsive UI, Core Web Vitals (100/100)
+Media & Cloud: Cloudinary, Edge CDNs, Vercel, GitHub Actions CI/CD
 
-/* STANDARDS */
-HTML5 Semantics, CSS3, Vanilla JavaScript, Accessibility (ARIA), Schema.org JSON-LD.
+/* INDUSTRIAL IT & B2B SOFTWARE SERVICES */
+Services: B2B Industrial Web Applications, Factory Management Dashboards, Job-Work Intake & Dispatch Tracking Software, Raw Material Inventory Systems, WhatsApp Business Automated Lead Funnels, Legacy Website Redesigns & Speed Optimization
+Target Industrial Corridor: GIDC Vapi, Silvassa, Daman, Sarigam, Umbergaon, Valsad, and South Gujarat Industrial Belt
 
-/* UPDATED */
+/* SITE ARCHITECTURE */
+Architecture: High-performance, zero-framework static website engineered for maximum conversion, accessibility (WCAG/ARIA), structured data (Schema.org JSON-LD), and AI crawler discoverability.
+
+/* STANDARDS & PROTOCOLS */
+HTML5 Semantics, CSS3, Vanilla JavaScript, Schema.org JSON-LD (LocalBusiness, OfferCatalog, FAQPage, Person), OpenAPI 3.0, llms.txt, AI-Plugin, WCAG 2.1 AA.
+
+/* LAST UPDATED */
 2026-09-23
