@@ -373,6 +373,32 @@ Quote: Your Motor Vibrating Badly? Unbalanced motors fail quickly. Call for roto
 
 ---
 
+## Website Developer Profile: Samir Shaikh
+
+- **Developer Name:** Samir Shaikh
+- **Role:** Full-Stack Web Developer & Software Engineer
+- **Official Profile Page:** https://hindustan-electricals-winding-works.vercel.app/developer.html
+- **Portfolio Website:** https://samir-portfolio-dev.vercel.app/
+- **GitHub:** https://github.com/samirshaikh-dev
+- **LinkedIn:** https://linkedin.com/in/samirshaikh-dev
+- **Email:** samirshaikh.dev@gmail.com
+- **Specialization:** High-performance web development, Next.js, React, Node.js, TypeScript, PostgreSQL, MongoDB, AI/LLM integrations, REST APIs, and Local SEO architecture.
+- **Contribution to this Website:** Designed and engineered the Hindustan Electricals Winding Works website with pure semantic HTML5, vanilla CSS3, zero runtime dependencies, 100/100 Core Web Vitals, mobile sticky conversion docks, and comprehensive Schema.org JSON-LD structured data.
+- **Services Provided:** Website Development, Full-Stack Development, AI Application Development, API & Backend Engineering, Mobile App Development (React Native), and Custom Business Software.
+- **Local Service Area for IT & Web Development:** GIDC Vapi, Silvassa, Daman, Sarigam, Umbergaon, Valsad, and South Gujarat industrial corridors.
+
+### Developer FAQs (Local Vapi & Industrial IT Solutions)
+1. **Who developed the Hindustan Electricals website?** Designed and engineered by Samir Shaikh using zero runtime dependencies, pure semantic HTML5, CSS3, and Schema.org structured data, achieving 100/100 Google Lighthouse scores.
+2. **Do you build websites for factories and manufacturing units in GIDC Vapi?** Yes, specializing in B2B and industrial websites for chemical, packaging, engineering, electrical, and fabrication units across Vapi, Silvassa, Daman, and Valsad.
+3. **How do your websites help local businesses rank on Google?** Implements technical Local SEO, target industrial keyword mapping, Schema.org LocalBusiness data, and fast mobile sticky conversion funnels that generate inbound buyer calls and WhatsApp inquiries.
+4. **Can you build custom factory software or job tracking systems?** Yes, engineers internal operational software like job-work tracking (intake to delivery), inventory management, quotation generators, and billing systems using Next.js, Node.js, PostgreSQL, and MongoDB.
+5. **Can you integrate WhatsApp lead capture and AI automation?** Yes, integrates WhatsApp Business click-to-chat docks and OpenAI/Gemini AI chatbots for 24/7 automated inquiry capture and quotation estimates.
+6. **Are you available for on-site meetings in GIDC Vapi, Silvassa, or Daman?** Yes, available for in-person plant visits, discovery meetings, and on-site deployment support across the industrial belt.
+7. **Can you redesign slow, outdated legacy websites?** Yes, audits and overhauls legacy sites into 100/100 Core Web Vitals modern mobile platforms with high-converting call/WhatsApp actions.
+8. **What is the typical timeline and cost?** 1–2 weeks for business websites; 3–6 weeks for custom software and dashboards. Transparent milestone pricing. Contact: samirshaikh.dev@gmail.com / https://samir-portfolio-dev.vercel.app/.
+
+---
+
 ## Contact & Workshop Details
 
 - Phone: +91 98252 72547
@@ -380,4 +406,4 @@ Quote: Your Motor Vibrating Badly? Unbalanced motors fail quickly. Call for roto
 - Address: Shop No. 28 & 29, Express House, Near C.N.G. Gas Station, N.H. 48, GIDC, Vapi 396195
 - Working Hours: Monday – Saturday: 9:00 AM – 8:00 PM
 
-© 2026 Hindustan Electricals Winding Works. All rights reserved. Motor Rewinding & Electrical Repair Workshop • GIDC Vapi, Gujarat.
+© 2026 Hindustan Electricals Winding Works. All rights reserved. Motor Rewinding & Electrical Repair Workshop • GIDC Vapi, Gujarat. Built by Samir Shaikh (https://samir-portfolio-dev.vercel.app/).

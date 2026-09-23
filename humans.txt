@@ -3,11 +3,19 @@ Owner/Operator: Hindustan Electricals Winding Works
 Contact: +91 98252 72547
 Location: Shop No. 28 & 29, Express House, GIDC, Vapi, Gujarat 396195
 
+/* DEVELOPER */
+Developer: Samir Shaikh
+Role: Full-Stack Web Developer & Software Engineer
+Profile: https://hindustanelectricals.in/developer
+Portfolio: https://samir-portfolio-dev.vercel.app/
+GitHub: https://github.com/samirshaikh-dev
+LinkedIn: https://linkedin.com/in/samirshaikh-dev
+
 /* THANKS */
 Thank you for visiting! This site is built as a pure HTML, CSS and JavaScript static website with a local SEO and lead-generation focus.
 
 /* STANDARDS */
-XHTML 1.0, CSS, JavaScript, Accessibility (ARIA).
+HTML5 Semantics, CSS3, Vanilla JavaScript, Accessibility (ARIA), Schema.org JSON-LD.
 
 /* UPDATED */
-2026-09-20
+2026-09-23

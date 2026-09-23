@@ -54,6 +54,17 @@
           }
         }
       }
+    },
+    "/developer.html": {
+      "get": {
+        "summary": "Developer Profile - Samir Shaikh",
+        "operationId": "getDeveloperProfile",
+        "responses": {
+          "200": {
+            "description": "Developer profile, technical skills, portfolio, and contact details (text/html)"
+          }
+        }
+      }
     }
   }
 }

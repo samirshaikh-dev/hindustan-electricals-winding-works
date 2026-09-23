@@ -44,6 +44,7 @@ hindustan-electricals-winding-works/
 ├── gallery.html          # Workshop photos and visual proof
 ├── faq.html              # Comprehensive technical and service FAQs
 ├── contact.html          # High-priority conversion page: Map, phone, WhatsApp, form
+├── developer.html        # Dedicated profile page for Samir Shaikh (Web Developer & Software Engineer)
 ├── 404.html              # Custom 404 error page with quick navigation
 ├── services/             # 11 Dedicated local-SEO service pages
 │   ├── motor-rewinding.html
@@ -91,7 +92,7 @@ hindustan-electricals-winding-works/
 - **AI Plugin (`.well-known/ai-plugin.json`):** Points to live OpenAPI definition and legal info.
 - **LLM Context (`llms.txt` & `llms-full.txt`):** Structured markdown documentation optimized for AI answer engine ingestion (AEO/GEO).
 - **Crawler Access (`robots.txt`):** Explicitly allows all major search engine bots (Googlebot, Bingbot, Applebot, etc.) and AI scrapers/agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.).
-- **Sitemap (`sitemap.xml`):** Lists all 19 canonical site URLs matching the live deployment.
+- **Sitemap (`sitemap.xml`):** Lists all 20 canonical site URLs matching the live deployment.
 - **Security (`.well-known/security.txt`):** RFC 9116 contact channels for security reports.
 
 ## Key Pages & SEO Focus
@@ -116,6 +117,7 @@ hindustan-electricals-winding-works/
 | `contact.html` | Hindustan Electricals Vapi Contact | Address, phone, map, quotation form. |
 | `privacy-policy.html` | Privacy Policy | Customer inquiry data handling, WhatsApp links, and contact terms. |
 | `terms-and-conditions.html` | Terms and Conditions | Diagnostic testing, quotations, repair timelines, and jurisdiction. |
+| `developer.html` | Samir Shaikh Web Developer | Dedicated developer profile, technical stack, services, and portfolio links. |
 
 ## Core Design & UX Directives
 1. **Industrial Visual Identity:** Deep Slate Navy (`#0F172A`), Crisp White/Off-White (`#F8FAFC`), Industrial Charcoal (`#1E293B`); accent Electric Amber / Safety Orange (`#F59E0B` / `#D97706` / `#EA580C`).

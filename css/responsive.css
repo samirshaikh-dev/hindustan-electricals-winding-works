@@ -220,5 +220,7 @@
   .footer-bottom .container {
     flex-direction: column;
     text-align: center;
+    gap: 1rem;
+    justify-content: center;
   }
 }
