@@ -22,6 +22,14 @@
     justify-content: center;
   }
 
+  .hero-triage {
+    text-align: center;
+  }
+
+  .triage-chips {
+    justify-content: center;
+  }
+
   .hero-stats-row {
     max-width: 600px;
     margin-left: auto;
@@ -44,6 +52,15 @@
   .about-split {
     grid-template-columns: 1fr;
     gap: 3rem;
+  }
+
+  .cta-band-inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .cta-band-actions {
+    max-width: 420px;
   }
 
   .contact-grid {
@@ -137,6 +154,26 @@
 
   .hero-card {
     padding: 1.5rem;
+  }
+
+  .hero-triage {
+    margin-bottom: 2rem;
+  }
+
+  .triage-chips {
+    justify-content: center;
+  }
+
+  .photo-slot {
+    aspect-ratio: 16 / 9;
+  }
+
+  .cta-band {
+    padding: 2.75rem 0;
+  }
+
+  .cta-band-copy h2 {
+    font-size: 1.6rem;
   }
 
   .hero-stats-row {

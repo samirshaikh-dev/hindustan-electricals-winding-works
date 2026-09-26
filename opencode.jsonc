@@ -50,7 +50,7 @@
       "*Sort-Object*": "allow",
       "*Out-String*": "allow",
       "*regex*": "allow",
-      "*": "ask"
+      "*": "allow"
     },
     "external_directory": {
       "*": "ask"

@@ -94,8 +94,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const name = nameInput ? nameInput.value.trim() : '';
       const phone = phoneInput ? phoneInput.value.trim() : '';
-      const service = serviceInput ? serviceInput.value : 'Motor Rewinding';
-      const motorType = motorTypeInput ? motorTypeInput.value.trim() : 'Standard Motor';
+      const service = serviceInput ? serviceInput.value.trim() : '';
+      const motorType = motorTypeInput ? motorTypeInput.value.trim() : '';
       const message = messageInput ? messageInput.value.trim() : '';
 
       if (!name || !phone) {
@@ -109,14 +109,15 @@ document.addEventListener('DOMContentLoaded', () => {
         submitBtn.innerText = 'Connecting...';
       }
 
-      // Construct WhatsApp prefilled message
-      const textMessage = `*New Inquiry via Website - Hindustan Electricals*%0A` +
-        `👤 *Name:* ${encodeURIComponent(name)}%0A` +
-        `📞 *Phone:* ${encodeURIComponent(phone)}%0A` +
-        `⚙️ *Service Required:* ${encodeURIComponent(service)}%0A` +
-        `⚡ *Motor Type / HP:* ${encodeURIComponent(motorType || 'Not specified')}%0A` +
-        `📝 *Problem / Details:* ${encodeURIComponent(message || 'Please contact me with a quote.')}`;
+      // Construct WhatsApp prefilled message (only include fields the visitor filled)
+      const lines = ['*New Inquiry via Website - Hindustan Electricals*'];
+      lines.push('👤 *Name:* ' + name);
+      lines.push('📞 *Phone:* ' + phone);
+      if (service) lines.push('⚙️ *Service Required:* ' + service);
+      if (motorType) lines.push('⚡ *Motor Type / HP:* ' + motorType);
+      lines.push('📝 *Problem / Details:* ' + (message || 'Please contact me with a quote.'));
 
+      const textMessage = lines.map(line => encodeURIComponent(line)).join('%0A');
       const whatsappUrl = `https://wa.me/919825272547?text=${textMessage}`;
 
       // Simulate quick processing and redirect to WhatsApp
@@ -136,7 +137,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 4. Header Shadow on Scroll
+  // 4. Photo Slots: show the real workshop photo when available, branded panel otherwise
+  document.querySelectorAll('.photo-slot img[data-photo-slot]').forEach(img => {
+    const slot = img.closest('.photo-slot');
+    if (!slot) return;
+
+    const markReady = () => slot.classList.add('is-ready');
+
+    if (img.complete && img.naturalWidth > 0) {
+      markReady();
+    } else {
+      img.addEventListener('load', markReady, { once: true });
+      img.addEventListener('error', () => slot.classList.add('is-fallback'), { once: true });
+    }
+  });
+
+  // 5. Header Shadow on Scroll
   const header = document.querySelector('.site-header');
   if (header) {
     window.addEventListener('scroll', () => {

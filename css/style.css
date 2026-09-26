@@ -480,10 +480,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .stat-number {
   font-family: var(--font-heading);
-  font-size: 1.85rem;
+  font-size: 1.55rem;
   font-weight: 800;
   color: var(--color-accent);
-  line-height: 1.1;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
 }
 
 .stat-label {
@@ -580,6 +581,119 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-card-action .phone-big:hover {
   color: var(--color-accent);
+}
+
+/* Hero Visual Column (photo + card) */
+.hero-visual {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.photo-slot {
+  position: relative;
+  margin: 0;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.45);
+  background-color: var(--color-primary-light);
+}
+
+.photo-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.photo-slot.is-ready img {
+  display: block;
+}
+
+.photo-slot-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 2rem;
+  text-align: center;
+  background:
+    repeating-linear-gradient(135deg, rgba(234, 88, 12, 0.07) 0 2px, transparent 2px 22px),
+    linear-gradient(140deg, #1e293b 0%, #0f172a 100%);
+}
+
+.photo-slot.is-ready .photo-slot-fallback {
+  display: none;
+}
+
+.photo-slot-mark {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent);
+  background-color: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  margin-bottom: 0.65rem;
+}
+
+.photo-slot-title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.35;
+}
+
+.photo-slot-caption {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+/* Hero Symptom Triage (prefilled WhatsApp enquiries) */
+.hero-triage {
+  margin-bottom: 2.5rem;
+}
+
+.triage-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #94a3b8;
+  margin-bottom: 0.75rem;
+}
+
+.triage-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.triage-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background-color: rgba(255, 255, 255, 0.06);
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.triage-chip:hover {
+  background-color: var(--color-whatsapp);
+  border-color: var(--color-whatsapp);
+  color: #ffffff;
+  transform: translateY(-2px);
 }
 
 /* ==========================================================================
@@ -713,6 +827,47 @@ h1, h2, h3, h4, h5, h6 {
   gap: 0.75rem;
 }
 
+/* Additional Service Coverage (compact chip links) */
+.service-extra {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.service-extra-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin-bottom: 0.9rem;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.05rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border-dark);
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.chip:hover {
+  border-color: var(--color-accent);
+  color: var(--color-secondary-accent);
+  background-color: rgba(245, 158, 11, 0.08);
+  transform: translateY(-2px);
+}
+
 /* ==========================================================================
    Process Timeline (5 Steps)
    ========================================================================== */
@@ -770,6 +925,60 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 0.88rem;
   color: var(--color-text-muted);
   line-height: 1.5;
+}
+
+/* ==========================================================================
+   Mid-Page Conversion Band
+   ========================================================================== */
+.cta-band {
+  background: linear-gradient(120deg, #0f172a 0%, #1e293b 55%, #0f172a 100%);
+  color: #ffffff;
+  padding: 3.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cta-band-inner {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.cta-band-copy h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 0.85rem 0 0.9rem;
+  letter-spacing: -0.02em;
+}
+
+.cta-band-copy p {
+  color: #cbd5e1;
+  font-size: 1.02rem;
+  max-width: 620px;
+}
+
+.cta-band-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  align-items: stretch;
+}
+
+.cta-band-actions .btn {
+  width: 100%;
+}
+
+.cta-band-link {
+  align-self: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.cta-band-link:hover {
+  color: var(--color-accent);
 }
 
 /* ==========================================================================
@@ -1137,6 +1346,30 @@ h1, h2, h3, h4, h5, h6 {
 textarea.form-control {
   resize: vertical;
   min-height: 110px;
+}
+
+.form-note {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.form-alt {
+  font-size: 0.92rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.form-alt a {
+  color: var(--color-secondary-accent);
+  font-weight: 600;
+}
+
+.form-alt a:hover {
+  color: var(--color-accent-hover);
+  text-decoration: underline;
 }
 
 /* Map Embed Container */
@@ -1569,6 +1802,82 @@ textarea.form-control {
   color: var(--color-text-muted);
   line-height: 1.6;
   margin: 0;
+}
+
+/* Compact Service Area Chips */
+.area-chips-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.area-chips-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+.area-chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.area-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-border-dark);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 0.98rem;
+  font-weight: 600;
+}
+
+.area-chip em {
+  font-style: normal;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #b45309;
+  background-color: rgba(245, 158, 11, 0.14);
+  border-radius: var(--radius-full);
+  padding: 0.2rem 0.55rem;
+}
+
+.area-chip-primary {
+  border-color: var(--color-accent);
+  background-color: rgba(245, 158, 11, 0.08);
+}
+
+.area-chips-note {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.area-chips-note a {
+  color: var(--color-secondary-accent);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
+.area-chips-note a:hover {
+  color: var(--color-accent-hover);
 }
 
 @media (max-width: 1024px) {
