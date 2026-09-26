@@ -752,6 +752,19 @@ h1, h2, h3, h4, h5, h6 {
   gap: 2rem;
 }
 
+.services-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.25rem;
+}
+
+@media (min-width: 1200px) {
+  .services-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.75rem;
+  }
+}
+
 .service-card {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
