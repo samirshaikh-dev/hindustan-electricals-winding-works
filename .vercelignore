@@ -1,0 +1,19 @@
+# Agent / tooling scratch files — never deploy these
+*.new
+*.orig
+*.rej
+*.tmp
+*.bak
+*.log
+
+# Agent worktrees & scratch dirs
+.kilo/
+.kilocode/
+.agents/
+
+# Internal-only documents (not part of the public site).
+# NOTE: do NOT exclude openapi.json, llms.txt, llms-full.txt or .well-known/ —
+# they are the live AI-discoverability surface referenced by
+# .well-known/ai-plugin.json and vercel.json headers.
+req.txt
+context.md

@@ -5,8 +5,8 @@ Official business and local lead-generation website for **Hindustan Electricals 
 
 - **Client Name:** Hindustan Electricals Winding Works
 - **Industry:** Electric Motor Rewinding, AC/DC Motor Winding & Industrial Electrical Repair
-- **Live Deployment URL:** `https://hindustan-electricals-winding-works.vercel.app`
-- **Primary Domain:** `https://hindustanelectricals.in`
+- **Live Deployment URL / Canonical Host:** `https://hindustan-electricals-winding-works.vercel.app`
+- **Primary Domain:** `https://hindustanelectricals.in` — ⚠️ **NOT LIVE.** The zone is delegated to GoDaddy (`ns43/ns44.domaincontrol.com`) but has **no A/AAAA record**, so it does not resolve. Do **not** use it in canonical tags, `og:url`, JSON-LD `@id`/`url`, `sitemap.xml`, or internal links. All SEO/canonical references point at the `.vercel.app` host. Migrate only after DNS is fixed and the domain is attached in Vercel (with 301 redirects).
 - **Primary Mission:** High-ranking **Local SEO + Lead-Generation** platform targeting high-intent industrial queries (e.g., *"motor rewinding in Vapi"*, *"AC motor winding GIDC"*, *"electric motor repair Vapi"*).
 - **Core Conversion Goal:** Drive direct high-trust customer inquiries via **Instant Phone Call** and **WhatsApp**.
 
@@ -17,7 +17,7 @@ Official business and local lead-generation website for **Hindustan Electricals 
 - **Primary Phone:** `+91 98252 72547` (link format: `tel:+919825272547`)
 - **Primary WhatsApp:** `+91 98252 72547` (link format: `https://wa.me/919825272547`)
 - **Live Site URL:** `https://hindustan-electricals-winding-works.vercel.app`
-- **Production Domain:** `https://hindustanelectricals.in`
+- **Production Domain:** `https://hindustanelectricals.in` (⚠️ not live — no A record; `.vercel.app` is the canonical host)
 - **Primary Target Location (Workshop Base):** GIDC Vapi, Gujarat (Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195)
 - **Target Industrial Service Corridors:**
   1. **Vapi & GIDC Vapi** (Primary local hub — chemical, paper, packaging, textile, and engineering units)
