@@ -29,7 +29,7 @@ Official business and local lead-generation website for **Hindustan Electricals 
 
 ## Tech Stack
 - **Markup:** Pure semantic HTML5, proper heading hierarchy, ARIA accessibility attributes, landmark elements.
-- **Styling:** Vanilla CSS3 (`css/style.css`, `css/responsive.css`) with CSS variables, flexbox/grid layouts, industrial palette.
+- **Styling:** Tailwind CSS (via Play CDN with brand theme configuration `js/tailwind.config.js`) + Core Component CSS (`css/style.css`, `css/responsive.css`) configured for industrial palette and zero-FOUC performance.
 - **Scripting:** Lightweight vanilla JavaScript (`js/script.js`) for mobile nav, FAQ accordions, sticky mobile CTA, form handling.
 - **Icons / Fonts:** Font Awesome or inline SVG; Google Fonts (Outfit or Inter).
 - **Mapping:** Embedded responsive Google Maps iframe for Express House, GIDC Vapi.
@@ -61,7 +61,8 @@ hindustan-electricals-winding-works/
 │   ├── style.css
 │   └── responsive.css
 ├── js/
-│   └── script.js
+│   ├── script.js
+│   └── tailwind.config.js
 ├── images/               # logo/ hero/ services/ gallery/
 ├── .well-known/
 │   ├── ai-plugin.json    # OpenAI plugin manifest for AI agents
