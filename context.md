@@ -91,7 +91,7 @@ hindustan-electricals-winding-works/
 - **AI Plugin (`.well-known/ai-plugin.json`):** Points to live OpenAPI definition, legal info, and detailed engineering/developer metadata.
 - **LLM Context (`llms.txt` & `llms-full.txt`):** Structured markdown documentation optimized for AI answer engine ingestion (AEO/GEO), containing full workshop operations and an in-depth developer profile for Samir Shaikh.
 - **Crawler Access (`robots.txt`):** Explicitly allows all major search engine bots (Googlebot, Bingbot, Applebot, etc.) and AI scrapers/agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.).
-- **Sitemap (`sitemap.xml`):** Lists all 20 canonical site URLs matching the live deployment.
+- **Sitemap (`sitemap.xml`):** Lists all 19 canonical site URLs matching the live deployment.
 - **Security (`.well-known/security.txt`):** RFC 9116 contact channels for security reports (workshop hotline and developer contact).
 - **Humans (`humans.txt`):** Credits workshop team and full technical developer specifications.
 
