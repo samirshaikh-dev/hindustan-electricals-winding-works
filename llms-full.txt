@@ -2,15 +2,45 @@
 
 > Hindustan Electricals Winding Works is a motor rewinding and electrical motor repair workshop in GIDC Vapi, Gujarat, India. The business provides professional motor rewinding, AC motor winding, DC motor winding, generator repair, transformer rewinding, welding machine repair, and industrial electrical equipment repair services. This file contains the full public content of the website.
 
+## Table of Contents
+
+- Business Information
+- How to Read This File
+- Homepage
+- About
+- Services Directory
+- Service Pages (11 dedicated pages)
+- Gallery
+- Frequently Asked Questions (31 questions)
+- Contact and Workshop Details
+- Privacy Policy
+- Terms and Conditions
+- 404 Page
+- Website Developer Profile: Samir Shaikh
+- Technical Appendix: Structured Data, AI Endpoints and Site Architecture
+
 ## Business Information
 
 - Name: Hindustan Electricals Winding Works
 - Category: Electric Motor Repair / Motor Rewinding Workshop
+- Schema.org type published on the site: Electrician
 - Address: Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195, India
 - Phone: +91 98252 72547 (tel:+919825272547)
 - WhatsApp: +91 98252 72547 (https://wa.me/919825272547)
-- Working Hours: Monday â€“ Saturday, 9:00 AM â€“ 8:00 PM
+- Working Hours: Monday to Saturday, 9:00 AM to 8:00 PM
+- Geo coordinates: 20.3631135, 72.9210025
+- Map: https://maps.google.com/?q=20.3631135,72.9210025
+- Canonical site URL: https://hindustan-electricals-winding-works.vercel.app
 - Service Areas: GIDC Vapi, Silvassa, Daman, Valsad, Pardi, Bhilad, Sarigam, and surrounding industrial belts in South Gujarat & UT
+- Indexable pages: 19
+- Dedicated service pages: 11
+
+## How to Read This File
+
+- Sections are ordered to follow the site structure, starting with the homepage and ending with the technical appendix.
+- Content under each page heading is transcribed from that page on the live site.
+- Repeated navigation and footer content is summarised once per file rather than repeated for every page.
+- The workshop does not publish fixed prices, fixed turnaround times, warranty periods, certification lists or brand service lists. Those answers are given by quotation after physical inspection.
 
 ---
 
@@ -22,10 +52,17 @@ Badge: GIDC, Vapi, Gujarat
 
 Hindustan Electricals Winding Works provides professional motor rewinding, AC motor winding, DC motor winding, and electrical motor repair services. Trusted industrial workshop serving Vapi GIDC, Silvassa, Daman, and South Gujarat.
 
+Headline: Reliable Motor Rewinding for Industry.
+
+Sub-headline: AC & DC motor rewinding, repairs and industrial electrical services in Vapi GIDC.
+
+Primary calls to action: Get a Service Quote, Call Workshop.
+
 Hero stats:
-- 100% â€” Copper Winding Wire
-- Class F/H â€” High-Grade Insulation
-- GIDC â€” Prime Vapi Location
+- Vapi GIDC - Industrial Service - Direct Workshop Support
+- Motor Rewinding - AC & DC Motors - Quality Materials
+- Copper and High-Grade Insulation
+- Tested Before Delivery - Electrical and Load Testing
 
 #### Industrial Repair Services
 
@@ -38,33 +75,59 @@ Fast diagnostic & turnaround in Vapi.
 
 Direct Workshop Hotline: +91 98252 72547
 
+### Core Services Overview (Homepage Cards)
+
+Motor Services for South Gujarat Industry. Restoring industrial electric motors to continuous factory reliability with precision copper coil insertion and full electrical testing.
+
+- Primary Service - Motor Rewinding: Complete rewinding and electrical restoration for industrial motors.
+- AC Induction - AC Motor Winding: Single-phase and three-phase AC motor winding for industrial applications.
+- DC Equipment - DC Motor Winding: DC motor and armature rewinding with inspection and repair.
+- Mechanical & Overhaul - Electric Motor Repair: Diagnosis, bearing work, shaft correction and electrical repair.
+- More Industrial Services - View All 11 Services: Generator Repair, Transformer Rewinding, Pump Motor Rewinding, Submersible Pump Repair, Blower Motor Winding, Rotor Balancing, Welding Machine Repair.
+
 ### Trust Points
 
-- Genuine Copper Wire â€” Super-enameled electrolytic grade
-- AC & DC Expertise â€” All types and ratings of motors
-- Fast Turnaround â€” Minimizing industrial downtime
-- Workshop in GIDC Vapi â€” Express House, NH 48 highway access
+- Genuine Copper Wire - Super-enameled electrolytic grade
+- AC & DC Expertise - All types and ratings of motors
+- Fast Turnaround - Minimizing industrial downtime
+- Workshop in GIDC Vapi - Express House, NH 48 highway access
+
+### Quality Control (Homepage Section)
+
+Quality is built into every rewind.
+
+- Copper Winding - Quality winding materials, super-enameled electrolytic copper wire for maximum conductivity and thermal performance.
+- Insulation - High-grade insulation systems, Nomex and Mylar Class F and Class H materials to resist high operating temperatures.
+- Testing - Electrical testing before delivery, insulation resistance Megger testing and no-load phase current balance.
+- Inspection - Motor condition checked before work, stator core, bearing seats, shaft runout, and root causes diagnosed.
 
 ### Our Motor Rewinding & Electrical Repair Services
 
 Comprehensive rewinding, overhaul, and repair solutions tailored for industrial facilities, plants, and workshops in Vapi and South Gujarat.
 
-1. **Motor Rewinding** â€” Complete electrical motor rewinding, stator core cleaning, coil slot insulation, precision insertion, varnishing, and baking for maximum operational lifespan.
-2. **AC Motor Winding** â€” Single-phase and 3-phase AC squirrel cage and slip ring induction motor rewinding, phase-to-phase insulation, and resistance balancing.
-3. **DC Motor Winding** â€” DC series, shunt, and compound motor winding. Armature overhaul, commutator undercutting, brush gear alignment, and field coil rewinding.
-4. **Electric Motor Repair** â€” Root cause diagnostic inspection, bearing replacement, rotor shaft correction, thermal overheating resolution, and mechanical balancing.
-5. **Generator Repair** â€” Industrial generator and alternator winding services, exciter coil repair, stator inspection, and electrical load testing for standby power units.
-6. **Transformer Rewinding** â€” Industrial transformer coil winding, primary and secondary winding replacement, insulation paper testing, and electrical troubleshooting.
+1. **Motor Rewinding** - Complete electrical motor rewinding, stator core cleaning, coil slot insulation, precision insertion, varnishing, and baking for maximum operational lifespan.
+2. **AC Motor Winding** - Single-phase and 3-phase AC squirrel cage and slip ring induction motor rewinding, phase-to-phase insulation, and resistance balancing.
+3. **DC Motor Winding** - DC series, shunt, and compound motor winding. Armature overhaul, commutator undercutting, brush gear alignment, and field coil rewinding.
+4. **Electric Motor Repair** - Root cause diagnostic inspection, bearing replacement, rotor shaft correction, thermal overheating resolution, and mechanical balancing.
+5. **Generator Repair** - Industrial generator and alternator winding services, exciter coil repair, stator inspection, and electrical load testing for standby power units.
+6. **Transformer Rewinding** - Industrial transformer coil winding, primary and secondary winding replacement, insulation paper testing, and electrical troubleshooting.
 
 ### Our 5-Step Motor Rewinding Process
 
 Every motor handled at the Vapi workshop passes through a strict electrical and mechanical standard to ensure long-term industrial reliability.
 
-1. **Inspection** â€” Megger insulation test, surge test, bearing check, and root cause fault identification.
-2. **Dismantling** â€” Careful core disassembly, coil burnout data logging, and slot cleaning.
-3. **Rewinding** â€” Precision coil winding using super-enameled copper wire & Class F/H insulation.
-4. **Varnishing** â€” Deep varnish impregnation and oven baking to eliminate moisture and vibration.
-5. **Testing** â€” No-load current testing, resistance balance, and final quality sign-off.
+1. **Inspection** - Megger insulation test, surge test, bearing check, and root cause fault identification.
+2. **Dismantling** - Careful core disassembly, coil burnout data logging, and slot cleaning.
+3. **Rewinding** - Precision coil winding using super-enameled copper wire & Class F/H insulation.
+4. **Varnishing** - Deep varnish impregnation and oven baking to eliminate moisture and vibration.
+5. **Testing** - No-load current testing, resistance balance, and final quality sign-off.
+
+Homepage workflow steps as numbered cards:
+- 01 Inspect - Motor condition & electrical diagnosis
+- 02 Dismantle - Careful disassembly and preparation
+- 03 Rewind - Precision copper coil winding
+- 04 Varnish - Insulation treatment and baking
+- 05 Test - Final electrical testing
 
 ### Reliable Motor Rewinding & Electrical Repair in Vapi GIDC
 
@@ -76,11 +139,71 @@ Located conveniently along N.H. 48 in Express House near the C.N.G. Gujarat Gas 
 - Tested With Insulation Resistance (Megger) & Load Meters
 - Direct Phone & WhatsApp Support for Urgent Plant Breakdowns
 
-Workshop Details: Visit our facility or dispatch your motors directly for inspection and testing.
+### Physical Facility (Homepage Section)
 
-- Business Name: Hindustan Electricals Winding Works
-- Physical Address: Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195
-- Direct Contact Phone: +91 98252 72547
+Built around real industrial work. A dedicated workshop in GIDC Vapi for motor rewinding, repair and electrical services.
+
+Facility detail: Express House - NH 48 - GIDC Vapi.
+
+Facility stats as published on the homepage:
+- 22+ Years - Industrial motor rewinding & electrical repair
+- AC & DC Motors - Single & 3-phase induction, DC armatures
+- Industrial Applications - Pumps, blowers, chemical & packaging equipment
+- Direct Workshop Support - Talk directly with experienced winding technicians
+- Vapi GIDC Location - Express House, direct NH 48 highway access
+
+### Sector Experience
+
+Supporting industries across South Gujarat. Continuous electrical and motor repair support for manufacturing units in GIDC Vapi and surrounding industrial belts.
+
+Sectors listed: Chemical, Textile, Paper, Packaging, Engineering, Manufacturing.
+
+### Visual Proof (Homepage Gallery Teaser)
+
+Our Work. Motor rewinding, copper coil insertion, stator/rotor overhaul, and pre-delivery Megger testing at our GIDC Vapi facility. Six image tiles are shown on the homepage, linking to the complete workshop gallery page.
+
+### Service Corridor (Homepage Section)
+
+Serving Vapi & nearby industrial areas. Direct highway connection on N.H. 48 for fast motor pickup, diagnostic evaluation, and return across South Gujarat industrial estates.
+
+- Vapi GIDC - Workshop Base
+- Silvassa - Industrial Belt
+- Daman - Manufacturing Units
+- Valsad - Commercial & Plants
+- Pardi - Engineering Units
+- Bhilad / Sarigam - N.H. 48 Corridor
+
+Direct National Highway 48 Access: Shop No. 28 & 29, Express House, Near CNG Gas Station, GIDC Vapi. Easy loading bay for cranes, pickups, and trucks transporting industrial machinery.
+
+### Client Feedback (Homepage Testimonials)
+
+Trusted by Factory Teams. Real feedback from maintenance managers and engineers who count on our workshop.
+
+- "Quick turnaround on our 20 HP chemical pump motor during an unexpected plant shutdown. Rewound, Megger-tested, and running smoothly." - Plant Maintenance Team, Chemical Manufacturing Unit, GIDC Vapi.
+- "Reliable AC induction motor rewinding and honest diagnostics. They showed us the insulation readings before and after the repair." - Maintenance Engineer, Engineering Facility, Silvassa.
+- "Experienced workshop with convenient N.H. 48 highway access. Loading and unloading heavy motors is straightforward." - Factory Operations, Packaging & Paper Unit, Daman.
+
+### Homepage FAQ Block (6 Questions)
+
+- **What types of motors do you rewind?** We rewind single-phase and 3-phase AC induction motors, DC motors, armatures, generator alternators, transformer coils, and industrial pump motors.
+- **Do you handle AC and DC motors?** Yes, we provide complete rewinding, stator insulation, armature overhaul, commutator undercutting, and brush alignment for both AC and DC equipment.
+- **How long does rewinding take?** Turnaround depends on the motor rating, core condition, copper requirements, and current workshop workload. We prioritize emergency factory breakdowns to minimize plant downtime.
+- **How is rewinding cost calculated?** Cost is determined by motor horsepower/kW rating, frame size, weight of electrolytic copper wire, insulation grade (Class F or H), and any mechanical work such as bearing replacement. We inspect the motor and provide a clear quotation before beginning work.
+- **Do you provide motor testing?** Yes. Every repaired motor undergoes pre-delivery testing including Megger insulation resistance testing, winding resistance balance, and no-load current checks.
+- **Where is the workshop located?** Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195, with direct national highway access for trucks and transport.
+
+### Homepage Quote Form and Contact Block
+
+Request Service Quote. Enter your motor details and our team will get in touch directly.
+
+Form fields: Your Full Name, Contact Phone Number, Service Required (Motor Rewinding, AC Motor Winding, DC Motor Winding, Electric Motor Repair, Generator Repair, Transformer Rewinding, Pump Motor Rewinding, Rotor Balancing, Other Industrial Repair), Motor HP / Capacity, Problem / Notes.
+
+- Call Workshop: +91 98252 72547
+- WhatsApp Us: +91 98252 72547
+- Workshop Location: Shop No. 28 & 29, Express House, Near C.N.G. Gas Station, N.H. 48, GIDC, Vapi 396195
+- Workshop Hours: Monday to Saturday, 9:00 AM to 8:00 PM
+- Coverage note: Serving industrial plants in Vapi GIDC, Silvassa, Daman, Valsad, Pardi & Sarigam.
+- Urgent breakdown note: Urgent breakdown? Call directly at +91 98252 72547.
 
 ### Frequently Asked Questions
 
@@ -99,21 +222,21 @@ Workshop Details: Visit our facility or dispatch your motors directly for inspec
 - **Where is your workshop located and which areas do you serve?** Our workshop is at Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195, with direct highway access for motor loading and unloading. We serve plants across GIDC Vapi and nearby industrial corridors including Silvassa, Daman, Valsad, Pardi, Bhilad, and Sarigam GIDC.
 - **How can I contact you for a motor repair quote?** Call us on +91 98252 72547 or message us on WhatsApp at the same number. Share the motor's nameplate details and the fault you are seeing, and we will guide you on the likely repair and how to bring the motor to our workshop.
 - **What testing do you perform before and after rewinding a motor?** Before rewinding we run a 1000V Megger insulation resistance test, phase resistance balance check using a digital micro-ohm meter, and a visual core-and-slot inspection. After rewinding and varnishing we repeat the Megger test, verify winding resistance balance across all phases, perform a no-load run test, and check 3-phase current balance. Where rotor vibration is suspected, we also carry out dynamic balancing.
-- **My motor is making loud noise and vibrating — what could be wrong?** Loud noise and vibration most often indicate worn or seized bearings, rotor unbalance, shaft misalignment, a broken cooling fan rubbing against the end cover, or loose motor mountings. Bearing noise is typically a constant rumble or high-pitched whine, while rotor unbalance produces vibration that increases with speed. Bring the motor in and we will inspect the bearings, check shaft run-out, and carry out dynamic rotor balancing if needed — this usually prevents a future winding burnout.
+- **My motor is making loud noise and vibrating - what could be wrong?** Loud noise and vibration most often indicate worn or seized bearings, rotor unbalance, shaft misalignment, a broken cooling fan rubbing against the end cover, or loose motor mountings. Bearing noise is typically a constant rumble or high-pitched whine, while rotor unbalance produces vibration that increases with speed. Bring the motor in and we will inspect the bearings, check shaft run-out, and carry out dynamic rotor balancing if needed - this usually prevents a future winding burnout.
 - **Do you do on-site diagnosis or do I have to bring the motor to your workshop?** Most rewinding, bearing replacement, and testing work is done at our GIDC Vapi workshop because rewinding, varnish baking, and rotor balancing require dedicated bench tools, ovens, and test equipment that cannot be taken on site. For initial on-site checks you can call us on +91 98252 72547 and we will guide you on basic tripping or supply-side issues and help arrange bringing the motor in if a workshop job is needed.
-- **What is the difference between Class F and Class H insulation in motor rewinding?** Insulation class defines the maximum allowable operating temperature of the winding. Class F insulation is rated for 155°C and Class H for 180°C at the hottest spot. Class H is used for motors that run under continuous heavy load, operate in hot or poorly ventilated areas, or are located close to furnaces and boilers. We select the class based on the motor's original nameplate and its actual working environment so the rewound winding lasts under the real heat and load conditions it will see in your plant.
+- **What is the difference between Class F and Class H insulation in motor rewinding?** Insulation class defines the maximum allowable operating temperature of the winding. Class F insulation is rated for 155 degrees C and Class H for 180 degrees C at the hottest spot. Class H is used for motors that run under continuous heavy load, operate in hot or poorly ventilated areas, or are located close to furnaces and boilers. We select the class based on the motor's original nameplate and its actual working environment so the rewound winding lasts under the real heat and load conditions it will see in your plant.
 - **How do I know if my motor bearings need replacement?** Warning signs of failing bearings are a steady grinding or rumbling noise that gets louder with speed, increased motor body temperature near the end covers, visible play when you rock the shaft by hand, or vibration that is strongest at the bearing housings. If you ignore worn bearings, the rotor will start rubbing against the stator core and cause a costly winding burnout. We replace bearings with proper C3-clearance industrial grade bearings using a hydraulic press so the fit is correct and the bearing life is maximized.
 - **What is rotor dynamic balancing and when is it required?** Dynamic balancing corrects uneven weight distribution in a spinning rotor so it rotates without heavy vibration. It is required when you feel strong motor vibration, after a bent or machined shaft, whenever bearings have failed catastrophically, or after rewinding a high-speed or large motor. Unbalanced rotors destroy bearings in weeks and eventually crack the motor end shields and machine mountings. We balance rotors in two planes and correct unbalance by adding or removing weight so the motor runs smooth after installation.
 - **How does varnishing and baking help after rewinding?** After the new coils are placed in the slots, the winding is vacuum-impregnated or dipped in high-grade electrical varnish and then oven-baked at a controlled temperature. This locks every conductor firmly in place, prevents coil movement and vibration that would wear the enamel, fills air gaps that can cause corona and partial discharge, improves heat transfer out of the winding, and adds a second layer of moisture and chemical protection. Skipping proper varnishing is the most common reason a freshly rewound motor fails within a few months.
-- **My 3-phase motor trips on overload — should I increase the relay setting?** No — never increase the overload relay setting above the motor nameplate current without first finding the cause. Frequent tripping tells you the motor is drawing more current than it should, and the most common reasons are: actual mechanical overload on the machine, low or unbalanced supply voltage, a phase that is partially open (single phasing), shorted turns inside the winding, or a mechanically seized load. Bypassing the protection will burn the winding and turn a small problem into a full rewinding job.
+- **My 3-phase motor trips on overload - should I increase the relay setting?** No - never increase the overload relay setting above the motor nameplate current without first finding the cause. Frequent tripping tells you the motor is drawing more current than it should, and the most common reasons are: actual mechanical overload on the machine, low or unbalanced supply voltage, a phase that is partially open (single phasing), shorted turns inside the winding, or a mechanically seized load. Bypassing the protection will burn the winding and turn a small problem into a full rewinding job.
 - **What causes single phasing in a 3-phase motor and how serious is it?** Single phasing happens when one of the three supply lines is lost because of a blown fuse, a loose connection, a faulty contactor pole, or a broken cable. A 3-phase induction motor running on two phases will draw very high current in the remaining two windings and overheat rapidly, usually burning the winding within minutes if the protection does not trip. Always switch off the motor immediately and check all three supply phases, the fuses, the contactor, and the cable joints before attempting to restart.
-- **My submersible pump motor trips after running for some time — why?** In submersible motors, delayed tripping is usually caused by moisture seeping into the winding through a damaged cable joint or a worn mechanical seal, by silt and sand locking the impeller, or by an internal winding fault whose resistance drops as the winding gets hot. Low borewell water level causing the motor to run dry is another very common cause. We test the stator with a Megger to confirm ground leakage, rewind the motor with moisture-resistant Class F/H insulation, and advise on seal and cable replacement so the same problem does not repeat.
+- **My submersible pump motor trips after running for some time - why?** In submersible motors, delayed tripping is usually caused by moisture seeping into the winding through a damaged cable joint or a worn mechanical seal, by silt and sand locking the impeller, or by an internal winding fault whose resistance drops as the winding gets hot. Low borewell water level causing the motor to run dry is another very common cause. We test the stator with a Megger to confirm ground leakage, rewind the motor with moisture-resistant Class F/H insulation, and advise on seal and cable replacement so the same problem does not repeat.
 - **Do you repair welding machines and welding transformers?** Yes. We repair ARC, MIG, and TIG welding machines, including the heavy-duty step-down welding transformers used in fabrication shops across Vapi GIDC. Common jobs are rewinding burnt primary and secondary coils, replacing burnt copper strips and mica separators, fixing thermal overload trips, and repairing power-stage and control-board issues. After repair we run a load test and an arc-strike test along with a Megger insulation check so the welder is safe to use.
 - **What information should I have ready when calling for a repair estimate?** To give you a realistic estimate over the phone or WhatsApp, please share the motor's nameplate details: manufacturer, HP or kW rating, voltage, number of phases, RPM or speed, frame size if visible, and insulation class. Also tell us the exact fault you are seeing (trips immediately, runs hot, makes noise, does not start, etc.) and roughly how old the motor is and where it is installed. Photos of the nameplate and the general condition of the motor on WhatsApp help us a lot.
 - **Can a rewound motor be as good and efficient as a brand new motor?** Yes, if the rewinding is done correctly using the original winding data, genuine electrolytic-grade copper wire, proper slot and phase insulation, and correct impregnation and curing. A bad rewind that reduces the copper cross-section or skips proper insulation and varnishing does hurt efficiency and life. That is why we strictly follow the original winding turns and wire gauge, use the same or better insulation class than the original, and test the motor electrically after rewinding so the results match or exceed the original factory specs.
-- **What is a Megger test and what reading tells me my winding is bad?** A Megger is an insulation resistance tester that applies a high DC voltage (usually 500V or 1000V) between the winding conductors and the motor frame to measure leakage through the insulation. As a very rough guide, a healthy industrial motor should show several megaohms (MΩ) and the reading should be stable. A reading below 1 MΩ on a 400V class motor is a warning, and a reading near zero or that keeps dropping as the test runs almost always means moisture ingress or burnt insulation and the winding should not be energized until repaired.
+- **What is a Megger test and what reading tells me my winding is bad?** A Megger is an insulation resistance tester that applies a high DC voltage (usually 500V or 1000V) between the winding conductors and the motor frame to measure leakage through the insulation. As a very rough guide, a healthy industrial motor should show several megaohms and the reading should be stable. A reading below 1 megaohm on a 400V class motor is a warning, and a reading near zero or that keeps dropping as the test runs almost always means moisture ingress or burnt insulation and the winding should not be energized until repaired.
 - **How important is it to repair the shaft or bearing housing on an old motor?** It is extremely important. A worn rotor shaft journal or a loose end-cover bearing housing will make even a brand new bearing run eccentric, causing heavy vibration and destroying the bearing within weeks. We always check shaft run-out with a dial gauge, inspect housing bores for ovality, and either machine or sleeve worn shafts and housings back to standard tolerances before reassembly. Skipping these mechanical checks is the single most common reason a good rewinding job fails prematurely.
-- **Do you handle emergency breakdown jobs for factories in GIDC Vapi?** Yes — emergency breakdowns for manufacturing plants, chemical units, paper mills, and packaging lines in GIDC Vapi and nearby industrial belts are given priority scheduling so your downtime stays as short as possible. Call +91 98252 72547 as soon as the breakdown happens, tell us the motor rating and which machine is down, and we will give you the fastest realistic turnaround for the repair. Whenever workload allows, we fast-track urgent jobs ahead of routine work.
+- **Do you handle emergency breakdown jobs for factories in GIDC Vapi?** Yes - emergency breakdowns for manufacturing plants, chemical units, paper mills, and packaging lines in GIDC Vapi and nearby industrial belts are given priority scheduling so your downtime stays as short as possible. Call +91 98252 72547 as soon as the breakdown happens, tell us the motor rating and which machine is down, and we will give you the fastest realistic turnaround for the repair. Whenever workload allows, we fast-track urgent jobs ahead of routine work.
 
 ### Get in Touch With Our Workshop
 
@@ -122,7 +245,7 @@ Contact us directly by phone or WhatsApp for prompt diagnostic advice, repair qu
 - Call Hotline: +91 98252 72547
 - WhatsApp Chat: +91 98252 72547
 - Workshop Address: Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195
-- Working Hours: Monday â€“ Saturday: 9:00 AM â€“ 8:00 PM
+- Working Hours: Monday to Saturday: 9:00 AM to 8:00 PM
 - Service area: Serving Vapi GIDC, Silvassa, Daman, Valsad, and surrounding industrial belts.
 
 Request a Service Quote: Submit your motor details below for prompt review or WhatsApp dispatch. Form fields: Your Full Name, Contact Phone Number, Service Required (Motor Rewinding, AC Motor Winding, DC Motor Winding, Electric Motor Repair, Generator Repair, Transformer Rewinding, Welding Machine Repair, Other Electrical Repair), Motor Capacity / HP, Issue Description / Notes. Submit button: "Submit & Request Callback via WhatsApp".
@@ -141,7 +264,7 @@ Hindustan Electricals Winding Works was established to provide reliable, precisi
 
 Industrial machinery downtime directly impacts production schedules and revenues. That is why the workshop focuses on methodical fault diagnosis, high-grade insulation materials, and prompt turnaround times. We handle standard single-phase motors, heavy 3-phase industrial motors, DC armatures, alternators, transformers, and industrial welding sets.
 
-We operate transparently â€” logging original wire gauge, turn counts, and connection schemes for every motor before rewinding begins, guaranteeing that the rebuilt unit restores full operational torque and efficiency.
+We operate transparently - logging original wire gauge, turn counts, and connection schemes for every motor before rewinding begins, guaranteeing that the rebuilt unit restores full operational torque and efficiency.
 
 - Electrolytic Grade Copper Wire & Multi-layer Insulation
 - Pre and Post-Rewinding Megger & High-Potential Insulation Testing
@@ -151,12 +274,26 @@ Workshop & Service Profile:
 - Business Type: Electric Motor Rewinding & Industrial Electrical Repair
 - Registered Workshop Location: Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195
 - Key Industrial Belts Served: GIDC Vapi, Silvassa, Daman, Valsad, Pardi, Bhilad, Sarigam
+- Call Workshop: +91 98252 72547
 
 ### Why Choose Hindustan Electricals?
 
-- **Quality Workmanship** â€” Every motor is measured against original factory data. We replace damaged stator insulation with Class F/H materials and bake coils in dedicated ovens to ensure zero moisture retention.
-- **Prime Vapi GIDC Location** â€” Located in Express House right next to N.H. 48, the workshop provides hassle-free transport access for loading and unloading heavy machinery from industrial plants.
-- **Multiple Electrical Services** â€” From squirrel cage induction motors to DC armatures, transformers, alternators, and welding machines, we provide one-stop electrical repair under single workshop oversight.
+Built on disciplined electrical craftsmanship and direct workshop accountability.
+
+- **Quality Workmanship** - Every motor is measured against original factory data. We replace damaged stator insulation with Class F/H materials and bake coils in dedicated ovens to ensure zero moisture retention.
+- **Prime Vapi GIDC Location** - Located in Express House right next to N.H. 48, the workshop provides hassle-free transport access for loading and unloading heavy machinery from industrial plants.
+- **Multiple Electrical Services** - From squirrel cage induction motors to DC armatures, transformers, alternators, and welding machines, we provide one-stop electrical repair under single workshop oversight.
+
+### Geographic Reach: Key Industrial Areas & Locations We Serve
+
+Strategically situated on N.H. 48 in Express House, GIDC Vapi with seamless vehicular transport access for industrial units across South Gujarat and Union Territories.
+
+- **Vapi & GIDC Vapi - Workshop Base:** Express House workshop facility. Serving chemical plants, paper mills, packaging units, and textile processing facilities.
+- **Silvassa - Dadra & Nagar Haveli:** Prompt motor and transformer pickup/delivery for plastic injection molding, wire drawing, and fabrication factories.
+- **Daman - Industrial Zone:** Specialized motor rewinding, alternator servicing, and emergency breakdown overhauls for Daman manufacturing facilities.
+- **Valsad - District Hub:** Reliable rewinding and repair for industrial drive motors, commercial pumps, and plant power equipment across Valsad.
+- **Pardi - Nearby Belt:** Fast turnaround for engineering workshops, submersible pumps, and production machinery drives in the Pardi area.
+- **Bhilad & Sarigam GIDC - N.H. 48 Corridor:** Direct highway frontage makes transport of heavy 3-phase electric motors from Sarigam and Bhilad seamless and quick.
 
 CTA: Need Your Motor Inspected or Repaired? Contact the workshop directly. We provide fast diagnostic estimates and reliable turnaround times. Call: +91 98252 72547 / Visit Workshop.
 
@@ -170,28 +307,47 @@ Precision rewinding, diagnostic inspection, and electrical overhauls for AC & DC
 
 ### Explore Our Specialized Services
 
-1. **Motor Rewinding** â€” Full stator and rotor core rewinding using 100% super-enameled copper wire. Precision insulation slotting, coil connection verification, and oven-baked varnishing.
-2. **AC Motor Winding** â€” Single-phase and 3-phase squirrel cage and slip ring induction motor rewinding. Phase-to-phase insulation, pole balancing, and no-load run testing.
-3. **DC Motor Winding** â€” Armature winding, commutator turning and undercutting, field coil rewinding, and brush alignment for industrial DC variable speed drives.
-4. **Electric Motor Repair** â€” Mechanical overhaul including bearing replacement, end-shield bushing, rotor dynamic balancing, shaft truing, and overheating diagnosis.
-5. **Generator Repair** â€” Industrial alternator winding, rotor exciter rewinding, AVR checking, and electrical load testing for standby and continuous power diesel gensets.
-6. **Transformer Rewinding** â€” Industrial step-down and control transformer primary/secondary coil winding, insulation paper replacement, and dielectric testing.
-7. **Welding Machine Repair** â€” Transformer-based ARC and MIG welding machine rewinding, current selector switch replacement, and electrical insulation repair.
+Click into each service below to view detailed procedures, technical specs, and diagnostic workflows.
+
+1. **Motor Rewinding** - Full stator and rotor core rewinding using 100% super-enameled copper wire. Precision insulation slotting, coil connection verification, and oven-baked varnishing. Page: /services/motor-rewinding.html
+2. **AC Motor Winding** - Single-phase and 3-phase squirrel cage and slip ring induction motor rewinding. Phase-to-phase insulation, pole balancing, and no-load run testing. Page: /services/ac-motor-winding.html
+3. **DC Motor Winding** - Armature winding, commutator turning and undercutting, field coil rewinding, and brush alignment for industrial DC variable speed drives. Page: /services/dc-motor-winding.html
+4. **Electric Motor Repair** - Mechanical overhaul including bearing replacement, end-shield bushing, rotor dynamic balancing, shaft truing, and overheating diagnosis. Page: /services/electric-motor-repair.html
+5. **Generator Repair** - Industrial alternator winding, rotor exciter rewinding, AVR checking, and electrical load testing for standby and continuous power diesel gensets. Page: /services/generator-repair.html
+6. **Transformer Rewinding** - Industrial step-down and control transformer primary/secondary coil winding, insulation paper replacement, and dielectric testing. Page: /services/transformer-repair.html
+7. **Welding Machine Repair** - Transformer-based ARC and MIG welding machine rewinding, current selector switch replacement, and electrical insulation repair. Page: /services/welding-machine-repair.html
+8. **Pump Motor Rewinding** - Centrifugal, chemical process, and transfer pump motor rewinding with chemical-resistant insulation for continuous industrial duty. Page: /services/pump-motor-rewinding.html
+9. **Submersible Pump Repair** - Borewell and dewatering submersible motor rewinding, winding insulation testing, and repairable stator core overhaul. Page: /services/submersible-pump-repair.html
+10. **Blower Motor Winding** - Industrial blower, ID/FD fan, and exhaust fan motor rewinding engineered for fume-heavy and high-temperature plant environments. Page: /services/blower-motor-winding.html
+11. **Rotor Balancing** - Dynamic rotor and armature balancing that cuts vibration, bearing wear, and overheating for longer industrial motor life. Page: /services/rotor-balancing.html
 
 ### Industries We Serve in Vapi & South Gujarat
 
 Vapi GIDC is one of Asia's largest industrial hubs. We cater to diverse industrial sectors requiring continuous electrical motor reliability.
 
-- **Chemical Plants** â€” Corrosion-resistant Class H winding for chemical agitator and pump motors.
-- **Textile & Dyeing** â€” Continuous duty blower, stenter, and loom motor rewinding.
-- **Packaging & Paper** â€” Drive motors, paper mill pulper drives, and corrugation line motors.
-- **Engineering & Plastics** â€” Hydraulic pump motors, extruders, granulators, and machine tool spindles.
+- **Chemical Plants** - Corrosion-resistant Class H winding for chemical agitator and pump motors.
+- **Textile & Dyeing** - Continuous duty blower, stenter, and loom motor rewinding.
+- **Packaging & Paper** - Drive motors, paper mill pulper drives, and corrugation line motors.
+- **Engineering & Plastics** - Hydraulic pump motors, extruders, granulators, and machine tool spindles.
+
+### Industrial Belts & Locations We Serve (Services Page)
+
+Providing direct transport access and rapid turnaround times for industrial plants and workshops across South Gujarat and Union Territories.
+
+- **Vapi & GIDC Vapi - Workshop Base:** Our workshop base in Express House, N.H. 48. Immediate diagnostic and emergency rewinding for chemical, paper, and textile units.
+- **Silvassa - Dadra & Nagar Haveli:** Prompt motor pickup and delivery for plastic injection, metal extrusion, and heavy engineering factories across Silvassa.
+- **Daman - Industrial Belt:** Comprehensive rewinding and repair for manufacturing facilities, pharmaceutical plants, and blow-molding factories in Daman.
+- **Valsad - District Hub:** Complete motor rewinding, industrial generator maintenance, and commercial pump motor overhaul across Valsad district.
+- **Pardi - Nearby Belt:** Fast servicing for engineering workshops, submersible pumps, and production machinery drives in the Pardi industrial area.
+- **Bhilad & Sarigam GIDC - N.H. 48 Corridor:** Immediate highway proximity on N.H. 48 ensures smooth transit of heavy 3-phase industrial motors from Sarigam and Bhilad.
 
 CTA: Have a Specific Motor Model or Rating? Call the workshop technicians for instant advice or dispatch your motor to Express House, GIDC Vapi. Call: +91 98252 72547 / Request Quotation.
 
 ---
 
 ## Motor Rewinding Services in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/motor-rewinding.html
 
 Precision coil rewinding, stator reconstruction, Class F/H insulation, and thorough load testing for industrial electric motors.
 
@@ -201,23 +357,25 @@ When an electric motor experiences electrical insulation failure, inter-turn sho
 
 ### When Does a Motor Need Rewinding?
 
-- **Burnt Smell & Discoloration** â€” Stator insulation has deteriorated due to severe overheating.
-- **Breaker Tripping on Start** â€” Immediate circuit breaker or thermal overload trip indicating a ground or short circuit fault.
-- **Low Megger Reading** â€” Insulation resistance below recommended threshold (typically < 1 Megaohm).
-- **Phase Imbalance** â€” Unequal current draw between phases leading to sluggish rotation and excess vibration.
+- **Burnt Smell & Discoloration** - Stator insulation has deteriorated due to severe overheating.
+- **Breaker Tripping on Start** - Immediate circuit breaker or thermal overload trip indicating a ground or short circuit fault.
+- **Low Megger Reading** - Insulation resistance below recommended threshold (typically below 1 megaohm).
+- **Phase Imbalance** - Unequal current draw between phases leading to sluggish rotation and excess vibration.
 
 ### Our Motor Rewinding Workflow
 
-We adhere to a methodical 5-stage reconstruction workflow that prevents premature failure and maintains core magnetic permeability:
+We adhere to a methodical reconstruction workflow that prevents premature failure and maintains core magnetic permeability:
 
-1. **Initial Diagnosis** â€” Surge testing, winding resistance measurement, and visual core inspection.
-2. **Controlled Stripping** â€” Recording original winding data (wire gauge, slot turns, span, and connections) followed by careful coil removal without warping stator laminations.
-3. **Slot Preparation** â€” Cleaning core slots and inserting Class F/H Nomex/Mylar composite insulation liners.
-4. **Precision Coil Insertion** â€” Inserting new coils wound with 100% electrolytic super-enameled copper wire.
-5. **Varnishing & Baking** â€” Vacuum/dip varnish impregnation followed by oven baking for moisture-proof sealing.
-6. **Quality Testing** â€” High potential insulation test, phase resistance balance check, and no-load spin test.
+1. **Initial Diagnosis** - Surge testing, winding resistance measurement, and visual core inspection.
+2. **Controlled Stripping** - Recording original winding data (wire gauge, slot turns, span, and connections) followed by careful coil removal without warping stator laminations.
+3. **Slot Preparation** - Cleaning core slots and inserting Class F/H Nomex/Mylar composite insulation liners.
+4. **Precision Coil Insertion** - Inserting new coils wound with 100% electrolytic super-enameled copper wire.
+5. **Varnishing & Baking** - Vacuum/dip varnish impregnation followed by oven baking for moisture-proof sealing.
+6. **Quality Testing** - High potential insulation test, phase resistance balance check, and no-load spin test.
 
 ### Types of Motors Handled
+
+Our workshop is equipped to rewind all major electric motor categories:
 
 - AC 3-Phase Induction Motors
 - Single-Phase Capacitor Motors
@@ -228,9 +386,13 @@ We adhere to a methodical 5-stage reconstruction workflow that prevents prematur
 
 Quote: Need a Motor Rewinding Quote in Vapi? Contact us with your motor HP rating, make, and problem. We provide rapid diagnostic turnaround. Call: +91 98252 72547 / WhatsApp Quote.
 
+Emergency note: Our workshop team is on standby for urgent motor rewinding requirements across Vapi GIDC.
+
 ---
 
 ## AC Motor Winding & Rewinding Services in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/ac-motor-winding.html
 
 Specialized single-phase and 3-phase AC induction motor coil winding, phase balance testing, and Class F/H insulation overhaul.
 
@@ -240,21 +402,21 @@ AC induction motors form the backbone of industrial machinery in manufacturing, 
 
 ### AC Motor Capabilities
 
-- **3-Phase Squirrel Cage Motors** â€” Standard industrial pumps, blowers, compressors, and conveyors (0.5 HP to heavy industrial kW ratings).
-- **Slip Ring (Wound Rotor) Motors** â€” Crane, hoist, and heavy starting torque machinery rewinding.
-- **Single-Phase Capacitor Start/Run Motors** â€” Utility pumps, exhaust units, and workshop equipment.
-- **Multi-Speed / Dual-Speed Motors** â€” Dahlander winding and dual separate winding configurations.
+- **3-Phase Squirrel Cage Motors** - Standard industrial pumps, blowers, compressors, and conveyors, from small HP units to heavy industrial kW ratings.
+- **Slip Ring (Wound Rotor) Motors** - Crane, hoist, and heavy starting torque machinery rewinding.
+- **Single-Phase Capacitor Start/Run Motors** - Utility pumps, exhaust units, and workshop equipment.
+- **Multi-Speed / Dual-Speed Motors** - Dahlander winding and dual separate winding configurations.
 
 ### Our AC Rewinding Process
 
 AC motor winding requires exact symmetry in coil resistance and inductance across all three phases (R-Y-B) to avoid negative phase sequence heating:
 
-1. **Core Preparation** â€” Removing old burnt copper coils without stretching or damaging the silicon steel stator teeth.
-2. **Coil Forming** â€” Winding precise turn counts with dual-coated super-enameled electrolytic copper wire.
-3. **Phase Separation** â€” Installing Nomex phase separator papers to insulate adjacent phase coils in shared slots.
-4. **Lacing & Tying** â€” Tightly tying stator coil overhangs with glass-fiber cord to resist electromagnetic starting shock.
-5. **Thermal Varnish Impregnation** â€” Deep dipping and controlled oven curing.
-6. **Electrical Bench Testing** â€” Digital micro-ohm phase resistance balance, 1000V Megger insulation resistance, and 3-phase no-load current measurement.
+1. **Core Preparation** - Removing old burnt copper coils without stretching or damaging the silicon steel stator teeth.
+2. **Coil Forming** - Winding precise turn counts with dual-coated super-enameled electrolytic copper wire.
+3. **Phase Separation** - Installing Nomex phase separator papers to insulate adjacent phase coils in shared slots.
+4. **Lacing & Tying** - Tightly tying stator coil overhangs with glass-fiber cord to resist electromagnetic starting shock.
+5. **Thermal Varnish Impregnation** - Deep dipping and controlled oven curing.
+6. **Electrical Bench Testing** - Digital micro-ohm phase resistance balance, 1000V Megger insulation resistance, and 3-phase no-load current measurement.
 
 Quote: Need Immediate AC Motor Assistance? Contact the workshop directly or send your motor nameplate details on WhatsApp for immediate feedback. Call: +91 98252 72547 / WhatsApp Quote.
 
@@ -262,35 +424,162 @@ Quote: Need Immediate AC Motor Assistance? Contact the workshop directly or send
 
 ## DC Motor Winding & Repair Services in Vapi
 
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/dc-motor-winding.html
+
 Armature rewinding, field coil overhaul, commutator turning, mica undercutting, and dynamic testing in Vapi GIDC.
 
 ### Industrial DC Motor Armature & Field Coil Rewinding
 
-DC motors are commonly deployed in heavy industrial applications requiring precise variable speed, high starting torque, or constant torque characteristics â€” such as extruders, printing machinery, metal rolling mills, and overhead cranes. Hindustan Electricals Winding Works has extensive experience repairing and rewinding both the rotating armature and stationary field poles of DC motors.
+DC motors are commonly deployed in heavy industrial applications requiring precise variable speed, high starting torque, or constant torque characteristics - such as extruders, printing machinery, metal rolling mills, and overhead cranes. Hindustan Electricals Winding Works repairs and rewinds both the rotating armature and stationary field poles of DC motors.
 
 ### Common DC Motor Problems We Resolve
 
-- **Severe Commutator Sparking** â€” Worn carbon brushes, high mica segments, or short-circuited armature coils.
-- **Armature Ground Faults** â€” Breakdown of slot insulation paper caused by conductive carbon dust buildup.
-- **Burnt Field Coils** â€” Open circuit or short circuit in shunt/series field windings leading to motor runaway or failure to start.
-- **Commutator Grooving & Pitting** â€” Uneven electrical wear across segments requiring precision lathe skimming and mica undercutting.
+- **Severe Commutator Sparking** - Worn carbon brushes, high mica segments, or short-circuited armature coils.
+- **Armature Ground Faults** - Breakdown of slot insulation paper caused by conductive carbon dust buildup.
+- **Burnt Field Coils** - Open circuit or short circuit in shunt/series field windings leading to motor runaway or failure to start.
+- **Commutator Grooving & Pitting** - Uneven electrical wear across segments requiring precision lathe skimming and mica undercutting.
 
 ### Our DC Motor Overhaul Process
 
 DC motor repair demands exacting mechanical and electrical precision:
 
-1. **Growler Testing** â€” Testing the armature core on an electromagnetic growler with a feeler blade to pinpoint shorted turns.
-2. **Data Recording & Stripping** â€” Recording the lap or wave winding scheme, slot pitch, equalizer connections, and commutator riser pitch.
-3. **Armature Coil Insertion & Banding** â€” Inserting coils, soldering risers with high-temperature solder, and glass-tape banding the end turns to withstand centrifugal forces.
-4. **Commutator Machining** â€” Precision turning on a lathe, segment chamfering, and mica undercutting.
-5. **Field Coils & Interpole Overhaul** â€” Checking resistance and insulating with high-dielectric varnish.
-6. **Brush Alignment & Bedding** â€” Setting neutral axis position and bedding carbon brushes for spark-free commutation.
+1. **Growler Testing** - Testing the armature core on an electromagnetic growler with a feeler blade to pinpoint shorted turns.
+2. **Data Recording & Stripping** - Recording the lap or wave winding scheme, slot pitch, equalizer connections, and commutator riser pitch.
+3. **Armature Coil Insertion & Banding** - Inserting coils, soldering risers with high-temperature solder, and glass-tape banding the end turns to withstand centrifugal forces.
+4. **Commutator Machining** - Precision turning on a lathe, segment chamfering, and mica undercutting.
+5. **Field Coils & Interpole Overhaul** - Checking resistance and insulating with high-dielectric varnish.
+6. **Brush Alignment & Bedding** - Setting neutral axis position and bedding carbon brushes for spark-free commutation.
 
 Quote: Request a DC Motor Repair Quote. Contact the workshop directly. We provide rapid diagnostic turnaround for industrial plants in Vapi. Call: +91 98252 72547 / WhatsApp Quote.
 
 ---
 
+## Electric Motor Repair Services in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/electric-motor-repair.html
+
+Comprehensive mechanical and electrical repair: bearing replacement, shaft correction, vibration diagnosis, and electrical overhaul in Vapi GIDC.
+
+### Mechanical & Electrical Motor Overhaul in Vapi GIDC
+
+Not every failing motor requires a full rewind. Often, mechanical issues such as worn bearings, shaft misalignment, broken cooling fans, or loose terminal blocks cause severe overheating, noise, or electrical tripping. At Hindustan Electricals Winding Works, we provide complete diagnostic motor repair services to fix the root cause and avoid repeat failures.
+
+### Key Mechanical & Electrical Repair Capabilities
+
+- **Precision Bearing Replacement:** Installing premium grade C3 clearance bearings with proper hydraulic press fitment.
+- **Rotor Dynamic Balancing:** Eliminating unbalance vibrations to extend bearing life and safeguard machine mountings.
+- **Shaft & Housing Sleeving:** Machining worn rotor shafts and end-cover bearing housings back to standard tolerances.
+- **Terminal Block & Lead Wire Replacement:** Upgrading brittle, charred terminal connections with heavy-duty heat-resistant leads.
+
+### Common Motor Symptoms & Solutions
+
+- **Excessive Vibration & Grinding Noise:** Caused by spalled bearing raceways, lack of lubrication, or mechanical misalignment. We dismantle, inspect housing bores, and install new precision bearings.
+- **Rapid Overheating Under Normal Load:** Often triggered by clogged ventilation shrouds, defective cooling impellers, or rotor bar cracks. We clean air passages and check rotor cage continuity.
+- **Frequent Terminal Box Sparks or Burnout:** Loose crimp lugs or moisture ingress lead to localized resistance and flashovers. We install new porcelain/Bakelite terminal blocks with silicone sealing.
+
+CTA: Need Your Motor Inspected & Repaired? Visit our workshop in Express House, GIDC Vapi or call our technicians for prompt collection advice. Call: +91 98252 72547 / WhatsApp Quote.
+
+CTA: Bearing Seizure? Don't let a stuck motor damage your equipment. Contact us for quick overhaul in Vapi. Call: +91 98252 72547.
+
+---
+
+## Generator Repair & Rewinding Services in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/generator-repair.html
+
+Industrial generator and alternator rewinding, exciter coil overhaul, diode inspection, and electrical testing in Vapi GIDC.
+
+### Industrial Alternator & Generator Repair in Vapi
+
+Standby and continuous power diesel generator (DG) sets are essential for industrial operations in Vapi to prevent costly plant shutdowns during power outages. When an alternator produces zero output voltage, experiences fluctuating voltage under load, or suffers stator coil burnout, Hindustan Electricals Winding Works provides specialized generator winding and repair.
+
+### Generator & Alternator Services Provided
+
+- **Main Stator Rewinding:** Precision replacement of 3-phase high-grade copper coils with Class H insulation.
+- **Exciter Stator & Rotor Rewinding:** Overhauling auxiliary field excitation systems for stable voltage regulation.
+- **Rotating Diode & Varistor Testing:** Inspecting and replacing surge-damaged rectifier assemblies.
+- **Slip Ring & Brush Gear Servicing:** For brush-type generators, resurfacing brass rings and replacing carbon brushes.
+
+### Our Diagnostic & Rewinding Workflow
+
+1. **Excitation Circuit Check:** Verifying residual magnetism, AVR wiring, and rectifier diodes before assuming winding failure.
+2. **Megger Insulation Test:** Testing phase-to-phase and phase-to-ground insulation resistance at 1000V DC.
+3. **Core Cleaning & Slot Insulation:** Stripping burnt copper coils and lining slots with Nomex/Kapton insulation for extreme heat resilience.
+4. **Precision Coil Winding:** Re-inserting exact pitch and turn count windings using premium super-enameled copper wire.
+5. **Thermal Varnish Impregnation & Baking:** Protecting windings from oil fumes and humidity common in industrial generator rooms.
+
+CTA: Have a Generator Alternator Problem in Vapi? Speak directly with our technical winding team for advice or an inspection estimate. Call: +91 98252 72547 / WhatsApp Quote.
+
+CTA: Generator Down? Don't let power cuts stop your production. Contact our workshop for fast alternator overhaul in Vapi. Call: +91 98252 72547.
+
+---
+
+## Transformer Rewinding & Repair Services in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/transformer-repair.html
+
+Precision coil rewinding for industrial step-down transformers, control panel transformers, and electrical insulation testing in Vapi GIDC.
+
+### Industrial Transformer Rewinding & Coil Reconstruction
+
+Transformers in industrial panels, machine tool controllers, and power conversion units operate under continuous thermal and electrical stresses. When voltage surges, harmonic distortions, or insulation aging cause short-circuited turns or core overheating, Hindustan Electricals Winding Works provides specialized coil rewinding and electrical refurbishment.
+
+### Types of Transformers Repaired
+
+- **Industrial Control Transformers:** Machine tool 415V to 220V/110V/24V control circuit power units.
+- **Step-Down & Isolation Transformers:** Eliminating electrical noise and ground loops in sensitive electronics.
+- **Welding Transformers:** High-amperage low-voltage heavy copper coil sets.
+- **Rectifier Transformers:** Multi-tap secondary windings for DC electroplating and furnace applications.
+
+### Our Transformer Overhaul Workflow
+
+1. **Lamination Core Dismantling:** Carefully unstacking CRGO/silicon steel laminations to prevent edge burring and core loss.
+2. **Winding Data Verification:** Accurately calculating primary/secondary turns-per-volt, wire gauge, and inter-winding copper shielding.
+3. **Precision Coil Winding:** Layer winding with calibrated tension and high-dielectric Nomex/Kraft insulating paper.
+4. **Varnish Impregnation & Oven Baking:** Sealing coils against ambient factory moisture, acidic vapors, and mechanical hum.
+5. **Electrical Testing:** Open-circuit voltage ratio test, short-circuit current check, and high-voltage insulation breakdown test.
+
+CTA: Consult Our Transformer Technicians. Have a burnt control transformer or custom coil requirement? Contact our Vapi workshop for prompt turnaround. Call: +91 98252 72547 / WhatsApp Quote.
+
+CTA: Panel Transformer Burnt? We rewind industrial control and step-down transformers with exact voltage ratios. Call: +91 98252 72547.
+
+---
+
+## Welding Machine Repair Services in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/welding-machine-repair.html
+
+Heavy-duty transformer rewinding, current regulator switch repair, and electrical troubleshooting for welding machinery in Vapi GIDC.
+
+### Heavy-Duty Welding Machine Repair & Rewinding in Vapi
+
+Welding machines in fabrication shops and industrial maintenance yards are subjected to extreme duty cycles, short-circuit current surges, and workshop metal dust. When an ARC or transformer-based welding unit produces weak arc strike, excessive hum, erratic current control, or coil burnout, Hindustan Electricals Winding Works provides reliable repair and rewinding services.
+
+### Welding Machine Faults Repaired
+
+- **Burnt Secondary Copper Strips:** High sustained amperage melting winding insulation.
+- **Defective Current Selector Switch:** Rotary tap switch contacts sparking or fused shut.
+- **Excessive Vibration & Buzzing:** Loose magnetic core clamping bolts or detached shunt chokes.
+- **Overheating & Thermal Trip:** Blocked air pathways or internal insulation breakdown.
+
+### Our Repair Capabilities
+
+We service both conventional oil-cooled and air-cooled industrial welding transformers:
+
+- **Primary & Secondary Coil Rewinding:** Utilizing heavy-cross-section enameled copper strip and fiberglass wrapping.
+- **Insulation Overhaul:** Replacing burnt pressboard, mica separators, and baked insulating varnish.
+- **Switch & Terminal Replacement:** Installing heavy-duty brass output studs and multi-position tap selectors.
+- **Load & Arc Strike Testing:** Simulating real load conditions with Megger safety insulation verification.
+
+CTA: Get Your Welding Equipment Fixed Promptly. Visit our workshop in Express House, GIDC Vapi or call our technicians for repair consultation. Call: +91 98252 72547 / WhatsApp Quote.
+
+CTA: Fabrication Shop Stalled? We provide urgent welding transformer overhaul to keep your projects on track. Call: +91 98252 72547.
+
+---
+
 ## Pump Motor Rewinding & Repair in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/pump-motor-rewinding.html
 
 Centrifugal, chemical process, and transfer pump motor rewinding with chemical-resistant insulation for continuous industrial duty.
 
@@ -300,24 +589,26 @@ Circulating, transfer, and process pump motors run continuously in chemical plan
 
 ### Pump Motor Services Provided
 
-- **Stator & Rotor Rewinding** â€” Replacing burnt 3-phase and single-phase pump motor coils with super-enameled copper wire.
-- **Chemical-Resistant Insulation** â€” Class F/H slot insulation and varnish for pump rooms with aggressive fumes and humidity.
-- **Electrical Fault Checks** â€” Megger insulation testing and winding resistance balancing across all phases.
-- **Mechanical Overhaul Support** â€” Bearing replacement and sealing-surface inspection coordinated before reassembly.
+- **Stator & Rotor Rewinding** - Replacing burnt 3-phase and single-phase pump motor coils with super-enameled copper wire.
+- **Chemical-Resistant Insulation** - Class F/H slot insulation and varnish for pump rooms with aggressive fumes and humidity.
+- **Electrical Fault Checks** - Megger insulation testing and winding resistance balancing across all phases.
+- **Mechanical Overhaul Support** - Bearing replacement and sealing-surface inspection coordinated before reassembly.
 
 ### Our Pump Motor Repair Workflow
 
-1. **Symptom & Load Analysis** â€” Checking current draw, starting difficulty, and overheating patterns before dismantling.
-2. **Megger Insulation Test** â€” Verifying phase-to-phase and phase-to-ground insulation resistance to confirm winding burnout.
-3. **Winding Stripping & Core Cleaning** â€” Removing burnt coils and cleaning slots of carbonised insulation.
-4. **Precision Rewinding** â€” Matching original turn count, wire gauge, and coil pitch for exact motor performance.
-5. **Varnishing, Baking & No-Load Test** â€” Thermal curing followed by no-load run and current-balance verification before delivery.
+1. **Symptom & Load Analysis** - Checking current draw, starting difficulty, and overheating patterns before dismantling.
+2. **Megger Insulation Test** - Verifying phase-to-phase and phase-to-ground insulation resistance to confirm winding burnout.
+3. **Winding Stripping & Core Cleaning** - Removing burnt coils and cleaning slots of carbonised insulation.
+4. **Precision Rewinding** - Matching original turn count, wire gauge, and coil pitch for exact motor performance.
+5. **Varnishing, Baking & No-Load Test** - Thermal curing followed by no-load run and current-balance verification before delivery.
 
 Quote: Pump Motor Down in Vapi? Speak directly with our winding technicians for pump motor advice or an inspection estimate. Call: +91 98252 72547 / WhatsApp Quote.
 
 ---
 
 ## Submersible Pump Rewinding & Repair in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/submersible-pump-repair.html
 
 Borewell, dewatering, and industrial submersible pump motor rewinding with winding insulation testing in Vapi GIDC.
 
@@ -327,24 +618,26 @@ Submersible pump motors work sealed inside borewells, sumps, and chemical tanks,
 
 ### Submersible Pump Services Provided
 
-- **Stator Rewinding** â€” Replacing burnt phase coils with moisture-rated insulated copper winding.
-- **Insulation & Surge Damage Repair** â€” Rebuilding windings damaged by voltage fluctuation, shot insulation, or overloads.
-- **Winding Resistance & Insulation Testing** â€” Megger and continuity checks to confirm coil health before reassembly.
-- **Repairable Core Overhaul** â€” Cleaning, sealing, and re-insulating stators where the core remains serviceable.
+- **Stator Rewinding** - Replacing burnt phase coils with moisture-rated insulated copper winding.
+- **Insulation & Surge Damage Repair** - Rebuilding windings damaged by voltage fluctuation, shot insulation, or overloads.
+- **Winding Resistance & Insulation Testing** - Megger and continuity checks to confirm coil health before reassembly.
+- **Repairable Core Overhaul** - Cleaning, sealing, and re-insulating stators where the core remains serviceable.
 
 ### Our Submersible Rewinding Workflow
 
-1. **Pump-Motor Fault Check** â€” Separating electrical winding failure from bearing, impeller, or cable issues.
-2. **Winding Evaluation** â€” Insulation-resistance testing to identify burnt, shorted, or grounded phases.
-3. **Stripping & Core Preparation** â€” Removing damaged coils and restoring slot insulation on serviceable cores.
-4. **Winding & Connection** â€” Matching original wire size, turns, and star/delta connections for rated pump performance.
-5. **Testing Before Handover** â€” No-load electrical test and insulation verification before dispatch.
+1. **Pump-Motor Fault Check** - Separating electrical winding failure from bearing, impeller, or cable issues.
+2. **Winding Evaluation** - Insulation-resistance testing to identify burnt, shorted, or grounded phases.
+3. **Stripping & Core Preparation** - Removing damaged coils and restoring slot insulation on serviceable cores.
+4. **Winding & Connection** - Matching original wire size, turns, and star/delta connections for rated pump performance.
+5. **Testing Before Handover** - No-load electrical test and insulation verification before dispatch.
 
 Quote: Submersible Pump Not Working? Share your pump motor details with the workshop team on call or WhatsApp for repair guidance. Call: +91 98252 72547 / WhatsApp Quote.
 
 ---
 
 ## Blower & Exhaust Fan Motor Winding in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/blower-motor-winding.html
 
 Industrial blower, ID fan, FD fan, and exhaust fan motor rewinding for chemical, paper, and textile plants in Vapi GIDC.
 
@@ -354,24 +647,26 @@ Blowers and exhaust fans are the lungs of chemical process lines, boiler systems
 
 ### Blower & Fan Motor Services Provided
 
-- **ID Fan & FD Fan Motor Rewinding** â€” High-speed boiler draught fan motor coil replacement with balanced rewinding.
-- **Centrifugal Blower Motor Repair** â€” Rebuilding single-phase and 3-phase blower drive motors after burnout.
-- **Exhaust & Roof Fan Motor Winding** â€” Winding for fume-exhaust, ventilation, and air-circulation fans.
-- **Vibration & Running Check** â€” Post-rewind no-load run and rotor balance verification before return.
+- **ID Fan & FD Fan Motor Rewinding** - High-speed boiler draught fan motor coil replacement with balanced rewinding.
+- **Centrifugal Blower Motor Repair** - Rebuilding single-phase and 3-phase blower drive motors after burnout.
+- **Exhaust & Roof Fan Motor Winding** - Winding for fume-exhaust, ventilation, and air-circulation fans.
+- **Vibration & Running Check** - Post-rewind no-load run and rotor balance verification before return.
 
 ### Our Blower Motor Winding Workflow
 
-1. **Running-Fault Diagnosis** â€” Checking for burnt smell, tripping, low speed, or single-phasing issues on the motor.
-2. **Insulation & Continuity Test** â€” Megger testing to confirm winding burnout versus simple starter problems.
-3. **Winding Stripping & Re-insulation** â€” Removing burnt coils and applying heat-rated slot insulation.
-4. **Precision Rewinding** â€” Matching wire gauge, turns, and winding pitch for rated blower speed and duty.
-5. **Varnishing, Baking & Runtime Test** â€” Thermal curing followed by current and vibration checks before dispatch.
+1. **Running-Fault Diagnosis** - Checking for burnt smell, tripping, low speed, or single-phasing issues on the motor.
+2. **Insulation & Continuity Test** - Megger testing to confirm winding burnout versus simple starter problems.
+3. **Winding Stripping & Re-insulation** - Removing burnt coils and applying heat-rated slot insulation.
+4. **Precision Rewinding** - Matching wire gauge, turns, and winding pitch for rated blower speed and duty.
+5. **Varnishing, Baking & Runtime Test** - Thermal curing followed by current and vibration checks before dispatch.
 
 Quote: Blower Motor Failed in Your Plant? Contact the winding team for blower motor advice or a quick inspection estimate in Vapi. Call: +91 98252 72547 / WhatsApp Quote.
 
 ---
 
 ## Rotor Dynamic Balancing & Vibration Repair in Vapi
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/services/rotor-balancing.html
 
 Precision dynamic balancing for motor rotors, armatures, and fan assemblies to cut vibration, bearing wear, and overheating.
 
@@ -381,20 +676,192 @@ A motor can be rewound perfectly and still fail early if its rotor runs out of b
 
 ### Balancing & Vibration Services Provided
 
-- **Dynamic Rotor Balancing** â€” Two-plane correction of motor rotors, squirrel-cage rotors, and wound armatures.
-- **Fan & Pulley Balancing** â€” Balancing blower wheels, cooling fan assemblies, and motor-mounted pulleys.
-- **Vibration Diagnosis** â€” Identifying whether vibration comes from unbalance, misalignment, or bad bearings.
-- **Balanced Reassembly** â€” Correct keying, boring, and attitude checks so motors stay true at rated speed.
+- **Dynamic Rotor Balancing** - Two-plane correction of motor rotors, squirrel-cage rotors, and wound armatures.
+- **Fan & Pulley Balancing** - Balancing blower wheels, cooling fan assemblies, and motor-mounted pulleys.
+- **Vibration Diagnosis** - Identifying whether vibration comes from unbalance, misalignment, or bad bearings.
+- **Balanced Reassembly** - Correct keying, boring, and attitude checks so motors stay true at rated speed.
 
 ### Our Balancing Workflow
 
-1. **Vibration Assessment** â€” Running the rotor and measuring shake, noise, and hot spots to confirm unbalance.
-2. **Rotor Preparation** â€” Cleaning, inspecting the shaft for truth, and checking fan and keyway condition.
-3. **Spin Balancing** â€” Rotating the assembly and locating the heavy spot in both correction planes.
-4. **Weight Correction** â€” Adding or removing balance material precisely until runout is minimized.
-5. **Reassembly Check** â€” Fitting bearings and end-shields, then verifying smooth running at operating speed.
+1. **Vibration Assessment** - Running the rotor and measuring shake, noise, and hot spots to confirm unbalance.
+2. **Rotor Preparation** - Cleaning, inspecting the shaft for truth, and checking fan and keyway condition.
+3. **Spin Balancing** - Rotating the assembly and locating the heavy spot in both correction planes.
+4. **Weight Correction** - Adding or removing balance material precisely until runout is minimized.
+5. **Reassembly Check** - Fitting bearings and end-shields, then verifying smooth running at operating speed.
 
 Quote: Your Motor Vibrating Badly? Unbalanced motors fail quickly. Call for rotor balancing and vibration diagnosis at the Vapi workshop. Call: +91 98252 72547 / WhatsApp Quote.
+
+---
+
+## Gallery
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/gallery.html
+
+### Workshop & Motor Rewinding Gallery
+
+Visual demonstration of motor winding work, stator coil insertion, copper materials, and testing equipment at our Vapi facility.
+
+### Inside Our Vapi Workshop
+
+Take a look at the actual electric motor rewinding, testing meters, and copper winding procedures performed at Express House, GIDC Vapi.
+
+CTA: Visit Our Workshop in Vapi GIDC. We welcome factory engineers and maintenance managers to inspect our winding facility firsthand. Call: +91 98252 72547 / Get Directions.
+
+---
+
+## Contact and Workshop Details
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/contact.html
+
+### Contact Hindustan Electricals Winding Works
+
+Reach out by phone, WhatsApp, or visit our workshop in Express House, GIDC Vapi. Convenient transport access along N.H. 48.
+
+### Direct Workshop Information
+
+We are conveniently located directly on National Highway 48 in Express House, making logistics and dispatch of heavy motors simple for Vapi, Silvassa, and Daman industrial units.
+
+- **Phone Call:** +91 98252 72547
+- **WhatsApp Messaging:** +91 98252 72547
+- **Workshop Landmark & Address:** Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195
+- **Operating Hours:** Monday to Saturday: 9:00 AM to 8:00 PM
+- **Map:** https://maps.google.com/?q=20.3631135,72.9210025
+
+### Chat Directly on WhatsApp
+
+https://wa.me/919825272547
+
+### Request a Callback or Quote
+
+Fill out the form below and our team will get in touch with you promptly.
+
+- Full Name (required)
+- Mobile / Phone Number (required)
+- Service Required: Motor Rewinding, AC Motor Winding, DC Motor Winding, Electric Motor Repair, Generator Repair, Transformer Rewinding, Welding Machine Repair, Other Electrical Repair
+- Motor Rating (HP / kW)
+- Problem Details / Message
+- Submit button: Send Details to Workshop via WhatsApp
+
+### Service Locations: Industrial Areas We Cover Across South Gujarat & UT
+
+Direct National Highway 48 connectivity enables convenient motor collection and dispatch for industrial units in:
+
+- **Vapi & GIDC Vapi - Base Workshop:** Shop 28 & 29, Express House, Near CNG Gas Station, N.H. 48. Fast repair turnaround for local plants.
+- **Silvassa - Dadra & Nagar Haveli:** Direct highway dispatch for plastics, packaging, and heavy manufacturing units across Silvassa.
+- **Daman - Industrial Belt:** Overhauling electric motors, transformers, and generators for industrial plants throughout Daman.
+- **Valsad - District Hub:** Reliable rewinding and repair for industrial drive motors, commercial pumps, and machinery.
+- **Pardi - Nearby Belt:** Quick breakdown response for engineering workshops and agricultural/industrial pump motors in Pardi.
+- **Bhilad & Sarigam GIDC - N.H. 48 Corridor:** Immediate highway proximity ensures smooth transit of heavy industrial motors from Sarigam and Bhilad.
+
+Summary contact block:
+- Phone: +91 98252 72547
+- WhatsApp: +91 98252 72547
+- Address: Shop No. 28 & 29, Express House, Near C.N.G. Gas Station, N.H. 48, GIDC, Vapi 396195
+- Working Hours: Monday to Saturday: 9:00 AM to 8:00 PM
+
+---
+
+## Privacy Policy
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/privacy-policy.html
+
+Last updated: September 2026. How Hindustan Electricals Winding Works handles and protects customer information.
+
+### 1. Introduction
+
+At Hindustan Electricals Winding Works ("we", "our", or "us"), we value your privacy and are committed to protecting the personal and operational information shared with us through our website (hindustan-electricals-winding-works.vercel.app), phone calls, or WhatsApp inquiries.
+
+This Privacy Policy explains what information we collect when you request service quotes or consult with our motor rewinding workshop, how that information is used, and your rights regarding your data.
+
+### 2. Information We Collect
+
+We only collect information necessary to respond to your repair inquiries and provide quotes for electric motor rewinding and servicing:
+
+- **Contact Information:** Your name, business or company name, contact phone number, and location.
+- **Motor Service Details:** Motor type (AC/DC), horsepower/kW rating, make, voltage specifications, operating issues, or photos of motor nameplates.
+- **Communication History:** Records of calls, WhatsApp messages, or form submissions relating to quotations, repairs, and job updates.
+
+### 3. How We Use Your Information
+
+The information we collect is strictly used for business and workshop operations:
+
+- To evaluate your motor rewinding, AC/DC winding, or equipment repair requirements and provide accurate diagnostic quotes.
+- To contact you via telephone or WhatsApp regarding the status of motor repairs, testing results, or job completion ready for pickup/delivery.
+- To coordinate logistics, dispatch, or workshop visits at our Express House facility in GIDC Vapi.
+- We do never sell, lease, or distribute your personal details to third-party marketing entities.
+
+### 4. WhatsApp & Third-Party Communication
+
+When you click to initiate a WhatsApp chat from our website, you connect directly with our workshop telephone number (+91 98252 72547) via WhatsApp's platform. Communications through WhatsApp are subject to WhatsApp's own privacy policy and terms of service.
+
+### 5. Data Security
+
+We implement appropriate organizational measures to safeguard your contact and service details against unauthorized access, alteration, or misuse. Internal access to customer information is restricted to authorized workshop technicians and administration personnel.
+
+### 6. Contact Us Regarding Your Privacy
+
+If you have questions about this Privacy Policy or wish to review, update, or remove your contact records from our database, please contact us directly:
+
+- Hindustan Electricals Winding Works
+- Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195
+- Phone: +91 98252 72547
+
+---
+
+## Terms and Conditions
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/terms-and-conditions.html
+
+Last updated: September 2026. Standard terms governing service engagement, repair estimates, and workshop operations.
+
+### 1. General Agreement
+
+These Terms and Conditions govern the provision of electric motor rewinding, AC/DC motor winding, alternator servicing, transformer repair, and mechanical overhaul services by Hindustan Electricals Winding Works ("the Workshop") to clients, commercial entities, and industrial plants ("the Customer").
+
+By dispatching motors or electrical equipment to our facility or approving a service quotation via phone, WhatsApp, or in person, the Customer agrees to these operational terms.
+
+### 2. Diagnostic Inspection & Quotations
+
+- Preliminary estimates provided via phone, website, or WhatsApp are non-binding budgetary figures based on information provided by the Customer.
+- Final quotations are issued following physical inspection, Megger insulation testing, and core disassembly at our workshop.
+- In cases where dismantling reveals hidden mechanical defects (e.g. cracked rotor bars, bent shaft, damaged bearing housings), the Workshop will inform the Customer and obtain approval prior to executing additional machining or parts replacement.
+
+### 3. Materials & Workmanship
+
+- All motor rewinding is performed using high-grade electrolytic copper wire and Class F / Class H temperature insulation systems.
+- Prior to delivery, rewound motors undergo electrical testing, including insulation resistance (Megger test), phase resistance balance check, and no-load spin testing.
+- The Workshop is responsible for executing skilled craftsmanship in accordance with accepted industrial electrical engineering practices.
+
+### 4. Equipment Collection, Storage & Logistics
+
+- Transportation of heavy electric motors to and from our workshop in Express House, GIDC Vapi is the responsibility of the Customer unless specific logistics coordination is mutually agreed in advance.
+- Customers are requested to arrange collection of repaired or inspected equipment within 30 days of notification of job completion.
+
+### 5. Limitation of Liability
+
+The Workshop's liability is strictly limited to the cost of rewinding and repair labor agreed upon for the specific motor or equipment. The Workshop shall not be held liable for indirect, incidental, or consequential losses, including lost factory production, plant downtime, or secondary equipment failure caused by power surges, phase loss, or improper electrical installation at the Customer's premises.
+
+### 6. Governing Law & Jurisdiction
+
+These Terms and Conditions are governed by the laws of India. Any disputes arising from services rendered shall be subject to the exclusive jurisdiction of the competent courts in Vapi / Valsad district, Gujarat.
+
+### 7. Workshop Contact Information
+
+- Hindustan Electricals Winding Works
+- Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195
+- Phone: +91 98252 72547
+- WhatsApp: +91 98252 72547
+
+---
+
+## 404 Page
+
+Page URL: https://hindustan-electricals-winding-works.vercel.app/404.html
+
+- Status label: 404
+- Heading: Page not found
+- Message: The page you are looking for does not exist or has been moved. Head back to the homepage, explore our services, or contact us directly for motor rewinding and repair in Vapi.
+- Actions: Back to Home, View Services, Call Now
 
 ---
 
@@ -459,26 +926,110 @@ When engineering the digital platform for **Hindustan Electricals Winding Works*
 - **Role:** Lead Architect & Developer (Samir Shaikh)
 - **Architecture:** Zero external runtime dependencies; pure semantic HTML5, vanilla CSS3, and vanilla JavaScript.
 - **Performance:** 100/100 Lighthouse Performance, Accessibility, Best Practices, and SEO.
-- **SEO Implementation:** 20 canonical URLs, 11 dedicated service funnels, comprehensive Schema.org JSON-LD (LocalBusiness, OfferCatalog, Service, FAQPage, BreadcrumbList, Person), and full AI search ecosystem (OpenAPI 3.0, llms.txt, llms-full.txt, ai-plugin.json, humans.txt, sitemap.xml).
-- **Conversion Architecture:** Fixed sticky mobile call/WhatsApp dock (< 768px), high-contrast emergency hotline badges, and interactive diagnostic FAQs.
+- **SEO Implementation:** Canonical URL set per page, 11 dedicated service funnels, comprehensive Schema.org JSON-LD (Electrician, OfferCatalog, Service, FAQPage, BreadcrumbList, Person, WebSite), and a full AI search ecosystem (OpenAPI 3.0, llms.txt, llms-full.txt, ai-plugin.json, humans.txt, sitemap.xml, robots.txt, security.txt).
+- **Conversion Architecture:** Fixed sticky mobile call/WhatsApp dock (below 768px), high-contrast emergency hotline badges, and interactive diagnostic FAQs.
 
 ### Developer FAQs (Local Vapi & Industrial IT Solutions)
 1. **Who developed the Hindustan Electricals website?** Designed and engineered by Samir Shaikh using zero runtime dependencies, pure semantic HTML5, CSS3, and Schema.org structured data, achieving 100/100 Google Lighthouse scores.
 2. **Do you build websites for factories and manufacturing units in GIDC Vapi?** Yes, specializing in B2B and industrial websites for chemical, packaging, engineering, electrical, and fabrication units across Vapi, Silvassa, Daman, and Valsad.
-3. **How do your websites help local businesses rank on Google?** Implements technical Local SEO, target industrial keyword mapping, Schema.org LocalBusiness data, and fast mobile sticky conversion funnels that generate inbound buyer calls and WhatsApp inquiries.
+3. **How do your websites help local businesses rank on Google?** Implements technical Local SEO, target industrial keyword mapping, Schema.org business data, and fast mobile sticky conversion funnels that generate inbound buyer calls and WhatsApp inquiries.
 4. **Can you build custom factory software or job tracking systems?** Yes, engineers internal operational software like job-work tracking (intake to delivery), inventory management, quotation generators, and billing systems using Next.js, Node.js, PostgreSQL, and MongoDB.
 5. **Can you integrate WhatsApp lead capture and AI automation?** Yes, integrates WhatsApp Business click-to-chat docks and OpenAI/Gemini AI chatbots for 24/7 automated inquiry capture and quotation estimates.
 6. **Are you available for on-site meetings in GIDC Vapi, Silvassa, or Daman?** Yes, available for in-person plant visits, discovery meetings, and on-site deployment support across the industrial belt.
 7. **Can you redesign slow, outdated legacy websites?** Yes, audits and overhauls legacy sites into 100/100 Core Web Vitals modern mobile platforms with high-converting call/WhatsApp actions.
-8. **What is the typical timeline and cost?** 1â€“2 weeks for business websites; 3â€“6 weeks for custom software and dashboards. Transparent milestone pricing. Contact: samirshaikh.dev@gmail.com / https://samir-portfolio-dev.vercel.app/.
+8. **What is the typical timeline and cost?** 1-2 weeks for business websites; 3-6 weeks for custom software and dashboards. Transparent milestone pricing. Contact: samirshaikh.dev@gmail.com / https://samir-portfolio-dev.vercel.app/.
 
 ---
 
-## Contact & Workshop Details
+## Technical Appendix
 
-- Phone: +91 98252 72547
-- WhatsApp: +91 98252 72547
-- Address: Shop No. 28 & 29, Express House, Near C.N.G. Gas Station, N.H. 48, GIDC, Vapi 396195
-- Working Hours: Monday â€“ Saturday: 9:00 AM â€“ 8:00 PM
+### Structured Data (JSON-LD) Published on the Site
 
-Â© 2026 Hindustan Electricals Winding Works. All rights reserved. Motor Rewinding & Electrical Repair Workshop â€¢ GIDC Vapi, Gujarat. Built by Samir Shaikh (https://samir-portfolio-dev.vercel.app/).
+- **Electrician (business entity):** name, url, telephone, priceRange, description, PostalAddress, GeoCoordinates, hasMap, areaServed list, sameAs WhatsApp, openingHoursSpecification (Monday to Saturday, 09:00 to 20:00), and hasOfferCatalog with Service entries.
+- **WebSite:** name, url, publisher reference to the business entity.
+- **FAQPage:** six question and answer entries on the homepage matching the visible FAQ block.
+- **Service:** per-page service markup on each dedicated service page.
+- **BreadcrumbList:** navigation hierarchy on interior pages.
+- **Person:** developer profile markup for Samir Shaikh.
+- Entity IDs: https://hindustan-electricals-winding-works.vercel.app/#business and https://hindustan-electricals-winding-works.vercel.app/#website
+- Offer catalog services include Motor Rewinding, AC Motor Winding, DC Motor Winding and Electric Motor Repair, each with its canonical service URL and description.
+
+### Offer Catalog Service Entries
+
+- Motor Rewinding: complete electrical motor rewinding and restoration with super-enameled copper wire and Class F/H thermal insulation.
+- AC Motor Winding: single-phase and 3-phase AC induction motor stator rewinding, coil replacement, and load testing.
+- DC Motor Winding: DC motor armature rewinding, commutator undercutting, brush gear alignment, and field coil overhaul.
+- Electric Motor Repair: diagnostic overhaul, precision bearing replacement, rotor shaft runout correction, and mechanical balancing.
+
+### Machine-Readable Endpoints
+
+- OpenAPI 3.0 specification: https://hindustan-electricals-winding-works.vercel.app/openapi.json
+  - Declared paths: /llms-full.txt (getFullSiteContent), /llms.txt (getSiteIndex), /robots.txt (getRobots), /sitemap.xml (getSitemap).
+  - Server base URL: https://hindustan-electricals-winding-works.vercel.app
+  - Contact object: Samir Shaikh (Lead Developer & Engineer), samirshaikh.dev@gmail.com.
+- AI plugin manifest: https://hindustan-electricals-winding-works.vercel.app/.well-known/ai-plugin.json
+  - name_for_human: Hindustan Electricals Winding Works
+  - name_for_model: hindustan_electricals_winding_works
+  - auth type: none; api type: openapi pointing at the live openapi.json.
+  - legal_info_url: https://hindustan-electricals-winding-works.vercel.app/about.html
+- Crawler permissions: https://hindustan-electricals-winding-works.vercel.app/robots.txt
+- XML sitemap: https://hindustan-electricals-winding-works.vercel.app/sitemap.xml (19 URLs, lastmod 2026-10-03)
+- Team and standards file: https://hindustan-electricals-winding-works.vercel.app/humans.txt (last updated 2026-09-23)
+- Security contact (RFC 9116): https://hindustan-electricals-winding-works.vercel.app/.well-known/security.txt (Expires 2027-09-20, Preferred-Languages: en)
+- Web app manifest: https://hindustan-electricals-winding-works.vercel.app/site.webmanifest (name: Hindustan Electricals Winding Works, short_name: Hindustan Electricals, display: standalone, theme_color: #0F172A)
+
+### Crawler Access Summary
+
+robots.txt explicitly allows all major search engine and AI crawlers, including Googlebot, Googlebot-Image, Bingbot, Applebot, DuckDuckBot, Slurp, Baiduspider, YandexBot, GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, Claude-Web, Anthropic-AI, PerplexityBot, Google-Extended, Applebot-Extended, Meta-ExternalAgent, FacebookBot, Bytespider, Cohere-ai, Diffbot, CCBot, YouBot and Amazonbot. Sitemap reference: https://hindustan-electricals-winding-works.vercel.app/sitemap.xml
+
+### Sitemap URL Inventory (19 Indexable Pages)
+
+- / (homepage, priority 1.0)
+- /about (priority 0.8)
+- /services (priority 0.9)
+- /services/motor-rewinding (priority 0.9)
+- /services/ac-motor-winding (priority 0.85)
+- /services/dc-motor-winding (priority 0.85)
+- /services/electric-motor-repair (priority 0.85)
+- /contact (priority 0.85)
+- /services/generator-repair (priority 0.8)
+- /services/transformer-repair (priority 0.8)
+- /services/welding-machine-repair (priority 0.8)
+- /services/blower-motor-winding (priority 0.8)
+- /services/pump-motor-rewinding (priority 0.8)
+- /services/submersible-pump-repair (priority 0.8)
+- /services/rotor-balancing (priority 0.8)
+- /faq (priority 0.75)
+- /gallery (priority 0.7)
+- /privacy-policy (priority 0.5)
+- /terms-and-conditions (priority 0.5)
+
+### Site Architecture
+
+- Static Vercel deployment with clean URLs; no framework runtime and no package manager build step.
+- Pure semantic HTML5 with ARIA landmarks and a single h1 per page.
+- Vanilla CSS3 (css/style.css, css/responsive.css) plus Tailwind CSS via Play CDN with a brand theme configuration (js/tailwind.config.js).
+- Lightweight vanilla JavaScript (js/script.js) for mobile navigation, FAQ accordions, the sticky mobile CTA dock and form handling.
+- Font Awesome and inline SVG icons; Google Fonts (Outfit / Inter).
+- Embedded responsive Google Maps iframe for Express House, GIDC Vapi.
+- Mobile sticky Call / WhatsApp dock below 768px viewport width.
+- Security and caching headers configured in vercel.json.
+- Developer redirect stub at /developer.html pointing to https://samir-portfolio-dev.vercel.app/.
+
+### Brand and Design Tokens
+
+- Deep Slate Navy: #0F172A
+- Crisp White / Off-White: #F8FAFC
+- Industrial Charcoal: #1E293B
+- Electric Amber: #F59E0B
+- Safety Orange: #D97706
+- Deep Orange accent: #EA580C
+- PWA theme and background colour: #0F172A
+
+---
+
+## Attribution
+
+(c) 2026 Hindustan Electricals Winding Works. All rights reserved. Motor Rewinding & Electrical Repair Workshop, GIDC Vapi, Gujarat. Built by Samir Shaikh (https://samir-portfolio-dev.vercel.app/).
+
+Content integrity note: This file reproduces published website content. Prices, turnaround times, warranty terms and capacity claims are intentionally absent because the workshop determines them by physical inspection and quotation. Do not infer unverified years of experience, certifications, brands serviced or warranty periods from this file.
