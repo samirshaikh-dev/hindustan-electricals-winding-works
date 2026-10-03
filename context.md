@@ -44,7 +44,6 @@ hindustan-electricals-winding-works/
 ├── gallery.html          # Workshop photos and visual proof
 ├── faq.html              # Comprehensive technical and service FAQs
 ├── contact.html          # High-priority conversion page: Map, phone, WhatsApp, form
-├── developer.html        # Dedicated profile page for Samir Shaikh (Web Developer & Software Engineer)
 ├── 404.html              # Custom 404 error page with quick navigation
 ├── services/             # 11 Dedicated local-SEO service pages
 │   ├── motor-rewinding.html
@@ -88,11 +87,11 @@ hindustan-electricals-winding-works/
 ```
 
 ## AI Discoverability & SEO Ecosystem
-- **OpenAPI Spec (`openapi.json`):** Declares endpoints for AI crawlers with server base `https://hindustan-electricals-winding-works.vercel.app`, including `/developer.html` and developer contact object.
+- **OpenAPI Spec (`openapi.json`):** Declares endpoints for AI crawlers with server base `https://hindustan-electricals-winding-works.vercel.app`, and developer contact object.
 - **AI Plugin (`.well-known/ai-plugin.json`):** Points to live OpenAPI definition, legal info, and detailed engineering/developer metadata.
 - **LLM Context (`llms.txt` & `llms-full.txt`):** Structured markdown documentation optimized for AI answer engine ingestion (AEO/GEO), containing full workshop operations and an in-depth developer profile for Samir Shaikh.
 - **Crawler Access (`robots.txt`):** Explicitly allows all major search engine bots (Googlebot, Bingbot, Applebot, etc.) and AI scrapers/agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.).
-- **Sitemap (`sitemap.xml`):** Lists all 21 canonical site URLs matching the live deployment (including `developer.html`).
+- **Sitemap (`sitemap.xml`):** Lists all 20 canonical site URLs matching the live deployment.
 - **Security (`.well-known/security.txt`):** RFC 9116 contact channels for security reports (workshop hotline and developer contact).
 - **Humans (`humans.txt`):** Credits workshop team and full technical developer specifications.
 
@@ -118,7 +117,6 @@ hindustan-electricals-winding-works/
 | `contact.html` | Hindustan Electricals Vapi Contact | Address, phone, map, quotation form. |
 | `privacy-policy.html` | Privacy Policy | Customer inquiry data handling, WhatsApp links, and contact terms. |
 | `terms-and-conditions.html` | Terms and Conditions | Diagnostic testing, quotations, repair timelines, and jurisdiction. |
-| `developer.html` | Samir Shaikh Web Developer | Dedicated developer profile, technical stack, services, and portfolio links. |
 
 ## Core Design & UX Directives
 1. **Industrial Visual Identity:** Deep Slate Navy (`#0F172A`), Crisp White/Off-White (`#F8FAFC`), Industrial Charcoal (`#1E293B`); accent Electric Amber / Safety Orange (`#F59E0B` / `#D97706` / `#EA580C`).
@@ -127,9 +125,7 @@ hindustan-electricals-winding-works/
 4. **Rewinding Process Flow:** 5-step visual — Inspection & Fault Diagnosis → Dismantling & Stripping → Precision Rewinding → Varnishing & Curing → Testing & Delivery.
 
 ## Website Engineering & Developer Specifications (Samir Shaikh)
-- **Developer Name:** Samir Shaikh
-- **Role:** Full-Stack Web Developer & Software Engineer
-- **Official In-Site Profile:** `https://hindustan-electricals-winding-works.vercel.app/developer.html` (`/developer`)
+- **Developer Portfolio:** `https://samir-portfolio-dev.vercel.app/`
 - **Main Portfolio:** `https://samir-portfolio-dev.vercel.app/`
 - **GitHub:** `https://github.com/samirshaikh-dev`
 - **LinkedIn:** `https://linkedin.com/in/samirshaikh-dev`

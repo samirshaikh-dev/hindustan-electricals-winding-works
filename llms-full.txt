@@ -403,7 +403,6 @@ Quote: Your Motor Vibrating Badly? Unbalanced motors fail quickly. Call for roto
 ### Overview
 - **Developer Name:** Samir Shaikh
 - **Professional Title:** Full-Stack Web Developer & Software Engineer
-- **Official In-Site Profile:** https://hindustan-electricals-winding-works.vercel.app/developer.html
 - **Primary Portfolio Website:** https://samir-portfolio-dev.vercel.app/
 - **GitHub Profile:** https://github.com/samirshaikh-dev
 - **LinkedIn Profile:** https://linkedin.com/in/samirshaikh-dev

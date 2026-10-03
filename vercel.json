@@ -1,4 +1,4 @@
-﻿{
+{
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
@@ -126,6 +126,16 @@
     {
       "source": "/index",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/developer",
+      "destination": "https://samir-portfolio-dev.vercel.app/",
+      "permanent": true
+    },
+    {
+      "source": "/developer.html",
+      "destination": "https://samir-portfolio-dev.vercel.app/",
       "permanent": true
     }
   ]

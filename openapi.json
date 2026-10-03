@@ -1,4 +1,4 @@
-﻿{
+{
   "openapi": "3.0.0",
   "info": {
     "title": "Hindustan Electricals Winding Works",
@@ -56,23 +56,6 @@
         "responses": {
           "200": {
             "description": "sitemap.xml (application/xml)"
-          }
-        }
-      }
-    },
-    "/developer.html": {
-      "get": {
-        "tags": ["Developer & Engineering"],
-        "summary": "Developer Profile & Engineering Overview - Samir Shaikh",
-        "description": "Dedicated professional profile of Samir Shaikh, full-stack web developer and software engineer who architected and built the Hindustan Electricals website. Covers full technology stack (Next.js, React, Node.js, TypeScript, PostgreSQL, MongoDB, AI/LLM integrations, REST APIs), Core Web Vitals optimization (100/100), portfolio showcase, and custom software services for industrial enterprises in GIDC Vapi, Silvassa, and Daman.",
-        "operationId": "getDeveloperProfile",
-        "externalDocs": {
-          "description": "Samir Shaikh Portfolio Website",
-          "url": "https://samir-portfolio-dev.vercel.app/"
-        },
-        "responses": {
-          "200": {
-            "description": "Developer profile, technical skills, portfolio, and contact details (text/html)"
           }
         }
       }

@@ -7,7 +7,6 @@ Location: Shop No. 28 & 29, Express House, GIDC, Vapi, Gujarat 396195, India
 Developer: Samir Shaikh
 Role: Full-Stack Web Developer & Software Engineer
 Email: samirshaikh.dev@gmail.com
-In-Site Profile: https://hindustan-electricals-winding-works.vercel.app/developer.html
 Portfolio Website: https://samir-portfolio-dev.vercel.app/
 GitHub: https://github.com/samirshaikh-dev
 LinkedIn: https://linkedin.com/in/samirshaikh-dev
