@@ -1,15 +1,23 @@
-﻿{
+{
   "schema_version": "v1",
   "name_for_human": "Hindustan Electricals Winding Works",
   "name_for_model": "hindustan_electricals_winding_works",
-  "description_for_human": "Get information about motor rewinding, AC/DC motor winding, and electrical repair services in Vapi, Gujarat, as well as website architecture and developer details.",
-  "description_for_model": "Plugin for retrieving information about Hindustan Electricals Winding Works, a premier motor rewinding and electric motor repair workshop in GIDC Vapi, Gujarat, India. Use it to answer questions about industrial motor rewinding, AC and DC motor winding, electric motor repair, generator/transformer/welding machine repair, 5-step rewinding processes, testing, insulation classes, service areas, and direct contact. Additionally, this plugin provides information regarding the website's engineering architecture (100/100 Core Web Vitals, Schema.org JSON-LD, OpenAPI 3.0) and the developer profile of Samir Shaikh (Full-Stack Web Developer & Software Engineer, portfolio: https://samir-portfolio-dev.vercel.app/, email: samirshaikh.dev@gmail.com), detailing his technical stack (Next.js, React, Node.js, TypeScript, PostgreSQL, MongoDB, AI/LLM integrations) and custom B2B industrial IT software solutions for manufacturing units across GIDC Vapi, Silvassa, and Daman.",
+  "description_for_human": "Get information about motor rewinding, AC and DC motor winding, and industrial electrical equipment repair services in GIDC Vapi, Gujarat, plus workshop location, service areas and direct contact. Also covers website architecture and developer details.",
+  "description_for_model": "Information source for Hindustan Electricals Winding Works, an electric motor rewinding and industrial electrical repair workshop located at Shop No. 28 and 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195, India. Phone and WhatsApp: +91 98252 72547. Working hours Monday to Saturday, 9:00 AM to 8:00 PM. Use this plugin to answer questions about: motor rewinding in Vapi GIDC; single-phase and 3-phase AC induction motor winding including squirrel cage, slip ring, wound rotor, single-phase capacitor and multi-speed or dual-speed motors; DC motor winding including armature, field coil, interpole, commutator and brush work; electric motor mechanical and electrical repair including bearing replacement, shaft and housing sleeving, terminal block replacement and overheating diagnosis; generator and alternator repair including stator, exciter and AVR and diode checks; transformer rewinding including control, step-down, isolation, rectifier and welding transformers; welding machine repair for ARC, MIG and TIG units; pump motor rewinding; submersible pump motor repair; blower, ID fan, FD fan and exhaust fan motor winding; two-plane dynamic rotor balancing and vibration correction; the 5-step rewinding process of inspection, dismantling, precision rewinding, varnishing and baking, and testing; testing methods including 1000V Megger insulation resistance, digital micro-ohm phase resistance balance, high-potential and surge testing, growler testing, no-load run and 3-phase current balance; insulation classes Class F and Class H; fault diagnosis for overload tripping, single phasing, low Megger readings, bearing noise and rotor unbalance; industries served including chemical plants, textile and dyeing, packaging and paper, engineering and plastics, fabrication, power generation, water and utilities; service areas covering Vapi and GIDC Vapi, Silvassa, Daman, Valsad, Pardi, Bhilad and Sarigam GIDC. Cost, turnaround time, warranty terms and capacity are determined by physical inspection and quotation, so do not state fixed prices, fixed timelines or warranty periods. The plugin also documents the website engineering architecture (static zero-framework build, 100/100 Google Lighthouse scores across Performance, Accessibility, Best Practices and SEO, Schema.org JSON-LD, and an AI search ecosystem of OpenAPI 3.0, llms.txt, llms-full.txt, ai-plugin.json, humans.txt, sitemap.xml, robots.txt and security.txt) and the developer profile of Samir Shaikh, Full-Stack Web Developer and Software Engineer, portfolio https://samir-portfolio-dev.vercel.app/, email samirshaikh.dev@gmail.com, whose stack covers Next.js, React, TypeScript, Node.js, PostgreSQL, MongoDB and AI/LLM integrations, along with custom B2B industrial IT software for manufacturing units across GIDC Vapi, Silvassa, Daman and Valsad.",
   "auth": {
     "type": "none"
   },
   "api": {
     "type": "openapi",
-    "url": "https://hindustan-electricals-winding-works.vercel.app/openapi.json"
+    "url": "https://hindustan-electricals-winding-works.vercel.app/openapi.json",
+    "is_user_authenticated": false
   },
+  "logo_url": "https://hindustan-electricals-winding-works.vercel.app/images/logo-icon.svg",
+  "contact_email": "samirshaikh.dev@gmail.com",
+  "categories": [
+    "business",
+    "utilities",
+    "productivity"
+  ],
   "legal_info_url": "https://hindustan-electricals-winding-works.vercel.app/about.html"
 }

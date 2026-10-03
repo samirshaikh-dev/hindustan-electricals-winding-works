@@ -1,12 +1,23 @@
-# Allow all search engine bots, browser crawlers, and AI agents
+# robots.txt - Hindustan Electricals Winding Works (GIDC Vapi, Gujarat)
+# All crawlers are permitted. This is a public brochure and lead-generation site.
+
+# Default: allow all crawlers
 User-agent: *
 Allow: /
 
-# Major Browser & Search Engine Crawlers
+# ---------------------------------------------------------------
+# Search engine crawlers
+# ---------------------------------------------------------------
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-Video
+Allow: /
+
+User-agent: AdsBot-Google
 Allow: /
 
 User-agent: Bingbot
@@ -27,8 +38,25 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# Major AI Search Engines, Answer Engines & LLM Crawlers
+User-agent: SeznamBot
+Allow: /
+
+User-agent: Exabot
+Allow: /
+
+User-agent: facebot
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+# ---------------------------------------------------------------
+# AI answer engines, LLM crawlers and agent crawlers
+# ---------------------------------------------------------------
 User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
@@ -40,10 +68,13 @@ Allow: /
 User-agent: Claude-Web
 Allow: /
 
-User-agent: Anthropic-AI
+User-agent: anthropic-ai
 Allow: /
 
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
 Allow: /
 
 User-agent: Google-Extended
@@ -55,10 +86,16 @@ Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
 
+User-agent: Meta-ExternalFetcher
+Allow: /
+
 User-agent: FacebookBot
 Allow: /
 
 User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
 Allow: /
 
 User-agent: Cohere-ai
@@ -67,27 +104,45 @@ Allow: /
 User-agent: Diffbot
 Allow: /
 
-User-agent: CCBot
-Allow: /
-
 User-agent: YouBot
 Allow: /
 
 User-agent: Amazonbot
 Allow: /
 
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: Timpibot
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+# ---------------------------------------------------------------
 # Sitemaps
+# ---------------------------------------------------------------
 Sitemap: https://hindustan-electricals-winding-works.vercel.app/sitemap.xml
 
-# AI Agents
-User-agent: ChatGPT-User
-Allow: /
-User-agent: Google-Extended
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: ClaudeBot
-Allow: /
-Sitemap: https://hindustan-electricals-winding-works.vercel.app/sitemap.xml
-User-agent: OAI-SearchBot
-Allow: /
+# ---------------------------------------------------------------
+# Machine-readable content for AI agents
+# /llms.txt         - curated site index for LLM crawlers
+# /llms-full.txt    - complete site content in markdown
+# /openapi.json     - OpenAPI 3.0 description of static endpoints
+# /.well-known/ai-plugin.json - AI plugin manifest
+# /humans.txt       - team, standards and site architecture notes
+# /.well-known/security.txt   - RFC 9116 security contact
+# /site.webmanifest - progressive web app metadata
+# ---------------------------------------------------------------

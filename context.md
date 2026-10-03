@@ -58,6 +58,7 @@ hindustan-electricals-winding-works/
 │   ├── blower-motor-winding.html
 │   └── rotor-balancing.html
 ├── css/
+│   ├── tailwind.css        # Core component stylesheet (47KB, primary)
 │   ├── style.css
 │   └── responsive.css
 ├── js/
@@ -67,15 +68,16 @@ hindustan-electricals-winding-works/
 ├── .well-known/
 │   ├── ai-plugin.json    # OpenAI plugin manifest for AI agents
 │   └── security.txt      # Security contact disclosure (RFC 9116)
-├── openapi.json          # OpenAPI 3.0 static content endpoints specification
-├── llms.txt              # Curated site summary and key pages for LLMs
-├── llms-full.txt         # Full markdown content compilation for LLMs
-├── robots.txt            # Search engine & AI crawler access rules
+├── openapi.json          # OpenAPI 3.0 spec: AI endpoints + 19 site page paths
+├── llms.txt              # Curated AI index (~510 lines): profile, service catalog, capabilities, FAQs, endpoints
+├── llms-full.txt         # Full markdown content compilation (~1035 lines) for LLMs
+├── robots.txt            # Search engine & AI crawler access rules (no duplicate blocks)
 ├── sitemap.xml           # XML sitemap with 19 indexable pages
-├── humans.txt            # Team, standards, and workshop information
-├── site.webmanifest      # PWA metadata
-├── favicon.ico
-├── favicon.svg
+├── humans.txt            # Team, capabilities, standards, and AI ecosystem notes
+├── site.webmanifest      # PWA metadata (name, scope, categories, shortcuts, icons)
+├── favicon.svg           # Primary icon; no favicon.ico is deployed or referenced
+├── logo.svg              # Full-width wordmark used in site header
+├── developer.html        # Client/meta redirect stub to the developer portfolio
 ├── vercel.json           # Vercel deployment configuration, headers, caching, clean URLs
 ├── AGENTS.md             # Universal agent instructions & high-priority directives
 ├── AI_RULE.md            # Mandatory AI rules: SEO, integrity, autonomous execution
@@ -88,13 +90,15 @@ hindustan-electricals-winding-works/
 ```
 
 ## AI Discoverability & SEO Ecosystem
-- **OpenAPI Spec (`openapi.json`):** Declares endpoints for AI crawlers with server base `https://hindustan-electricals-winding-works.vercel.app`, and developer contact object.
-- **AI Plugin (`.well-known/ai-plugin.json`):** Points to live OpenAPI definition, legal info, and detailed engineering/developer metadata.
-- **LLM Context (`llms.txt` & `llms-full.txt`):** Structured markdown documentation optimized for AI answer engine ingestion (AEO/GEO), containing full workshop operations and an in-depth developer profile for Samir Shaikh.
-- **Crawler Access (`robots.txt`):** Explicitly allows all major search engine bots (Googlebot, Bingbot, Applebot, etc.) and AI scrapers/agents (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, etc.).
-- **Sitemap (`sitemap.xml`):** Lists all 19 canonical site URLs matching the live deployment.
-- **Security (`.well-known/security.txt`):** RFC 9116 contact channels for security reports (workshop hotline and developer contact).
-- **Humans (`humans.txt`):** Credits workshop team and full technical developer specifications.
+- **OpenAPI Spec (`openapi.json`):** OpenAPI 3.0 document with server base `https://hindustan-electricals-winding-works.vercel.app`. Declares every machine-readable endpoint (`/llms.txt`, `/llms-full.txt`, `/openapi.json`, `/humans.txt`, `/.well-known/ai-plugin.json`, `/.well-known/security.txt`, `/sitemap.xml`, `/robots.txt`, `/site.webmanifest`) plus all 19 site page paths, tagged by `AI Content`, `Crawler Directives`, `AI Plugin` and `Site Pages`. Includes a developer contact object and an `x-workshop-contact` block with phone, WhatsApp, address, hours and geo coordinates.
+- **AI Plugin (`.well-known/ai-plugin.json`):** Schema-versioned manifest pointing at the live OpenAPI definition, with `logo_url`, `contact_email`, `categories`, `legal_info_url`, and a model-facing description enumerating every service line, process step, test method and service area. Avoids unverified superlatives (no "premier"/"best" claims).
+- **LLM Context (`llms.txt` & `llms-full.txt`):** ASCII-only, mojibake-free markdown optimized for AI answer engine ingestion (AEO/GEO). `llms.txt` is the curated index (at-a-glance facts, 11-service catalog with scope and CTA per service, equipment capability matrix, intake workflow, materials/insulation/testing capabilities, 5-step process, diagnostic signals, 20 direct-answer FAQs, industries, service areas, quote checklist, policies, machine-readable endpoints, schema inventory, keyword/topic map, semantic terms, and answer-engine usage notes). `llms-full.txt` is the complete content compilation covering all pages, policies, 404, developer profile, and a technical appendix. Both carry an explicit content-integrity note that prices, timelines, warranties and capacity are quoted after inspection.
+- **Crawler Access (`robots.txt`):** Single clean allow-all baseline plus grouped search engine crawlers (Googlebot, Googlebot-Image, Googlebot-Video, AdsBot-Google, Bingbot, Applebot, DuckDuckBot, Slurp, Baiduspider, YandexBot, SeznamBot, Exabot, facebot, ia_archiver) and AI answer engine / LLM / agent crawlers (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-Web, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, Meta-ExternalAgent, Meta-ExternalFetcher, FacebookBot, Bytespider, CCBot, Cohere-ai, Diffbot, YouBot, Amazonbot, MistralAI-User, DeepSeekBot, PetalBot, Timpibot, AI2Bot, Claude-SearchBot, DuckAssistBot). Exactly one `Sitemap:` directive.
+- **Sitemap (`sitemap.xml`):** Lists all 19 canonical site URLs matching the live deployment, with `lastmod` 2026-10-03.
+- **Security (`.well-known/security.txt`):** RFC 9116 contact channels for security reports (workshop hotline, WhatsApp, developer email), `Preferred-Languages: en`, `Expires: 2027-10-03`. Points at no dedicated policy page, so `Policy:` references the Terms and Conditions page.
+- **Humans (`humans.txt`):** Credits the workshop operator, declares what is repaired, the process and testing standards, industries served, the lead developer and full technical specifications, the AI ecosystem endpoint list, and a content-integrity statement. Last updated 2026-10-03.
+- **Web App Manifest (`site.webmanifest`):** Linked from every page via `<link rel="manifest">`. Declares `id`/`start_url`/`scope`, `lang`/`dir`, `categories`, maskable + any icons, and app shortcuts for Call, Quote and Services.
+- **Delivery headers (`vercel.json`):** Explicit `Content-Type` and short cache lifetimes for `/llms.txt`, `/llms-full.txt`, `/humans.txt`, `/robots.txt`, `/sitemap.xml`, `/openapi.json`, `/site.webmanifest`, `/.well-known/ai-plugin.json` and `/.well-known/security.txt`, plus long-lived immutable caching for `favicon.svg`, `favicon.ico` and `/images/`.
 
 ## Key Pages & SEO Focus
 | Page / Route | Primary Target Keyword | Purpose |
@@ -122,7 +126,7 @@ hindustan-electricals-winding-works/
 ## Core Design & UX Directives
 1. **Industrial Visual Identity:** Deep Slate Navy (`#0F172A`), Crisp White/Off-White (`#F8FAFC`), Industrial Charcoal (`#1E293B`); accent Electric Amber / Safety Orange (`#F59E0B` / `#D97706` / `#EA580C`).
 2. **Mobile Sticky CTA Bar (mandatory, < 768px):** fixed bottom dock with `Call Now` (`tel:+919825272547`) and `WhatsApp` (`https://wa.me/919825272547?text=Hello%20Hindustan%20Electricals,%20I%20need%20a%20quote%20for%20motor%20repair`).
-3. **Structured Data (JSON-LD):** embed `LocalBusiness` / `Service` schema in `<head>` of all primary pages with address, geo, opening hours, phone, services.
+3. **Structured Data (JSON-LD):** the site implements `Electrician` (a `LocalBusiness` subtype) on `index.html`, `contact.html` and all 11 service pages, with address, geo, `hasMap`, `areaServed`, `openingHoursSpecification`, phone, `priceRange: "$$"`, and a `hasOfferCatalog` of `Service` entries. `WebSite`, `FAQPage`, `BreadcrumbList` and `Person` are marked up on their respective pages. All JSON-LD blocks must stay parseable and must match the visible page content.
 4. **Rewinding Process Flow:** 5-step visual — Inspection & Fault Diagnosis → Dismantling & Stripping → Precision Rewinding → Varnishing & Curing → Testing & Delivery.
 
 ## Website Engineering & Developer Specifications (Samir Shaikh)
@@ -139,7 +143,7 @@ hindustan-electricals-winding-works/
 - **Project Engineering Highlights:**
   - Zero third-party runtime JavaScript dependencies.
   - 100/100 Google Lighthouse across Performance, Accessibility, Best Practices, and SEO.
-  - Strict Schema.org JSON-LD architecture (`LocalBusiness`, `OfferCatalog`, `Service`, `FAQPage`, `BreadcrumbList`, `Person`).
+  - Strict Schema.org JSON-LD architecture (`Electrician`/`LocalBusiness`, `OfferCatalog`, `Service`, `FAQPage`, `BreadcrumbList`, `Person`, `WebSite`).
   - Mobile conversion architecture with persistent sticky Call/WhatsApp dock (< 768px).
 - **Industrial IT & Custom Software Solutions (Vapi & South Gujarat):**
   - Custom factory dashboards & ERP workflows (equipment repair intake, diagnostic stripping, rewinding, varnishing, final testing, and dispatch logs).

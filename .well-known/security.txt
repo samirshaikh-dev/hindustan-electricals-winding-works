@@ -1,12 +1,14 @@
 # Security contact page for https://hindustan-electricals-winding-works.vercel.app/
-# Hindustan Electricals Winding Works — static brochure and lead-generation site.
-# No customer accounts or payment data are stored on this site.
+# Hindustan Electricals Winding Works - static brochure and lead-generation site.
+# No customer accounts, no authentication and no payment data are stored on this site.
+# Customer inquiries are collected only to prepare repair quotations and coordinate
+# workshop intake, testing and dispatch.
 # Report security concerns using the verified contact channels below.
 
 Contact: tel:+919825272547
 Contact: https://wa.me/919825272547
 Contact: mailto:samirshaikh.dev@gmail.com
-Policy: https://hindustan-electricals-winding-works.vercel.app/developer.html
+Policy: https://hindustan-electricals-winding-works.vercel.app/terms-and-conditions.html
 Preferred-Languages: en
 Canonical: https://hindustan-electricals-winding-works.vercel.app/.well-known/security.txt
-Expires: 2027-09-20
+Expires: 2027-10-03

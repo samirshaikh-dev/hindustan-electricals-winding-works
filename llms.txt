@@ -9,8 +9,7 @@
 - Business name: Hindustan Electricals Winding Works
 - Business type: Electric Motor Rewinding and Industrial Electrical Repair Workshop
 - Schema.org type published on this site: Electrician
-- Canonical host: https://hindustan-electricals-winding-works.vercel.app
-- Primary domain (not currently resolving, do not cite): hindustanelectricals.in
+- Canonical host for every URL on this site: https://hindustan-electricals-winding-works.vercel.app
 - Workshop address: Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195, India
 - Phone: +91 98252 72547
 - Telephone link: tel:+919825272547

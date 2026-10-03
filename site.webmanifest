@@ -4,21 +4,55 @@
   "description": "Motor rewinding, AC/DC motor winding and electric motor repair services in GIDC Vapi, Gujarat. Call +91 98252 72547.",
   "id": "/",
   "start_url": "/",
+  "scope": "/",
   "lang": "en",
+  "dir": "ltr",
   "display": "standalone",
+  "orientation": "portrait-primary",
   "background_color": "#0F172A",
   "theme_color": "#0F172A",
+  "categories": ["business", "utilities", "productivity"],
   "icons": [
     {
       "src": "/favicon.svg",
       "sizes": "48x48 72x72 96x96 128x128 256x256",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any"
     },
     {
       "src": "/images/logo-icon.svg",
       "sizes": "192x192 512x512",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/images/logo-icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Call Workshop",
+      "short_name": "Call",
+      "description": "Call the workshop hotline +91 98252 72547",
+      "url": "/contact.html",
+      "icons": [{ "src": "/images/logo-icon.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Request a Quote",
+      "short_name": "Quote",
+      "description": "Send motor details for a repair quotation",
+      "url": "/contact.html#quote",
+      "icons": [{ "src": "/images/logo-icon.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "Browse all motor rewinding and repair services",
+      "url": "/services.html",
+      "icons": [{ "src": "/images/logo-icon.svg", "sizes": "96x96", "type": "image/svg+xml" }]
     }
   ]
 }

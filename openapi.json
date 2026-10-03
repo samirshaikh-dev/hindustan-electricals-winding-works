@@ -2,63 +2,464 @@
   "openapi": "3.0.0",
   "info": {
     "title": "Hindustan Electricals Winding Works",
-    "version": "1.0.0",
-    "description": "Static content endpoints for the Hindustan Electricals Winding Works website (GIDC Vapi, Gujarat). Designed & developed by Samir Shaikh.",
+    "version": "1.1.0",
+    "description": "Static content endpoints for the Hindustan Electricals Winding Works website (electric motor rewinding and industrial electrical repair workshop in GIDC Vapi, Gujarat). This is a static brochure and lead-generation site: there are no transactional APIs, no user accounts and no payment processing. Designed and developed by Samir Shaikh.",
+    "x-tos": "Content is provided for informational and quotation-request purposes. Prices, turnaround times, warranty terms and capacity claims are determined by physical inspection and quotation.",
     "contact": {
       "name": "Samir Shaikh (Lead Developer & Engineer)",
       "url": "https://samir-portfolio-dev.vercel.app/",
       "email": "samirshaikh.dev@gmail.com"
+    },
+    "license": {
+      "name": "See LICENSE file in repository"
     }
   },
   "servers": [
     {
-      "url": "https://hindustan-electricals-winding-works.vercel.app"
+      "url": "https://hindustan-electricals-winding-works.vercel.app",
+      "description": "Canonical live host"
+    }
+  ],
+  "tags": [
+    {
+      "name": "AI Content",
+      "description": "Curated and full-text content formatted for large language models and AI answer engines."
+    },
+    {
+      "name": "Crawler Directives",
+      "description": "Crawler permissions and sitemap discovery for search engines and AI agents."
+    },
+    {
+      "name": "AI Plugin",
+      "description": "OpenAI-style plugin manifest and developer contact metadata."
+    },
+    {
+      "name": "Site Pages",
+      "description": "Public HTML pages of the workshop website. Returned as text/html and intended for browser and crawler consumption, not JSON transformation."
     }
   ],
   "paths": {
-    "/llms-full.txt": {
+    "/llms.txt": {
       "get": {
-        "summary": "Full site content in markdown",
-        "operationId": "getFullSiteContent",
+        "tags": ["AI Content"],
+        "summary": "Site index for AI crawlers",
+        "description": "Curated markdown index of the business profile, service catalog, service areas, technical capabilities, FAQs and contact channels, formatted for LLM retrieval.",
+        "operationId": "getSiteIndex",
         "responses": {
           "200": {
-            "description": "Full site content as markdown (text/plain)"
+            "description": "AI crawler index (text/plain; charset=utf-8)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
     },
-    "/llms.txt": {
+    "/llms-full.txt": {
       "get": {
-        "summary": "Site index for AI crawlers",
-        "operationId": "getSiteIndex",
+        "tags": ["AI Content"],
+        "summary": "Full site content in markdown",
+        "description": "Complete published content of all pages including the homepage, about, services directory, all 11 service pages, gallery, FAQs, contact details, privacy policy, terms and conditions, developer profile and the technical appendix.",
+        "operationId": "getFullSiteContent",
         "responses": {
           "200": {
-            "description": "AI crawler index (text/plain)"
+            "description": "Full site content as markdown (text/plain; charset=utf-8)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
     },
     "/robots.txt": {
       "get": {
+        "tags": ["Crawler Directives"],
         "summary": "Crawler permissions",
+        "description": "Explicit allow rules for major search engine crawlers and AI answer engine / LLM crawlers, plus the sitemap reference.",
         "operationId": "getRobots",
         "responses": {
           "200": {
-            "description": "robots.txt (text/plain)"
+            "description": "robots.txt (text/plain; charset=utf-8)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
     },
     "/sitemap.xml": {
       "get": {
+        "tags": ["Crawler Directives"],
         "summary": "XML sitemap",
+        "description": "XML sitemap listing the 19 canonical indexable page URLs of the live deployment.",
         "operationId": "getSitemap",
         "responses": {
           "200": {
-            "description": "sitemap.xml (application/xml)"
+            "description": "sitemap.xml (application/xml; charset=utf-8)",
+            "content": {
+              "application/xml": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       }
+    },
+    "/openapi.json": {
+      "get": {
+        "tags": ["AI Content"],
+        "summary": "This OpenAPI 3.0 document",
+        "operationId": "getOpenApiDocument",
+        "responses": {
+          "200": {
+            "description": "OpenAPI 3.0 specification (application/json)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/humans.txt": {
+      "get": {
+        "tags": ["AI Content"],
+        "summary": "Team, standards and site architecture notes",
+        "description": "Declares the workshop operator, the lead developer and engineer, the core technology stack, industrial IT service offering, site architecture and the standards and protocols the site is built on.",
+        "operationId": "getHumansTxt",
+        "responses": {
+          "200": {
+            "description": "humans.txt (text/plain; charset=utf-8)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/ai-plugin.json": {
+      "get": {
+        "tags": ["AI Plugin"],
+        "summary": "AI plugin manifest",
+        "description": "Plugin manifest describing the site to AI agents, pointing at this OpenAPI document and the legal information page.",
+        "operationId": "getAiPluginManifest",
+        "responses": {
+          "200": {
+            "description": "Plugin manifest (application/json)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/.well-known/security.txt": {
+      "get": {
+        "tags": ["Crawler Directives"],
+        "summary": "RFC 9116 security contact",
+        "description": "Security contact channels for reporting vulnerabilities. No customer accounts or payment data are stored on this site.",
+        "operationId": "getSecurityTxt",
+        "responses": {
+          "200": {
+            "description": "security.txt (text/plain; charset=utf-8)",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/site.webmanifest": {
+      "get": {
+        "tags": ["AI Content"],
+        "summary": "Progressive web app metadata",
+        "description": "Web app manifest carrying the site name, theme colours and installable icons.",
+        "operationId": "getWebManifest",
+        "responses": {
+          "200": {
+            "description": "Web app manifest (application/manifest+json)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Homepage - motor rewinding and electrical motor repair in Vapi",
+        "operationId": "getHomePage",
+        "responses": {
+          "200": {
+            "description": "Homepage (text/html)"
+          }
+        }
+      }
+    },
+    "/about": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "About the motor rewinding workshop in GIDC Vapi",
+        "operationId": "getAboutPage",
+        "responses": {
+          "200": {
+            "description": "About page (text/html)"
+          }
+        }
+      }
+    },
+    "/services": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Services directory for all motor rewinding, winding and repair services",
+        "operationId": "getServicesDirectory",
+        "responses": {
+          "200": {
+            "description": "Services directory (text/html)"
+          }
+        }
+      }
+    },
+    "/services/motor-rewinding": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Motor rewinding services in Vapi",
+        "operationId": "getMotorRewindingService",
+        "responses": {
+          "200": {
+            "description": "Motor rewinding service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/ac-motor-winding": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "AC motor winding in Vapi",
+        "operationId": "getAcMotorWindingService",
+        "responses": {
+          "200": {
+            "description": "AC motor winding service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/dc-motor-winding": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "DC motor winding in Vapi",
+        "operationId": "getDcMotorWindingService",
+        "responses": {
+          "200": {
+            "description": "DC motor winding service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/electric-motor-repair": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Electric motor repair in Vapi",
+        "operationId": "getElectricMotorRepairService",
+        "responses": {
+          "200": {
+            "description": "Electric motor repair service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/generator-repair": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Generator repair and rewinding in Vapi",
+        "operationId": "getGeneratorRepairService",
+        "responses": {
+          "200": {
+            "description": "Generator repair service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/transformer-repair": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Transformer rewinding in Vapi",
+        "operationId": "getTransformerRepairService",
+        "responses": {
+          "200": {
+            "description": "Transformer repair service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/welding-machine-repair": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Welding machine repair in Vapi",
+        "operationId": "getWeldingMachineRepairService",
+        "responses": {
+          "200": {
+            "description": "Welding machine repair service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/pump-motor-rewinding": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Pump motor rewinding in Vapi",
+        "operationId": "getPumpMotorRewindingService",
+        "responses": {
+          "200": {
+            "description": "Pump motor rewinding service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/submersible-pump-repair": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Submersible pump repair in Vapi",
+        "operationId": "getSubmersiblePumpRepairService",
+        "responses": {
+          "200": {
+            "description": "Submersible pump repair service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/blower-motor-winding": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Blower and exhaust fan motor winding in Vapi",
+        "operationId": "getBlowerMotorWindingService",
+        "responses": {
+          "200": {
+            "description": "Blower motor winding service page (text/html)"
+          }
+        }
+      }
+    },
+    "/services/rotor-balancing": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Rotor dynamic balancing and vibration correction in Vapi",
+        "operationId": "getRotorBalancingService",
+        "responses": {
+          "200": {
+            "description": "Rotor balancing service page (text/html)"
+          }
+        }
+      }
+    },
+    "/gallery": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Workshop and motor rewinding photo gallery",
+        "operationId": "getGalleryPage",
+        "responses": {
+          "200": {
+            "description": "Gallery page (text/html)"
+          }
+        }
+      }
+    },
+    "/faq": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Motor rewinding FAQs",
+        "operationId": "getFaqPage",
+        "responses": {
+          "200": {
+            "description": "FAQ page (text/html)"
+          }
+        }
+      }
+    },
+    "/contact": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Contact, workshop address, map and quotation form",
+        "operationId": "getContactPage",
+        "responses": {
+          "200": {
+            "description": "Contact page (text/html)"
+          }
+        }
+      }
+    },
+    "/privacy-policy": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Privacy policy for customer inquiry data",
+        "operationId": "getPrivacyPolicyPage",
+        "responses": {
+          "200": {
+            "description": "Privacy policy page (text/html)"
+          }
+        }
+      }
+    },
+    "/terms-and-conditions": {
+      "get": {
+        "tags": ["Site Pages"],
+        "summary": "Terms and conditions for estimates, testing and repairs",
+        "operationId": "getTermsPage",
+        "responses": {
+          "200": {
+            "description": "Terms and conditions page (text/html)"
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Complete site content compiled for large language models",
+    "url": "https://hindustan-electricals-winding-works.vercel.app/llms-full.txt"
+  },
+  "x-workshop-contact": {
+    "phone": "+91 98252 72547",
+    "phoneLink": "tel:+919825272547",
+    "whatsapp": "https://wa.me/919825272547",
+    "address": "Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195, India",
+    "openingHours": "Mo-Sa 09:00-20:00",
+    "geo": {
+      "latitude": 20.3631135,
+      "longitude": 72.9210025
     }
   }
 }

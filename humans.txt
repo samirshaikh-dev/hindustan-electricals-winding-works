@@ -1,7 +1,26 @@
 /* TEAM */
 Owner/Operator: Hindustan Electricals Winding Works
+Business: Electric Motor Rewinding & Industrial Electrical Repair Workshop
 Contact: +91 98252 72547
-Location: Shop No. 28 & 29, Express House, GIDC, Vapi, Gujarat 396195, India
+WhatsApp: https://wa.me/919825272547
+Location: Shop No. 28 & 29, Express House, Near C.N.G. Gujarat Gas Station, N.H. 48, GIDC, Vapi, Gujarat 396195, India
+Geo: 20.3631135, 72.9210025
+Hours: Monday to Saturday, 09:00 to 20:00 (Asia/Kolkata)
+Service Areas: GIDC Vapi, Vapi, Silvassa, Daman, Valsad, Pardi, Bhilad, Sarigam, South Gujarat industrial belt, UT of Dadra & Nagar Haveli and Daman & Diu
+
+/* WHAT WE REPAIR */
+Motors: AC 3-phase squirrel cage induction motors, slip ring / wound rotor motors, single-phase capacitor start-run motors, multi-speed and dual-speed motors, DC series / shunt / compound motors
+Rotating & Static Electrical: DC armatures, field coils and interpoles, generator and alternator stators, exciter rotors, transformers (control, step-down, isolation, rectifier, welding), welding machines (ARC, MIG, TIG)
+Pump, Air & Water Duty: centrifugal and chemical process pump motors, borewell and dewatering submersible motors, ID fan, FD fan, exhaust fan, roof fan and centrifugal blower motors
+Mechanical Work: precision bearing replacement, shaft and bearing housing sleeving, commutator turning and mica undercutting, brush gear servicing, two-plane dynamic rotor balancing, terminal block replacement
+
+/* PROCESS & TESTING */
+Process: Inspection -> Dismantling -> Precision Rewinding -> Varnishing & Baking -> Testing & Delivery
+Materials: 100% super-enameled electrolytic grade copper wire, Class F and Class H insulation systems, Nomex / Mylar / Kapton / Kraft insulating papers, high-grade electrical varnish
+Tests: 500V and 1000V Megger insulation resistance, digital micro-ohm phase resistance balance, high-potential and surge test, growler test, no-load run and 3-phase current balance, dynamic rotor balancing
+
+/* INDUSTRIES SERVED */
+Chemical plants, textile and dyeing units, packaging and paper mills, engineering and plastics plants, fabrication workshops, power generation (DG sets and alternators), water and utilities, HVAC and process ventilation
 
 /* LEAD DEVELOPER & SOFTWARE ENGINEER */
 Developer: Samir Shaikh
@@ -26,9 +45,25 @@ Target Industrial Corridor: GIDC Vapi, Silvassa, Daman, Sarigam, Umbergaon, Vals
 
 /* SITE ARCHITECTURE */
 Architecture: High-performance, zero-framework static website engineered for maximum conversion, accessibility (WCAG/ARIA), structured data (Schema.org JSON-LD), and AI crawler discoverability.
+Platform: Static hosting on Vercel with clean URLs, security and caching headers in vercel.json, no framework runtime and no package manager build step.
+Conversion: Fixed sticky mobile Call and WhatsApp dock below 768px, high-contrast hotline badges, click-to-call links on every page.
 
 /* STANDARDS & PROTOCOLS */
-HTML5 Semantics, CSS3, Vanilla JavaScript, Schema.org JSON-LD (LocalBusiness, OfferCatalog, FAQPage, Person), OpenAPI 3.0, llms.txt, AI-Plugin, WCAG 2.1 AA.
+HTML5 Semantics, CSS3, Vanilla JavaScript, Schema.org JSON-LD (Electrician, WebSite, OfferCatalog, Service, FAQPage, BreadcrumbList, Person), OpenAPI 3.0, llms.txt, llms-full.txt, AI-Plugin, RFC 9116 security.txt, Web App Manifest, XML Sitemap, robots.txt, WCAG 2.1 AA.
+
+/* AI & MACHINE-READABLE ECOSYSTEM */
+Index For LLMs: https://hindustan-electricals-winding-works.vercel.app/llms.txt
+Full Content For LLMs: https://hindustan-electricals-winding-works.vercel.app/llms-full.txt
+API Description: https://hindustan-electricals-winding-works.vercel.app/openapi.json
+Plugin Manifest: https://hindustan-electricals-winding-works.vercel.app/.well-known/ai-plugin.json
+Security Contact: https://hindustan-electricals-winding-works.vercel.app/.well-known/security.txt
+Sitemap: https://hindustan-electricals-winding-works.vercel.app/sitemap.xml
+Crawler Rules: https://hindustan-electricals-winding-works.vercel.app/robots.txt
+Web App Manifest: https://hindustan-electricals-winding-works.vercel.app/site.webmanifest
+Note: All crawlers are explicitly allowed, including major search engines and AI answer engine crawlers (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, PerplexityBot, Google-Extended, Applebot-Extended, Meta-ExternalAgent, Bytespider, CCBot).
+
+/* CONTENT INTEGRITY */
+Prices, turnaround times, warranty terms and capacity claims are not published. The workshop determines them by physical inspection, Megger testing and formal quotation. Preliminary estimates given by phone or WhatsApp are non-binding budgetary figures. Please do not infer certifications, brand service lists or warranty periods from this file.
 
 /* LAST UPDATED */
-2026-09-23
+2026-10-03
