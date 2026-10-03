@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Electric motor repair, bearing replacement, and mechanical balancing">
+  <defs>
+    <linearGradient id="mrBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </linearGradient>
+    <linearGradient id="bearingRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <radialGradient id="ballShine" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#cbd5e1"/>
+      <stop offset="80%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#mrBg)"/>
+
+  <!-- Mechanical Bearing & Rotor Overhaul Assembly -->
+  <g transform="translate(300, 200)">
+    <!-- Heavy Industrial Ball / Roller Bearing Cutaway -->
+    <g transform="translate(-80, 0)">
+      <!-- Outer Bearing Ring -->
+      <circle cx="0" cy="0" r="130" fill="none" stroke="url(#bearingRing)" stroke-width="26"/>
+      <circle cx="0" cy="0" r="143" fill="none" stroke="#e2e8f0" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="117" fill="none" stroke="#334155" stroke-width="1.5"/>
+
+      <!-- Inner Bearing Ring -->
+      <circle cx="0" cy="0" r="65" fill="none" stroke="url(#bearingRing)" stroke-width="22"/>
+      <circle cx="0" cy="0" r="76" fill="none" stroke="#334155" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="54" fill="none" stroke="#e2e8f0" stroke-width="1.5"/>
+
+      <!-- Polished Chrome Steel Bearing Balls (Precision C3 Industrial Tolerance) -->
+      <g>
+        <circle cx="0" cy="-96" r="18" fill="url(#ballShine)" stroke="#475569" stroke-width="1"/>
+        <circle cx="68" cy="-68" r="18" fill="url(#ballShine)" stroke="#475569" stroke-width="1"/>
+        <circle cx="96" cy="0" r="18" fill="url(#ballShine)" stroke="#475569" stroke-width="1"/>
+        <circle cx="68" cy="68" r="18" fill="url(#ballShine)" stroke="#475569" stroke-width="1"/>
+        <circle cx="0" cy="96" r="18" fill="url(#ballShine)" stroke="#475569" stroke-width="1"/>
+        <circle cx="-68" cy="68" r="18" fill="url(#ballShine)" stroke="#475569" stroke-width="1"/>
+        <circle cx="-96" cy="0" r="18" fill="url(#ballShine)" stroke="#475569" stroke-width="1"/>
+        <circle cx="-68" cy="-68" r="18" fill="url(#ballShine)" stroke="#475569" stroke-width="1"/>
+      </g>
+
+      <!-- Brass Bearing Cage / Separator Ring -->
+      <circle cx="0" cy="0" r="96" fill="none" stroke="#eab308" stroke-width="4" stroke-dasharray="16 22" opacity="0.8"/>
+
+      <!-- Shaft passing through inner ring -->
+      <circle cx="0" cy="0" r="50" fill="#1e293b" stroke="#64748b" stroke-width="3"/>
+      <circle cx="0" cy="0" r="18" fill="#0f172a" stroke="#94a3b8" stroke-width="2"/>
+    </g>
+
+    <!-- Micrometer / Dial Gauge Alignment Tool measuring runout -->
+    <g transform="translate(130, -50)">
+      <circle cx="40" cy="0" r="48" fill="#f8fafc" stroke="#1e293b" stroke-width="3"/>
+      <!-- Dial Face -->
+      <circle cx="40" cy="0" r="42" fill="none" stroke="#cbd5e1" stroke-width="1"/>
+      <!-- Ticks -->
+      <g stroke="#334155" stroke-width="1.5">
+        <line x1="40" y1="-38" x2="40" y2="-30"/>
+        <line x1="78" y1="0" x2="70" y2="0"/>
+        <line x1="40" y1="38" x2="40" y2="30"/>
+        <line x1="2" y1="0" x2="10" y2="0"/>
+      </g>
+      <!-- Red Dial Indicator Needle -->
+      <line x1="40" y1="0" x2="56" y2="-22" stroke="#ef4444" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="40" cy="0" r="4" fill="#0f172a"/>
+      <text x="40" y="20" font-family="'Inter', monospace" font-size="8" font-weight="700" fill="#059669" text-anchor="middle">±0.01 mm</text>
+      <!-- Dial Plunger stem touching shaft -->
+      <rect x="37" y="48" width="6" height="50" fill="#94a3b8" stroke="#475569" stroke-width="1"/>
+      <circle cx="40" cy="98" r="4" fill="#d97706"/>
+    </g>
+  </g>
+
+  <!-- Tag overlay -->
+  <rect x="24" y="24" width="180" height="34" rx="6" fill="#0f172a" fill-opacity="0.9" stroke="#d97706" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#f59e0b" letter-spacing="0.5">BEARINGS &amp; SHAFT ALIGNMENT</text>
+</svg>

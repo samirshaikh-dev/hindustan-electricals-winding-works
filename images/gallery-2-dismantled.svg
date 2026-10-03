@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="Dismantled motor components laid out for diagnostic inspection">
+  <defs>
+    <linearGradient id="g2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g2Bg)"/>
+  
+  <!-- Dismantled components on workbench -->
+  <g transform="translate(140, 200)">
+    <!-- Stator Housing -->
+    <rect x="-80" y="-100" width="160" height="200" rx="10" fill="#334155" stroke="#475569" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="45" ry="70" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+  </g>
+
+  <!-- Rotor Shaft Extracted -->
+  <g transform="translate(360, 200)">
+    <rect x="-120" y="-14" width="240" height="28" rx="4" fill="#94a3b8" stroke="#cbd5e1" stroke-width="1.5"/>
+    <rect x="-50" y="-55" width="100" height="110" rx="4" fill="#475569" stroke="#334155" stroke-width="2"/>
+    <!-- Rotor Bars -->
+    <line x1="-50" y1="-30" x2="50" y2="-30" stroke="#64748b" stroke-width="2"/>
+    <line x1="-50" y1="0" x2="50" y2="0" stroke="#64748b" stroke-width="2"/>
+    <line x1="-50" y1="30" x2="50" y2="30" stroke="#64748b" stroke-width="2"/>
+  </g>
+
+  <!-- End Shields (Bearings removed) -->
+  <g transform="translate(480, 200)">
+    <circle cx="0" cy="-60" r="42" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <circle cx="0" cy="-60" r="18" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+    <circle cx="0" cy="60" r="42" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+    <circle cx="0" cy="60" r="18" fill="#0f172a" stroke="#475569" stroke-width="1.5"/>
+  </g>
+
+  <rect x="20" y="390" width="230" height="40" rx="6" fill="#0f172a" fill-opacity="0.95" stroke="#334155" stroke-width="1"/>
+  <text x="32" y="415" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Dismantled Core Inspection</text>
+</svg>

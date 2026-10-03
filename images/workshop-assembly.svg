@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Motor bearing fitting, rotor alignment and mechanical reassembly">
+  <defs>
+    <linearGradient id="waBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#waBg)"/>
+
+  <!-- Mechanical Bearing Induction Heater / Assembly Work -->
+  <g transform="translate(300, 200)">
+    <!-- Induction Bearing Heater Bed -->
+    <rect x="-160" y="30" width="320" height="90" rx="8" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+    <rect x="-140" y="45" width="80" height="40" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="-100" y="72" font-family="'Outfit', monospace" font-size="16" font-weight="700" fill="#10b981" text-anchor="middle">110°C</text>
+
+    <!-- Heating Core Bar through Bearing -->
+    <rect x="-20" y="-80" width="40" height="130" rx="4" fill="#334155" stroke="#64748b" stroke-width="2"/>
+
+    <!-- Large Deep Groove Ball Bearing sitting on core -->
+    <circle cx="0" cy="-30" r="75" fill="none" stroke="#94a3b8" stroke-width="20"/>
+    <circle cx="0" cy="-30" r="45" fill="none" stroke="#334155" stroke-width="3"/>
+    <circle cx="0" cy="-30" r="85" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Bearing balls visible -->
+    <circle cx="-55" cy="-30" r="8" fill="#f8fafc"/>
+    <circle cx="55" cy="-30" r="8" fill="#f8fafc"/>
+    <circle cx="0" cy="-85" r="8" fill="#f8fafc"/>
+    <circle cx="0" cy="25" r="8" fill="#f8fafc"/>
+
+    <!-- Thermal heat radiation wave indicator -->
+    <path d="M-60 -110 Q 0 -130 60 -110" stroke="#f59e0b" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+    <path d="M-50 -125 Q 0 -145 50 -125" stroke="#ea580c" stroke-width="2" fill="none" stroke-dasharray="4 4"/>
+  </g>
+
+  <!-- Tag overlay -->
+  <rect x="24" y="24" width="190" height="34" rx="6" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="0.5">INDUCTION BEARING FIT</text>
+</svg>

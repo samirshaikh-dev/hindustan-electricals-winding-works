@@ -76,8 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // 3. Lead Generation / Quotation Form with WhatsApp Fallback
-  const quoteForms = document.querySelectorAll('.quote-form');
+  // 3. Lead Generation / Quotation Form with WhatsApp Fallback (supports .quote-form and .quote-form-v2)
+  const quoteForms = document.querySelectorAll('.quote-form, .quote-form-v2');
   quoteForms.forEach(form => {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
@@ -109,18 +109,18 @@ document.addEventListener('DOMContentLoaded', () => {
         submitBtn.innerText = 'Connecting...';
       }
 
-      // Construct WhatsApp prefilled message (only include fields the visitor filled)
+      // Construct WhatsApp prefilled message
       const lines = ['*New Inquiry via Website - Hindustan Electricals*'];
       lines.push('👤 *Name:* ' + name);
       lines.push('📞 *Phone:* ' + phone);
       if (service) lines.push('⚙️ *Service Required:* ' + service);
-      if (motorType) lines.push('⚡ *Motor Type / HP:* ' + motorType);
-      lines.push('📝 *Problem / Details:* ' + (message || 'Please contact me with a quote.'));
+      if (motorType) lines.push('⚡ *Motor HP / Capacity:* ' + motorType);
+      lines.push('📝 *Problem / Notes:* ' + (message || 'Please contact me with a service quote.'));
 
       const textMessage = lines.map(line => encodeURIComponent(line)).join('%0A');
       const whatsappUrl = `https://wa.me/919825272547?text=${textMessage}`;
 
-      // Simulate quick processing and redirect to WhatsApp
+      // Quick processing feedback then open WhatsApp
       setTimeout(() => {
         if (submitBtn) {
           submitBtn.innerText = 'Redirecting to WhatsApp...';
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
           submitBtn.disabled = false;
           submitBtn.innerText = originalText;
         }
-      }, 600);
+      }, 500);
     });
   });
 
@@ -160,6 +160,45 @@ document.addEventListener('DOMContentLoaded', () => {
         header.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
       } else {
         header.style.boxShadow = 'var(--shadow-sm)';
+      }
+    });
+  }
+
+  // 6. Gallery Lightbox Modal
+  const galleryCards = document.querySelectorAll('.gallery-v2-card');
+  const galleryModal = document.querySelector('.gallery-modal');
+  const modalImg = galleryModal ? galleryModal.querySelector('.gallery-modal-img') : null;
+  const modalCaption = galleryModal ? galleryModal.querySelector('.gallery-modal-title') : null;
+  const modalClose = galleryModal ? galleryModal.querySelector('.gallery-modal-close') : null;
+
+  if (galleryCards.length && galleryModal && modalImg) {
+    galleryCards.forEach(card => {
+      card.addEventListener('click', () => {
+        const img = card.querySelector('img');
+        const caption = card.getAttribute('data-caption') || (img ? img.getAttribute('alt') : 'Workshop Work');
+        if (img) {
+          modalImg.src = img.src;
+          modalImg.alt = caption;
+          if (modalCaption) modalCaption.textContent = caption;
+          galleryModal.classList.add('is-active');
+          document.body.style.overflow = 'hidden';
+        }
+      });
+    });
+
+    const closeModal = () => {
+      galleryModal.classList.remove('is-active');
+      document.body.style.overflow = '';
+    };
+
+    if (modalClose) modalClose.addEventListener('click', closeModal);
+    galleryModal.addEventListener('click', (e) => {
+      if (e.target === galleryModal) closeModal();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && galleryModal.classList.contains('is-active')) {
+        closeModal();
       }
     });
   }

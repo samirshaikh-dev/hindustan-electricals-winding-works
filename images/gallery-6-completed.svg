@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" role="img" aria-label="Fully overhauled and rewound electric motor ready for factory dispatch">
+  <defs>
+    <linearGradient id="g6Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </linearGradient>
+    <linearGradient id="g6Finish" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="50%" stop-color="#1e40af"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="450" fill="url(#g6Bg)"/>
+
+  <!-- Finished Industrial Motor in Industrial Blue Finish -->
+  <g transform="translate(300, 220)">
+    <!-- Base feet -->
+    <rect x="-110" y="70" width="40" height="25" rx="3" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+    <rect x="70" y="70" width="40" height="25" rx="3" fill="#1e293b" stroke="#475569" stroke-width="1.5"/>
+
+    <!-- Cast Motor Body with clean baked enamel coating -->
+    <rect x="-100" y="-80" width="200" height="160" rx="14" fill="url(#g6Finish)" stroke="#60a5fa" stroke-width="1.5"/>
+    <!-- Fins -->
+    <path d="M-85 -80 V80 M-65 -80 V80 M-45 -80 V80 M-25 -80 V80 M-5 -80 V80 M15 -80 V80 M35 -80 V80 M55 -80 V80 M75 -80 V80" stroke="#1d4ed8" stroke-width="5"/>
+
+    <!-- Terminal Box on Top -->
+    <rect x="-35" y="-120" width="70" height="40" rx="4" fill="#1e293b" stroke="#60a5fa" stroke-width="1.5"/>
+
+    <!-- Front Drive Flange & Polished Shaft -->
+    <ellipse cx="-100" cy="0" rx="20" ry="80" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+    <rect x="-170" y="-14" width="70" height="28" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1.5"/>
+    <rect x="-155" y="-6" width="35" height="8" rx="2" fill="#475569"/>
+
+    <!-- Rear Fan Cowl -->
+    <path d="M100 -60 L140 -40 L140 40 L100 60 Z" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+
+    <!-- Tested & Certified Green Inspection Tag hanging on motor eye-bolt -->
+    <circle cx="0" cy="-85" r="8" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+    <line x1="0" y1="-77" x2="35" y2="-45" stroke="#e2e8f0" stroke-width="1.5"/>
+    <rect x="30" y="-45" width="65" height="35" rx="4" fill="#10b981" stroke="#ffffff" stroke-width="1"/>
+    <text x="62" y="-28" font-family="'Inter', sans-serif" font-size="8" font-weight="700" fill="#ffffff" text-anchor="middle">PASSED</text>
+    <text x="62" y="-16" font-family="'Inter', sans-serif" font-size="7" fill="#ffffff" text-anchor="middle">GIDC VAPI</text>
+  </g>
+
+  <rect x="20" y="390" width="240" height="40" rx="6" fill="#0f172a" fill-opacity="0.95" stroke="#334155" stroke-width="1"/>
+  <text x="32" y="415" font-family="'Inter', sans-serif" font-size="12" font-weight="600" fill="#f8fafc">Overhauled &amp; Tested Unit</text>
+</svg>

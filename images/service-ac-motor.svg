@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="3-Phase AC motor winding with stator and terminal phase coils">
+  <defs>
+    <linearGradient id="acBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0b111e"/>
+    </linearGradient>
+    <linearGradient id="phaseU" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="phaseV" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="phaseW" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="copperAc" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#acBg)"/>
+
+  <!-- AC Stator Core Cross-section -->
+  <g transform="translate(300, 210)">
+    <!-- Stator Laminations Body -->
+    <rect x="-180" y="-120" width="360" height="240" rx="16" fill="#1e293b" stroke="#334155" stroke-width="3"/>
+    
+    <!-- Heavy Cast Housing Fins -->
+    <path d="M-170 -120 V-145 M-130 -120 V-145 M-90 -120 V-145 M-50 -120 V-145 M-10 -120 V-145 M30 -120 V-145 M70 -120 V-145 M110 -120 V-145 M150 -120 V-145" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Concentric Winding Coils (3-Phase distributed windings) -->
+    <g fill="none" stroke="url(#copperAc)" stroke-linecap="round">
+      <!-- Outer Coil Phase -->
+      <path d="M-140 -80 C-120 -110, 120 -110, 140 -80 L140 80 C120 110, -120 110, -140 80 Z" stroke-width="16"/>
+      <!-- Middle Coil Phase -->
+      <path d="M-105 -60 C-90 -85, 90 -85, 105 -60 L105 60 C90 85, -90 85, -105 60 Z" stroke-width="14"/>
+      <!-- Inner Coil Phase -->
+      <path d="M-70 -40 C-60 -60, 60 -60, 70 -40 L70 40 C60 60, -60 60, -70 40 Z" stroke-width="12"/>
+    </g>
+
+    <!-- Phase Lead Sleeving (R-Y-B Industrial Phase Coding) -->
+    <path d="M-110 -85 L-110 -130 L-80 -150" stroke="url(#phaseU)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M0 -85 L0 -150" stroke="url(#phaseV)" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M110 -85 L110 -130 L80 -150" stroke="url(#phaseW)" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+    <!-- Stator Center Rotor Bore -->
+    <circle cx="0" cy="0" r="45" fill="#0b111e" stroke="#64748b" stroke-width="2"/>
+    <circle cx="0" cy="0" r="16" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+
+  <!-- Phase Badges -->
+  <g transform="translate(210, 35)">
+    <rect x="0" y="0" width="180" height="30" rx="4" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <circle cx="20" cy="15" r="5" fill="#ef4444"/>
+    <circle cx="90" cy="15" r="5" fill="#f59e0b"/>
+    <circle cx="160" cy="15" r="5" fill="#3b82f6"/>
+    <text x="32" y="19" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">R</text>
+    <text x="102" y="19" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">Y</text>
+    <text x="142" y="19" font-family="'Inter', sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">B</text>
+  </g>
+
+  <!-- Tag overlay -->
+  <rect x="24" y="24" width="180" height="34" rx="6" fill="#0f172a" fill-opacity="0.9" stroke="#d97706" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#f59e0b" letter-spacing="0.5">3-PHASE AC INDUCTION</text>
+</svg>

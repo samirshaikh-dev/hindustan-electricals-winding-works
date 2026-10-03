@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Technician precision coil winding and stator insertion">
+  <defs>
+    <linearGradient id="twBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#twBg)"/>
+
+  <!-- Precision Hand Winding & Coil Insertion Scene -->
+  <g transform="translate(300, 210)">
+    <!-- Stator Core clamped horizontally on turntable -->
+    <rect x="-140" y="-80" width="280" height="160" rx="8" fill="#1e293b" stroke="#475569" stroke-width="3"/>
+    
+    <!-- Stator Slot Openings with exposed Copper Coils -->
+    <g fill="none" stroke="#d97706" stroke-width="8" stroke-linecap="round">
+      <path d="M-120 -50 C-60 -90, 60 -90, 120 -50"/>
+      <path d="M-120 -20 C-60 -60, 60 -60, 120 -20"/>
+      <path d="M-120 20 C-60 -20, 60 -20, 120 20"/>
+      <path d="M-120 50 C-60 10, 60 10, 120 50"/>
+    </g>
+
+    <!-- White Insulation Paper Wedges protruding from slots -->
+    <g fill="#fef08a" stroke="#ca8a04" stroke-width="1">
+      <rect x="-130" y="-55" width="20" height="10" rx="2"/>
+      <rect x="-130" y="-25" width="20" height="10" rx="2"/>
+      <rect x="-130" y="15" width="20" height="10" rx="2"/>
+      <rect x="-130" y="45" width="20" height="10" rx="2"/>
+      <rect x="110" y="-55" width="20" height="10" rx="2"/>
+      <rect x="110" y="-25" width="20" height="10" rx="2"/>
+      <rect x="110" y="15" width="20" height="10" rx="2"/>
+      <rect x="110" y="45" width="20" height="10" rx="2"/>
+    </g>
+
+    <!-- Hardwood Winding Wedge Inserting Tool / Mallet -->
+    <g transform="translate(30, -110)">
+      <rect x="0" y="0" width="16" height="70" rx="3" fill="#b45309" stroke="#78350f" stroke-width="1.5"/>
+      <rect x="-12" y="55" width="40" height="24" rx="4" fill="#334155" stroke="#64748b" stroke-width="2"/>
+    </g>
+
+    <!-- Copper Wire Bundle lead being shaped into slot -->
+    <path d="M-40 -120 C -20 -90, 20 -80, 20 -50" stroke="#f59e0b" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Tag overlay -->
+  <rect x="24" y="24" width="180" height="34" rx="6" fill="#0f172a" fill-opacity="0.9" stroke="#d97706" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#f59e0b" letter-spacing="0.5">COIL SHAPING &amp; LACING</text>
+</svg>

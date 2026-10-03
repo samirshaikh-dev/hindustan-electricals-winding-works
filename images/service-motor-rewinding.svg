@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Motor rewinding with precision copper coil insertion and slot insulation">
+  <defs>
+    <linearGradient id="sr1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="sr1Copper" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <linearGradient id="sr1Steel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" fill="url(#sr1Bg)"/>
+
+  <!-- Radial Stator Lamination Ring -->
+  <g transform="translate(300, 200)">
+    <!-- Outer Stator Frame Ring -->
+    <circle cx="0" cy="0" r="160" fill="none" stroke="url(#sr1Steel)" stroke-width="32"/>
+    <circle cx="0" cy="0" r="176" fill="none" stroke="#64748b" stroke-width="2"/>
+    <circle cx="0" cy="0" r="144" fill="none" stroke="#334155" stroke-width="2"/>
+
+    <!-- Stator Teeth & Slots (24 Slots arranged radially) -->
+    <!-- Copper Coil Loops crossing slots -->
+    <g fill="none" stroke="url(#sr1Copper)" stroke-width="12" stroke-linecap="round">
+      <path d="M-130,-40 C-80,-140 80,-140 130,-40"/>
+      <path d="M-140,0 C-90,-120 90,-120 140,0"/>
+      <path d="M-130,40 C-80,140 80,140 130,40"/>
+      <path d="M-40,-130 C-140,-80 -140,80 -40,130"/>
+      <path d="M0,-140 C-120,-90 -120,90 0,140"/>
+      <path d="M40,-130 C140,-80 140,80 40,130"/>
+
+      <path d="M-100,-100 C-20,-150 150,-20 100,100"/>
+      <path d="M-100,100 C-20,150 150,20 100,-100"/>
+    </g>
+
+    <!-- White Nomex Slot Wedge Insulation -->
+    <g fill="#fef08a" stroke="#ca8a04" stroke-width="1">
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(0)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(30)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(60)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(90)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(120)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(150)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(180)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(210)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(240)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(270)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(300)"/>
+      <rect x="-142" y="-10" width="16" height="20" rx="2" transform="rotate(330)"/>
+    </g>
+
+    <!-- Stator Bore (Center opening) -->
+    <circle cx="0" cy="0" r="90" fill="#090d16" stroke="#475569" stroke-width="3"/>
+    
+    <!-- Lacing String (Tied winding head) -->
+    <circle cx="0" cy="0" r="115" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="6 4" opacity="0.8"/>
+  </g>
+
+  <!-- Tag overlay -->
+  <rect x="24" y="24" width="170" height="34" rx="6" fill="#0f172a" fill-opacity="0.9" stroke="#d97706" stroke-width="1.5"/>
+  <text x="36" y="46" font-family="'Outfit', sans-serif" font-size="12" font-weight="700" fill="#f59e0b" letter-spacing="0.5">STATOR COIL INSERTION</text>
+</svg>
