@@ -1,4 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <rect width="24" height="24" rx="5" fill="#0F172A"/>
-  <path d="M13 10V3L4 14h7v7l9-11h-7z" fill="#F59E0B"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="favBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="favCopper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="10" fill="url(#favBg)" stroke="#f59e0b" stroke-width="1.5"/>
+  <circle cx="24" cy="24" r="15" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <circle cx="24" cy="24" r="12" fill="none" stroke="url(#favCopper)" stroke-width="2.5" stroke-dasharray="6 2"/>
+  <circle cx="24" cy="24" r="6" fill="#0f172a" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M25.5 14 L19 24.5 L23 24.5 L21 34 L28.5 22.5 L24.5 22.5 Z" fill="#fde68a" stroke="#d97706" stroke-width="0.5"/>
 </svg>

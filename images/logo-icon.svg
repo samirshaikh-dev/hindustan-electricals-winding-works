@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="Hindustan Electricals Official Emblem">
+  <defs>
+    <!-- Background Gradient for Emblem Shield -->
+    <linearGradient id="iconEmblemBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+
+    <!-- Metallic Copper Wire Gradient -->
+    <linearGradient id="iconCopperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="25%" stop-color="#fbbf24"/>
+      <stop offset="55%" stop-color="#f59e0b"/>
+      <stop offset="80%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- Copper Coils Gradient (Winding Layer) -->
+    <linearGradient id="iconCopperCoil" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+
+    <!-- Precision Steel Ring Gradient -->
+    <linearGradient id="iconSteelRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#64748b"/>
+      <stop offset="40%" stop-color="#475569"/>
+      <stop offset="75%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Subtle Bevel Highlight -->
+    <linearGradient id="iconShieldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#475569" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Industrial Stator & Rotor Motor Emblem (100x100) -->
+  <g transform="translate(50, 50)">
+    <!-- Heavy Duty Housing (Chamfered Industrial Shield) -->
+    <rect x="-44" y="-44" width="88" height="88" rx="20" fill="url(#iconEmblemBg)" stroke="url(#iconShieldBorder)" stroke-width="2.5"/>
+
+    <!-- Subtle Hex Outer Guideline -->
+    <circle cx="0" cy="0" r="39" fill="none" stroke="#1e293b" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+    <!-- Radial Stator Cooling Fins / Poles (8 Industrial Slots) -->
+    <g stroke="#64748b" stroke-width="2.5" stroke-linecap="round">
+      <line x1="0" y1="-39" x2="0" y2="-33"/>
+      <line x1="0" y1="33" x2="0" y2="39"/>
+      <line x1="-39" y1="0" x2="-33" y2="0"/>
+      <line x1="33" y1="0" x2="39" y2="0"/>
+      <line x1="-27.5" y1="-27.5" x2="-23.3" y2="-23.3"/>
+      <line x1="23.3" y1="23.3" x2="27.5" y2="27.5"/>
+      <line x1="-27.5" y1="27.5" x2="-23.3" y2="23.3"/>
+      <line x1="23.3" y1="-23.3" x2="27.5" y2="-27.5"/>
+    </g>
+
+    <!-- Outer Stator Frame Ring -->
+    <circle cx="0" cy="0" r="32.5" fill="none" stroke="url(#iconSteelRing)" stroke-width="3"/>
+
+    <!-- Outer Copper Winding Coil Array (Segmented Turns) -->
+    <circle cx="0" cy="0" r="26.5" fill="none" stroke="url(#iconCopperCoil)" stroke-width="4.8" stroke-dasharray="13 4"/>
+
+    <!-- Inner Insulation Barrier Ring -->
+    <circle cx="0" cy="0" r="20.5" fill="none" stroke="#0f172a" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="19" fill="none" stroke="url(#iconCopperGrad)" stroke-width="1.8" stroke-dasharray="7 3"/>
+
+    <!-- Rotor Core Assembly (Steel Lamination Disc) -->
+    <circle cx="0" cy="0" r="14" fill="#0f172a" stroke="#475569" stroke-width="1.8"/>
+    <circle cx="0" cy="0" r="7" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+
+    <!-- Rotor Shaft Center Bore -->
+    <circle cx="0" cy="0" r="3" fill="#fde68a"/>
+
+    <!-- High-Voltage Dynamic Induction Bolt (Symbol of Electrical Energy) -->
+    <path d="M3 -16 L-7 1 L-0.5 1 L-3 16 L7 -1 L0.5 -1 Z" fill="url(#iconCopperGrad)" stroke="#b45309" stroke-width="0.6" stroke-linejoin="round"/>
+    <!-- Bolt Inner Highlight -->
+    <path d="M1.8 -13 L-4.5 0 L0 0 L-1.8 11 L5 -1 L0.5 -1 Z" fill="#fffbeb" opacity="0.75"/>
+  </g>
+</svg>

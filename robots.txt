@@ -78,3 +78,16 @@ Allow: /
 
 # Sitemaps
 Sitemap: https://hindustan-electricals-winding-works.vercel.app/sitemap.xml
+
+# AI Agents
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+Sitemap: https://hindustan-electricals-winding-works.vercel.app/sitemap.xml
+User-agent: OAI-SearchBot
+Allow: /

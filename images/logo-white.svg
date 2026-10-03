@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 90" width="420" height="90" role="img" aria-label="Hindustan Electricals Winding Works Logo White Variant">
+  <defs>
+    <!-- Background Gradient for Emblem Shield -->
+    <linearGradient id="emblemBgWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <!-- Metallic Copper Wire Gradient (High Contrast for Dark Background) -->
+    <linearGradient id="copperGradWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="25%" stop-color="#fde047"/>
+      <stop offset="55%" stop-color="#fbbf24"/>
+      <stop offset="85%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <!-- Copper Coils Gradient (Winding Layer) -->
+    <linearGradient id="copperCoilWhite" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="50%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <!-- Precision Steel Ring Gradient -->
+    <linearGradient id="steelRingWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="40%" stop-color="#94a3b8"/>
+      <stop offset="75%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+
+    <!-- Bevel Highlight for Dark Surface -->
+    <linearGradient id="shieldBorderWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#64748b" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#334155" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Industrial Stator & Rotor Motor Emblem -->
+  <g transform="translate(46, 45)">
+    <!-- Heavy Duty Housing (Chamfered Industrial Shield) -->
+    <rect x="-37" y="-37" width="74" height="74" rx="16" fill="url(#emblemBgWhite)" stroke="url(#shieldBorderWhite)" stroke-width="2"/>
+
+    <!-- Subtle Outer Ring Guideline -->
+    <circle cx="0" cy="0" r="33" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+    <!-- Radial Stator Cooling Fins / Poles (8 Industrial Slots) -->
+    <g stroke="#94a3b8" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="-33" x2="0" y2="-28"/>
+      <line x1="0" y1="28" x2="0" y2="33"/>
+      <line x1="-33" y1="0" x2="-28" y2="0"/>
+      <line x1="28" y1="0" x2="33" y2="0"/>
+      <line x1="-23.3" y1="-23.3" x2="-19.8" y2="-19.8"/>
+      <line x1="19.8" y1="19.8" x2="23.3" y2="23.3"/>
+      <line x1="-23.3" y1="23.3" x2="-19.8" y2="19.8"/>
+      <line x1="19.8" y1="-19.8" x2="23.3" y2="-23.3"/>
+    </g>
+
+    <!-- Outer Stator Frame Ring -->
+    <circle cx="0" cy="0" r="27.5" fill="none" stroke="url(#steelRingWhite)" stroke-width="2.5"/>
+
+    <!-- Outer Copper Winding Coil Array (Segmented Turns) -->
+    <circle cx="0" cy="0" r="22.5" fill="none" stroke="url(#copperCoilWhite)" stroke-width="4" stroke-dasharray="11 3.5"/>
+
+    <!-- Inner Insulation Barrier Ring -->
+    <circle cx="0" cy="0" r="17.5" fill="none" stroke="#0f172a" stroke-width="2"/>
+    <circle cx="0" cy="0" r="16" fill="none" stroke="url(#copperGradWhite)" stroke-width="1.5" stroke-dasharray="6 2.5"/>
+
+    <!-- Rotor Core Assembly (Steel Lamination Disc) -->
+    <circle cx="0" cy="0" r="12" fill="#0b1120" stroke="#64748b" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="6" fill="#1e293b" stroke="#fbbf24" stroke-width="1"/>
+
+    <!-- Rotor Shaft Center Bore -->
+    <circle cx="0" cy="0" r="2.5" fill="#fef08a"/>
+
+    <!-- High-Voltage Dynamic Induction Bolt (Symbol of Electrical Energy) -->
+    <path d="M2.5 -14 L-6 1 L-0.5 1 L-2.5 14 L6 -1 L0.5 -1 Z" fill="url(#copperGradWhite)" stroke="#d97706" stroke-width="0.5" stroke-linejoin="round"/>
+    <!-- Bolt Inner Highlight -->
+    <path d="M1.5 -11 L-4 0 L0 0 L-1.5 10 L4.5 -1 L0.5 -1 Z" fill="#ffffff" opacity="0.8"/>
+  </g>
+
+  <!-- Precision Industrial Brand Typography (Optimized for Dark Surfaces) -->
+  <g transform="translate(98, 0)">
+    <!-- Primary Company Name -->
+    <text x="0" y="34" font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="800" fill="#ffffff" letter-spacing="0.025em">HINDUSTAN ELECTRICALS</text>
+
+    <!-- Category & Primary Industrial Specialty -->
+    <text x="0" y="55" font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700" fill="url(#copperGradWhite)" letter-spacing="0.14em">WINDING WORKS</text>
+
+    <!-- Subtle Separator Bullet -->
+    <circle cx="152" cy="51" r="2" fill="#fbbf24"/>
+
+    <!-- Regional Industrial Hub -->
+    <text x="162" y="55" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#f59e0b" letter-spacing="0.12em">VAPI, GUJARAT</text>
+
+    <!-- Verified Technical Tagline -->
+    <text x="0" y="73" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#94a3b8" letter-spacing="0.07em">INDUSTRIAL MOTOR REWINDING &amp; REPAIR • GIDC</text>
+  </g>
+</svg>

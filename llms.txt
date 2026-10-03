@@ -1,4 +1,4 @@
-# Hindustan Electricals Winding Works
+﻿# Hindustan Electricals Winding Works
 
 > Hindustan Electricals Winding Works is a motor rewinding and electrical motor repair workshop in GIDC Vapi, Gujarat. The business provides motor rewinding, AC/DC motor winding, electric motor repair, generator repair, transformer repair and welding machine repair for industrial and commercial customers across Vapi, Silvassa, Daman, Valsad and Pardi.
 
@@ -29,7 +29,7 @@
 - [Submersible Pump Repair in Vapi](https://hindustan-electricals-winding-works.vercel.app/services/submersible-pump-repair.html): Borewell and dewatering submersible pump motor rewinding.
 - [Privacy Policy](https://hindustan-electricals-winding-works.vercel.app/privacy-policy.html): Workshop privacy terms and customer inquiry data handling policy.
 - [Terms & Conditions](https://hindustan-electricals-winding-works.vercel.app/terms-and-conditions.html): Service estimates, testing diagnostics, and repair terms.
-- [Developer Profile](https://hindustan-electricals-winding-works.vercel.app/developer.html): Samir Shaikh — Full-Stack Web Developer & Software Engineer profile, skills, and portfolio (https://samir-portfolio-dev.vercel.app/).
+- [Developer Profile](https://hindustan-electricals-winding-works.vercel.app/developer.html): Samir Shaikh â€” Full-Stack Web Developer & Software Engineer profile, skills, and portfolio (https://samir-portfolio-dev.vercel.app/).
 
 ## Full Content
 
